@@ -1,4 +1,5 @@
 import re
+import os
 import fitz  # PyMuPDF
 import json
 
@@ -45,14 +46,34 @@ def parse_articles(text):
 
 # Sample usage
 if __name__ == "__main__":
-    pdf_files = ["documents/ayudas_23-24.pdf"]
+    pdf_files = ["documents/ayudas_21-22.pdf", 
+                 "documents/ayudas_22-23.pdf",
+                 "documents/ayudas_23-24.pdf", 
+                 "documents/ayudas_24-25.pdf",
+                 "documents/ayudas_25-26.pdf"]
 
-    print(f"Processing {pdf_files[0]}...")
-    document_text = extract_text_from_pdf2(pdf_files[0])
+    # Create 'text' directory if it doesn't exist
+    os.makedirs("text", exist_ok=True)
 
-    cleaned_text = remove_pattern(document_text)
+    main_dict = {}
 
-    articles = parse_articles(cleaned_text)
+    for pdf_path in pdf_files:
+        print(f"Processing {pdf_path}...")
+        # Extract and clean text
+        document_text = extract_text_from_pdf2(pdf_path)
+        cleaned_text = remove_pattern(document_text)
 
-    with open("articles.json", "w") as file:
-        json.dump(articles, file, indent=2, ensure_ascii=False)
+        # Save cleaned text to a text file
+        base_name = os.path.basename(pdf_path)
+        txt_filename = os.path.splitext(base_name)[0] + ".txt"
+        txt_path = os.path.join("text", txt_filename)
+        with open(txt_path, "w", encoding="utf-8") as txt_file:
+            txt_file.write(cleaned_text)
+
+        # Parse articles and add to main dictionary
+        articles = parse_articles(cleaned_text)
+        main_dict[base_name] = articles
+
+    # Save the main dictionary to JSON
+    with open("documents_parsed.json", "w", encoding="utf-8") as file:
+        json.dump(main_dict, file, indent=2, ensure_ascii=False)
