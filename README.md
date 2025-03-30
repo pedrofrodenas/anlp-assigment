@@ -126,3 +126,36 @@ You get score for each topic -> argmax is topic assigment for Q
 
 
 <img src="assets/first_data_structure.png" alt="" width="250" height="500">
+
+## Topics and subtopics
+
+Información General y Tipos de Beca
+    Objeto de la Convocatoria y Financiación
+    Tipos de Cuantías
+    Beca de Matrícula
+    Beca Básica
+    Cuantías Adicionales
+
+Estudios Cubiertos por la Beca
+    Enseñanzas No Universitarias
+    Enseñanzas Universitarias
+
+Requisitos para Solicitar la Beca
+    Requisitos Generales
+    Requisitos Económicos
+    Requisitos Académicos
+
+Proceso de Solicitud y Tramitación
+    Presentación de Solicitud
+    Documentación y Autorizaciones
+    Revisión, Subsanación y Alegaciones
+    Órganos de Selección y Tramitación
+    Resolución, Notificación y Consulta de Estado
+    Pago de la Beca
+
+Obligaciones, Control y Situaciones Especiales
+    Obligaciones de los Becarios
+    Control, Verificación y Reintegro
+    Compatibilidades e Incompatibilidades con otras ayudas
+    Situaciones Específicas
+    Recursos contra la resolución
