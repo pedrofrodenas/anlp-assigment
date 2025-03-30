@@ -45,19 +45,22 @@ def parse_articles(combined_text, page_ranges):
             title = article_text[:title_end].strip()
             body = article_text[title_end+1:].strip()
         
-        # Extract article number
+        # Extract article number and trim title
         match_num = re.search(r'Artículo (\d+)\.', title)
         if match_num:
             num = int(match_num.group(1))
+            # Trim the "Artículo X." prefix from the title
+            trimmed_title = re.sub(r'^Artículo \d+\.\s*', '', title).strip()
             articles_dict[num] = {
                 'title': title,
+                'title-trimmed': trimmed_title,  # Added trimmed title
                 'content': body,
                 'pages': sorted(pages)  # Store sorted list of pages
             }
     
     return articles_dict
 
-# Sample usage
+# Sample usage (unchanged)
 if __name__ == "__main__":
     pdf_files = ["documents/ayudas_21-22.pdf", 
                  "documents/ayudas_22-23.pdf",
