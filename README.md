@@ -113,3 +113,16 @@ You do so for each possible topic keeping Q fixed.
 You get score for each topic -> argmax is topic assigment for Q
 
 ---
+
+## Work done
+
+`summarize_articles.py` A Python script that:
+
+* Extracts text from Spanish legal PDFs using PyMuPDF
+* Parses individual articles and tracks their page locations
+* Generates concise summaries using Mistral-Nemo-Instruct LLM
+* Processes multiple documents and organizes content
+* Saves both raw text and summaries to structured JSON
+
+
+<img src="assets/first_data_structure.png" alt="" width="250" height="500">
