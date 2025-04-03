@@ -1,5 +1,5 @@
 import re
-import fitz  # PyMuPDF
+#import fitz  # PyMuPDF
 import json
 import os
 import requests
@@ -23,48 +23,109 @@ def remove_pattern(text):
     cleaned_text = re.sub(pattern, '', text)
     return cleaned_text
 
-def parse_articles(combined_text, page_ranges):
-    """Parse articles from combined text and determine the pages each article spans."""
+# def parse_articles(combined_text, page_ranges):
+#     """Parse articles from combined text and determine the pages each article spans."""
+#     pattern = re.compile(
+#         r'(Artículo \d+\.\s*.*?)(?=\s*(?:Artículo \d+\.|CAPÍTULO|SECCIÓN|\Z))',
+#         re.DOTALL
+#     )
+#     articles_dict = {}
+    
+#     for match in pattern.finditer(combined_text):
+#         article_text = match.group(1)
+#         start_pos = match.start()
+#         end_pos = match.end()
+        
+#         # Determine which pages this article spans
+#         pages = set()
+#         for (page_start, page_end, page_num) in page_ranges:
+#             if start_pos < page_end and end_pos > page_start:
+#                 pages.add(page_num)
+        
+#         # Split into title and body
+#         title_end = article_text.find('\n')
+#         if title_end == -1:
+#             title = article_text.strip()
+#             body = ""
+#         else:
+#             title = article_text[:title_end].strip()
+#             body = article_text[title_end+1:].strip()
+        
+#         # Extract article number and trim title
+#         match_num = re.search(r'Artículo (\d+)\.', title)
+#         if match_num:
+#             num = int(match_num.group(1))
+#             # Trim the "Artículo X." prefix from the title
+#             trimmed_title = re.sub(r'^Artículo \d+\.\s*', '', title).strip()
+#             articles_dict[num] = {
+#                 'title': title,
+#                 'title-trimmed': trimmed_title,
+#                 'content': body,
+#                 'pages': sorted(pages)  # Store sorted list of pages
+#             }
+    
+#     return articles_dict
+def roman_to_int(roman):
+    roman_map = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}
+    result, prev = 0, 0
+    for char in reversed(roman):
+        val = roman_map[char]
+        result = result - val if val < prev else result + val
+        prev = val
+    return result
+
+def parse_articles_grouped_by_chapter(combined_text, page_ranges):
+    """
+    Parse chapters and articles from the combined text and return articles grouped by chapter number.
+    """
     pattern = re.compile(
-        r'(Artículo \d+\.\s*.*?)(?=\s*(?:Artículo \d+\.|CAPÍTULO|SECCIÓN|\Z))',
+        r'(CAP[IÍ]TULO\s+[IVXLCDM]+.*?)?(Artículo \d+\.\s*.*?)(?=\s*(?:Artículo \d+\.|CAP[IÍ]TULO|SECCIÓN|\Z))',
         re.DOTALL
     )
-    articles_dict = {}
-    
+
+    chapter_article_map = {}
+    current_chapter = "0"  # fallback if no chapter detected
+
     for match in pattern.finditer(combined_text):
-        article_text = match.group(1)
+        chapter_header, article_text = match.groups()
+
+        # Update chapter context if detected
+        if chapter_header:
+            roman_match = re.search(r'CAP[IÍ]TULO\s+([IVXLCDM]+)', chapter_header.upper())
+            if roman_match:
+                roman = roman_match.group(1)
+                current_chapter = str(roman_to_int(roman))
+
+        # Determine page span
         start_pos = match.start()
         end_pos = match.end()
-        
-        # Determine which pages this article spans
         pages = set()
         for (page_start, page_end, page_num) in page_ranges:
             if start_pos < page_end and end_pos > page_start:
                 pages.add(page_num)
-        
-        # Split into title and body
+
+        # Extract title and content
         title_end = article_text.find('\n')
-        if title_end == -1:
-            title = article_text.strip()
-            body = ""
-        else:
-            title = article_text[:title_end].strip()
-            body = article_text[title_end+1:].strip()
-        
-        # Extract article number and trim title
+        title = article_text.strip() if title_end == -1 else article_text[:title_end].strip()
+        body = "" if title_end == -1 else article_text[title_end + 1:].strip()
+
         match_num = re.search(r'Artículo (\d+)\.', title)
-        if match_num:
-            num = int(match_num.group(1))
-            # Trim the "Artículo X." prefix from the title
-            trimmed_title = re.sub(r'^Artículo \d+\.\s*', '', title).strip()
-            articles_dict[num] = {
-                'title': title,
-                'title-trimmed': trimmed_title,
-                'content': body,
-                'pages': sorted(pages)  # Store sorted list of pages
-            }
-    
-    return articles_dict
+        if not match_num:
+            continue
+        article_id = match_num.group(1)
+        trimmed_title = re.sub(r'^Artículo \d+\.\s*', '', title).strip()
+
+        if current_chapter not in chapter_article_map:
+            chapter_article_map[current_chapter] = {}
+
+        chapter_article_map[current_chapter][article_id] = {
+            "title": title,
+            "title-trimmed": trimmed_title,
+            "content": body,
+            "pages": sorted(pages)
+        }
+
+    return chapter_article_map
 
 def summarize_with_mistral(text, model, tokenizer):
     """Generate a summary using the Mistral-Nemo-Instruct model."""
@@ -132,7 +193,7 @@ if __name__ == "__main__":
     ]
 
     os.makedirs("text", exist_ok=True)
-    main_dict = {}
+    # main_dict = {}
 
     for pdf_path in pdf_files:
         print(f"Processing {pdf_path}...")
@@ -158,15 +219,27 @@ if __name__ == "__main__":
         with open(txt_path, "w", encoding="utf-8") as txt_file:
             txt_file.write(combined_text)
         # Parse articles
-        articles = parse_articles(combined_text, page_ranges)
+        #articles = parse_articles(combined_text, page_ranges)
+        articles_by_chapter = parse_articles_grouped_by_chapter(combined_text, page_ranges)
+
         
         print(f"Summarizing articles in {base_name}...")
-        for article_num, article_data in articles.items():
-            print(f"Summarizing Article {article_num}...")
-            summary = summarize_with_mistral(article_data['content'], model, tokenizer)
-            article_data['summary'] = summary
-        
-        main_dict[base_name] = articles
+        # for article_num, article_data in articles.items():
+        #     print(f"Summarizing Article {article_num}...")
+        #     summary = summarize_with_mistral(article_data['content'], model, tokenizer)
+        #     article_data['summary'] = summary
+        main_dict[base_name] = {}
+
+        for chapter_num, articles in articles_by_chapter.items():
+            main_dict[base_name][chapter_num] = {}
+
+            for article_num, article_data in articles.items():
+                print(f"Summarizing Article {article_num} in Chapter {chapter_num}...")
+                summary = summarize_with_mistral(article_data['content'], model, tokenizer)
+                article_data['summary'] = summary
+                main_dict[base_name][chapter_num][article_num] = article_data
+                
+                main_dict[base_name] = articles
 
     with open("documents_summarized.json", "w", encoding="utf-8") as file:
         json.dump(main_dict, file, indent=2, ensure_ascii=False)
