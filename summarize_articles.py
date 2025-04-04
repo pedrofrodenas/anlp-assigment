@@ -7,7 +7,8 @@ from transformers import AutoModelForCausalLM, AutoModelForSeq2SeqLM, AutoTokeni
 import torch
 from huggingface_hub import login
 
-# login()  # TODO: Create a .env for token or make this automatic, its being prompted at each run
+login()
+
 
 def extract_text_from_pdf2(pdf_path):
     """Extracts text from each page of a PDF file, returning a list of pages with their numbers and text."""
@@ -18,53 +19,13 @@ def extract_text_from_pdf2(pdf_path):
         pages.append({'page_num': page_num, 'text': text})
     return pages
 
+
 def remove_pattern(text):
     pattern = r'Código seguro de Verificación : GEN-afed-f11a-2acf-695d-4be9-51c8-2c08-5869 \| Puede verificar la integridad de este documento en la siguiente dirección : https://sede\.administracion\.gob\.es/pagSedeFront/servicios/consult\.\.\.\nCSV : GEN-afed-f11a-2acf-695d-4be9-51c8-2c08-5869\nDIRECCIÓN DE VALIDACIÓN : https://sede\.administracion\.gob\.es/pagSedeFront/servicios/consultaCSV\.htm\nFIRMANTE\(1\) : JOSE MANUEL BAR CENDÓN \| FECHA : 15/03/2023 16:43 \| Aprueba\n'
     cleaned_text = re.sub(pattern, '', text)
     return cleaned_text
 
-# def parse_articles(combined_text, page_ranges):
-#     """Parse articles from combined text and determine the pages each article spans."""
-#     pattern = re.compile(
-#         r'(Artículo \d+\.\s*.*?)(?=\s*(?:Artículo \d+\.|CAPÍTULO|SECCIÓN|\Z))',
-#         re.DOTALL
-#     )
-#     articles_dict = {}
-    
-#     for match in pattern.finditer(combined_text):
-#         article_text = match.group(1)
-#         start_pos = match.start()
-#         end_pos = match.end()
-        
-#         # Determine which pages this article spans
-#         pages = set()
-#         for (page_start, page_end, page_num) in page_ranges:
-#             if start_pos < page_end and end_pos > page_start:
-#                 pages.add(page_num)
-        
-#         # Split into title and body
-#         title_end = article_text.find('\n')
-#         if title_end == -1:
-#             title = article_text.strip()
-#             body = ""
-#         else:
-#             title = article_text[:title_end].strip()
-#             body = article_text[title_end+1:].strip()
-        
-#         # Extract article number and trim title
-#         match_num = re.search(r'Artículo (\d+)\.', title)
-#         if match_num:
-#             num = int(match_num.group(1))
-#             # Trim the "Artículo X." prefix from the title
-#             trimmed_title = re.sub(r'^Artículo \d+\.\s*', '', title).strip()
-#             articles_dict[num] = {
-#                 'title': title,
-#                 'title-trimmed': trimmed_title,
-#                 'content': body,
-#                 'pages': sorted(pages)  # Store sorted list of pages
-#             }
-    
-#     return articles_dict
+
 def roman_to_int(roman):
     roman_map = {'I': 1, 'V': 5, 'X': 10, 'L': 50}
     result, prev = 0, 0
@@ -73,6 +34,7 @@ def roman_to_int(roman):
         result = result - val if val < prev else result + val
         prev = val
     return result
+
 
 def parse_articles_grouped_by_chapter(combined_text, page_ranges):
     """
@@ -142,6 +104,7 @@ def parse_articles_grouped_by_chapter(combined_text, page_ranges):
 
     return data
 
+
 def summarize_with_mistral(text, model, tokenizer):
     """Generate a summary using the Mistral-Nemo-Instruct model."""
     # Format the instruction prompt for Mistral-Nemo-Instruct
@@ -187,6 +150,7 @@ def summarize_with_mistral(text, model, tokenizer):
     print(summary)
     
     return summary
+
 
 if __name__ == "__main__":
     print("Loading Mistral-Nemo-Instruct-2407 model...")

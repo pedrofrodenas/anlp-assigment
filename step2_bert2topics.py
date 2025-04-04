@@ -20,7 +20,7 @@ class BertScorer:
 
         # TODO: Decide how relates with subtopics
         embeddings = self.model.encode([f'{topic}: {subtopic}' for (topic, subtopic) in topics])
-        self.topics_embeddings = {topic: emb for (_, topic), emb in zip(topics, embeddings)}
+        self.topics_embeddings = {topic: emb for topic, emb in zip(topics, embeddings)}
 
     def get_topics_score(self, query: str):
         query_emb = self.model.encode(query)
@@ -62,7 +62,8 @@ if __name__ == '__main__':
             best_topic, best_score = max(topics_scores.items(), key=lambda item: item[1])
 
             # Add the best topic to the article
-            article["topic"] = best_topic
+            article["topic"] = best_topic[0]
+            article["subtopic"] = best_topic[1]
             article["topic_score"] = best_score
 
     # Save the updated JSON to a file
