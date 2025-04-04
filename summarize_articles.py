@@ -3,11 +3,11 @@ import fitz  # PyMuPDF
 import json
 import os
 import requests
-from transformers import AutoModelForCausalLM, AutoTokenizer
+from transformers import AutoModelForCausalLM, AutoModelForSeq2SeqLM, AutoTokenizer
 import torch
 from huggingface_hub import login
 
-login()
+# login()  # TODO: Create a .env for token or make this automatic, its being prompted at each run
 
 def extract_text_from_pdf2(pdf_path):
     """Extracts text from each page of a PDF file, returning a list of pages with their numbers and text."""
@@ -50,6 +50,11 @@ def parse_articles(combined_text, page_ranges):
         else:
             title = article_text[:title_end].strip()
             body = article_text[title_end+1:].strip()
+        
+        # Extract chapter number
+        print(article_text)
+        assert False
+        match_num = re.search(r'CAPÍTULO (\d+)\.', title)
         
         # Extract article number and trim title
         match_num = re.search(r'Artículo (\d+)\.', title)
@@ -116,9 +121,11 @@ if __name__ == "__main__":
     print("Loading Mistral-Nemo-Instruct-2407 model...")
     
     # Load the Mistral-Nemo-Instruct model
-    tokenizer = AutoTokenizer.from_pretrained("mistralai/Mistral-Nemo-Instruct-2407")
-    model = AutoModelForCausalLM.from_pretrained(
-        "mistralai/Mistral-Nemo-Instruct-2407",
+    model_name = "gsarti/it5-small-wiki-summarization"
+    # model_name = "mistralai/Ministral-8B-Instruct-2410"
+    tokenizer = AutoTokenizer.from_pretrained(model_name)
+    model = AutoModelForSeq2SeqLM.from_pretrained(
+        model_name,
         device_map="auto",
         torch_dtype=torch.float16  # Use float16 for efficiency
     )
