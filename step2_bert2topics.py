@@ -57,7 +57,7 @@ if __name__ == '__main__':
 
     for doc, articles in data.items():
         for article_id, article in articles.items():
-            title_trimmed = article["title-trimmed"]
+            title_trimmed = f'{article["chapter_name"]}: {article["title-trimmed"]}'
             topics_scores = scorer.get_topics_score(title_trimmed)
             best_topic, best_score = max(topics_scores.items(), key=lambda item: item[1])
 
