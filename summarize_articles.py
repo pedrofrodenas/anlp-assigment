@@ -22,7 +22,22 @@ def extract_text_from_pdf2(pdf_path):
     return pages
 
 def remove_pattern(text):
-    pattern = r'Código seguro de Verificación : GEN-afed-f11a-2acf-695d-4be9-51c8-2c08-5869 \| Puede verificar la integridad de este documento en la siguiente dirección : https://sede\.administracion\.gob\.es/pagSedeFront/servicios/consult\.\.\.\nCSV : GEN-afed-f11a-2acf-695d-4be9-51c8-2c08-5869\nDIRECCIÓN DE VALIDACIÓN : https://sede\.administracion\.gob\.es/pagSedeFront/servicios/consultaCSV\.htm\nFIRMANTE\(1\) : JOSE MANUEL BAR CENDÓN \| FECHA : 15/03/2023 16:43 \| Aprueba\n'
+    # Combined regex pattern to handle all verification block variations
+    pattern = r'''(?mx)
+    (
+        # Pattern 1: Name - Date line with CSV URL
+        ^.*?-\s+\d{4}-\d{2}-\d{2}\s+\d{2}:\d{2}:\d{2}\s+CET\s*\n
+        Puede\s+comprobar.*?https://\S+
+    )
+    |
+    (
+        # Pattern 2: Multi-line verification blocks
+        ^(?:Código\s+seguro\s+de\s+Verificación\s*:|CSV\s*:).*?
+        (?:\n(?:CSV\s*:|DIRECCIÓN\s+DE\s+VALIDACIÓN\s*:|Puede\s+verificar|FIRMANTE\(1\)\s*:).*?)*
+        \nFIRMANTE\(1\)\s*:.*
+    )
+    '''
+    
     cleaned_text = re.sub(pattern, '', text)
     return cleaned_text
 
