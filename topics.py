@@ -7,6 +7,7 @@ topics = [
 
     ("Estudios Cubiertos por la Beca", "Enseñanzas No Universitarias"),
     ("Estudios Cubiertos por la Beca", "Enseñanzas Universitarias"),
+    
     ("Requisitos para Solicitar la Beca", "Requisitos Generales"),
     ("Requisitos para Solicitar la Beca", "Requisitos Económicos"),
     ("Requisitos para Solicitar la Beca", "Requisitos Académicos"),
