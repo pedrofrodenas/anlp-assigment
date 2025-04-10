@@ -1,25 +1,11 @@
 import json
 import os
 import re
-from transformers import AutoTokenizer, AutoModelForCausalLM
 from topics import topics
 from tqdm import tqdm
 import torch as th
 import warnings
 warnings.filterwarnings("ignore")
-
-# Helper function to clean up whitespace
-WHITESPACE_HANDLER = lambda k: re.sub(r'\s+', ' ', re.sub(r'\n+', ' ', k.strip()))
-MODEL = "meta-llama/Llama-3.2-1B-Instruct"  # Changed to Llama 3.2
-
-# Set the device for PyTorch, if GPU is available and then if MPS is available
-if th.cuda.is_available():
-    device = th.device("cuda")
-elif th.backends.mps.is_available():
-    device = th.device("mps")
-else: 
-    device = th.device("cpu")
-print(f"Using device: {device}")
 
 
 def load_summarized_data(file_path):
@@ -60,60 +46,8 @@ def group_articles_by_topic(document_data):
     
     return organized_data
 
-def generate_summary(text_to_summarize, tokenizer, model):
-    """Generate a summary for the given text using the model"""
 
-    # Create a specialized prompt with explicit end marker
-    prompt = f"""Eres un asistente legal especializado en resumir información sobre becas y ayudas para estudiantes españoles. 
-                Debes resumir el siguiente texto legal relacionado con becas y ayudas al estudio. 
-                Enfócate en extraer la información más valiosa para un estudiante que quiere solicitar una beca.
-
-                Proporciona un resumen conciso pero informativo que permita a los estudiantes entender los aspectos 
-                más importantes para acceder a estas becas. Omite detalles técnicos innecesarios.
-                
-                El resumen debe tener un máximo de 300 palabras y me gustaria que lo estructuraras como un filete de formato markdown.
-
-                TEXTO PARA RESUMIR:
-                {text_to_summarize}
-
-                RESUMEN:
-                """
-
-    # Tokenize the input text
-    inputs = tokenizer(prompt, return_tensors="pt").to(device)
-
-    # Calculate available tokens for generation
-    num_input_tokens = inputs["input_ids"].shape[1]
-
-    # Limit summary to around 300-400 words (~600 tokens)
-    max_new_tokens = min(600, 5020 - num_input_tokens)
-
-    # Generate summary with more controlled parameters
-    with th.no_grad():
-        outputs = model.generate(
-            **inputs,
-            max_new_tokens=max_new_tokens,
-            min_new_tokens=100,  # Ensure at least some summary content
-            num_beams=4,
-            temperature=0.1,
-            do_sample=True,
-            top_p=0.9,
-            no_repeat_ngram_size=2,
-            early_stopping=True,  # Stop when a stopping criteria is met
-            length_penalty=2.0,   # Penalize lengthy generations
-            pad_token_id=tokenizer.eos_token_id
-        )
-
-    # Decode the generated tokens
-    summary = WHITESPACE_HANDLER(tokenizer.decode(outputs[0], skip_special_tokens=True))
-
-    # Extract just the summary part (after "RESUMEN:")
-    if "RESUMEN:" in summary:
-        summary = summary.split("RESUMEN:")[1].strip()
-
-    return summary
-
-def create_markdown_file(document_name, organized_data, tokenizer, model):
+def create_markdown_file(document_name, organized_data, topk=None):
     """Create a markdown file with summaries organized by topic and subtopic"""
     # Ensure the output directory exists
     os.makedirs("resumen_por_año", exist_ok=True)
@@ -151,12 +85,15 @@ def create_markdown_file(document_name, organized_data, tokenizer, model):
                     
                     # Sort articles by score (highest first)
                     sorted_articles = sorted(articles, key=lambda x: x["score"], reverse=True)
-                    
+
                     # Combine summaries from all articles
                     combined_text = ""
-                    for article in sorted_articles:
-                        combined_text += f"{article['title']}\n{article['summary']}"
-                        # combined_text += f"{article['summary']} "  # WHICH WORKS BETTER? TODO
+                    for ith, article in enumerate(sorted_articles if topk is None else sorted_articles[:topk]):
+                        # combined_text += f"\n### TITLE: {article['title']}\n{article['summary']}\n"
+                        if ith != 0 and article['summary'].strip()[0] in ['1', '-']:
+                            combined_text += f"\n#### {article['title']}\n{article['summary']}\n"  # WHICH WORKS BETTER? TODO
+                        else:
+                            combined_text += f"\n{article['summary']}\n"  # WHICH WORKS BETTER? TODO
                     
                     # Prepare references for all articles
                     references = []
@@ -167,37 +104,19 @@ def create_markdown_file(document_name, organized_data, tokenizer, model):
                         else:
                             pages = f'{min(article["pages"])}'
 
-                        references.append(f"Art. {article['id']}: {article_title} (pp. {pages})")
+                        references.append((article['id'], f"Art. {article['id']}: {article_title} (pp. {pages})"))
                     
                     if combined_text:
-                        final_summary = generate_summary(combined_text, tokenizer, model)
-                        md_file.write(f"{final_summary}\n\n")
+                        md_file.write(f"{combined_text}\n\n")
                         md_file.write("**Artículos relacionados:**\n\n")
-                        for ref in references:
+                        for _, ref in sorted(references, key=lambda x: int(x[0])):
                             md_file.write(f"- {ref}\n")
                         md_file.write("\n")
     
     print(f"Created markdown file: {output_filename}")
     return output_filename
 
-def process_documents(json_data_path):
-    """Process all documents and generate summaries"""
-    # Load the model and tokenizer
-    print("Loading model and tokenizer...")
-
-    # Load tokenizer - no fast tokenizer for Llama models
-    tokenizer = AutoTokenizer.from_pretrained(MODEL)
-    if tokenizer.pad_token is None:
-        tokenizer.pad_token = tokenizer.eos_token
-
-    # Load model without quantization
-    model = AutoModelForCausalLM.from_pretrained(
-        MODEL,
-        device_map="auto",
-        torch_dtype=th.float16
-    )
-    print("Model loaded")
-
+def process_documents(json_data_path, topk=None):
     # Load the data
     summarized_data = load_summarized_data(json_data_path)
 
@@ -205,17 +124,15 @@ def process_documents(json_data_path):
     for document_name, document_data in summarized_data.items():
         print(f"Processing {document_name}...")
         organized_data = group_articles_by_topic(document_data)
-        output_md_file = create_markdown_file(document_name, organized_data, tokenizer, model)
+        output_md_file = create_markdown_file(document_name, organized_data, topk=topk)
         
         try:  # Save as pdf if md2pdf exists
             from md2pdf.core import md2pdf
             md2pdf(output_md_file.replace('.md', '.pdf'), md_file_path=output_md_file)
         except ModuleNotFoundError:
             print('Could not convert markdown to pdf as md2pdf is not installed')
-        
-        print('generating only first for debugging purposes')
-        break
+
 
 if __name__ == "__main__":
     json_data_path = "documents_summarized_with_topics.json"
-    process_documents(json_data_path)
+    process_documents(json_data_path, topk=3)

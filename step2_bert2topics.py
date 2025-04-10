@@ -3,6 +3,7 @@ import json
 import numpy as np
 from sentence_transformers import SentenceTransformer
 from topics import topics
+from typing import Optional
 
 
 
@@ -27,31 +28,18 @@ class BertScorer:
         similarities = self._get_scores(query_emb, self.topics_embeddings)
         return similarities
     
+    def pair_score(self, a, b):
+        a = self.model.encode(a)
+        b = self.model.encode(b)
+        return self.model.similarity(a, b)[0]
+    
     def _get_scores(self, query_emb: np.ndarray, topics_embs: dict):
         similarities = self.model.similarity(query_emb, np.vstack(list(topics_embs.values())))[0]
         return {topic: similarity.item() for topic, similarity in zip(topics_embs.keys(), similarities)}
 
 
-if __name__ == '__main__':
-    # Query text for tests
-    # query = 'Rendimiento académico en el curso anterior.'
-    # scorer = BertScorer(topics)
-
-    # # Compute embeddings:
-    # topics_scores = scorer.get_topics_score(query)
-
-    # for topic, score in topics_scores.items():
-    #     print(f"Similarity with {topic}: {score:.4f}")
-
-    # # Determine the best matching topic
-    # best_topic = max(topics_scores, key=topics_scores.get)
-    # print(f"\nThe query '{query}' is most similar to the topic: '{best_topic}'")
-
-    # From JSON file
+def compute_bert_scores(input_file='./documents_summarized.json', output_file='./documents_summarized_with_topics.json', user_query=None):
     scorer = BertScorer(topics)
-    input_file = "./documents_summarized.json"  # Replace with your JSON file path
-    output_file = "./documents_summarized_with_topics.json"  # Replace with your desired output file path
-
     with open(input_file, 'r', encoding='utf-8') as f:
         data = json.load(f)
 
@@ -59,15 +47,35 @@ if __name__ == '__main__':
         for article_id, article in articles.items():
             title_trimmed = f'{article["chapter_name"]}: {article["title-trimmed"]}'
             topics_scores = scorer.get_topics_score(title_trimmed)
+
+            print()
+            print(title_trimmed)
+            print()
+
+            user_query_score = None
+            if user_query is not None:
+                user_query_score = scorer.pair_score(title_trimmed, user_query).item()
+                # print(title_trimmed, user_query, user_query_score)
+
             best_topic, best_score = max(topics_scores.items(), key=lambda item: item[1])
 
             # Add the best topic to the article
             article["topic"] = best_topic[0]
             article["subtopic"] = best_topic[1]
             article["topic_score"] = best_score
+            article["user_query_score"] = user_query_score
 
     # Save the updated JSON to a file
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
 
     print(f"Updated JSON saved to {output_file}")
+
+
+if __name__ == '__main__':
+    # Testing
+    input_file = "./documents_summarized.json"  # Replace with your JSON file path
+    output_file = "./documents_summarized_with_topics.json"  # Replace with your desired output file path
+    user_query = 'Me gustaría obtener los requisitos académicos para obtener una beca.'
+
+    compute_bert_scores(input_file, output_file, user_query)

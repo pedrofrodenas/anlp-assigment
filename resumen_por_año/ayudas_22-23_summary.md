@@ -32,253 +32,332 @@
 
 ### Objeto de la Convocatoria y Financiación
 
-Las becatas son una forma de financiar la educación universitaria, permitiéndoles estudiar sin tener que preocuparse por el pago de impuestos sobre sus ingresos. En España, existen diferentes tipos de bajas por estudios, que pueden ser concedidas a estudiantes que cumplen con ciertas condiciones. Una de ellas es la Beca Básica de Estudios (BBE), que ofrece una cuota fija mensual para cubrir los gastos básicos, como el alquiler, la comida y el transporte. También se pueden conceder otras becalas como la Becha de Residencia (BR), la Excelencia Académica (EA) y las Becas de Servicios Públicos (BSP), entre otras. Cualquiera que esté matriculado en una universidad española y que cumpla con los requisitos establecidos por la Junta de Coordinación Estudiantil (JCE) o la Asociación Española de Universidades y Centros de Investigación (AEUCI) puede ser elegible para recibir una de estas bacias. Es importante tener en cuenta que la cantidad máxima de dinero que se puede recibir con una beca es 1600 millones de euros y puede variar dependiendo de si se concede un incremento de presupuesto o no. Por otro lado, los recursos destinados a cubrirlas se asiguarán primero a través de una asignación inicial, y luego se distribuirán de acuerdo con las necesidades específicas de cada becadista. Algunos estudiantes pueden optar por utilizar estos recursos para mejorar su calidad de vida, mientras que otros pueden elegir utilizarlos para realizar actividades extracurriculares que les permitan desarrollar habilidades adicionales y aumentar su competitividad en el mercado laboral.
+
+El importe de las becas se hará efectivo con cargo al crédito 18.08.323M.482.00 de los presupuestos del Ministerio de Educación y Formación Profesional de los ejercicios de 2022 y 2023. El importe de las becas concedidas, excluido el importe de las becas de matrícula, no podrá exceder de 1.600.000.000,00 euros. No obstante, dicho importe podrá incrementarse con una cuantía adicional de 450.000.000,00 euros, cuando se produzca un incremento de crédito disponible antes de la concesión definitiva de las becas. La efectividad de esta cuantía adicional queda condicionada a la declaración de disponibilidad del crédito y, en su caso, a la previa aprobación de la modificación presupuestaria que proceda. La mencionada declaración de disponibilidad del crédito se hará pública en el «Boletín Oficial del Estado», sin que implique apertura de plazo para presentar nuevas solicitudes ni el inicio de nuevo cómputo de plazo para resolver.
+
 
 **Artículos relacionados:**
 
-- Art. 2: 2. Financiación de la convocatoria.
+- Art. 2: Financiación de la convocatoria. (pp. 2-3)
 
 ### Tipos de Cuantías
 
-- Las bajas se otorgan a través de un proceso de solicitud y evaluación, que implica presentar la documentación necesaria y realizar un examen psicométrico para evaluar las habilidades y competencias de cada solicitante.
-                - El proceso se divide en dos etapas: la primera etapa se realiza mediante un cuestionario que evalúa el nivel de conocimiento y comprensión del candidato sobre el tema de interés, mientras que el segundo paso es una entrevista con un panel de expertos que revisa las respuestas presentadas por los candidatos y evalúan su capacidad para resolver problemas y tomar decisiones en un entorno laboral realista.
-               - La segunda fase se lleva cabo mediante una prueba de habilidad, donde se presentan una serie de desafíos y tareas que requieren el uso de técnicas y estrategias de resolución de problemas, así como la capacidad de trabajar en equipo y comunicarse de manera efectiva.
-              - Una vez completado el proceso, los seleccionados reciben una oferta de beque que incluye una cuota variable que puede ser ajustada según su situación económica.
-             - Los becarios deben cumplir con ciertas obligaciones, como pagar una tasa de impuestos sobre las cuotas recibidas, realizar actividades de voluntariado y participar en eventos culturales y educativos organizados por la institución educativa.
+
+Las becas para el curso 2022-2023 incluyen una beca de matrícula, una cuantía fija ligada a la renta del solicitante de 1.700 euros, una cuantía fija ligada a la residencia de 1.600 euros, una cuantía fija ligada a la excelencia académica que varía entre 50 y 125 euros dependiendo de la nota media del estudiante, una beca básica de 300 euros (o 350 euros para Ciclos Formativos de Grado Básico) y una cuantía variable que depende de la nota media del expediente y la renta familiar, con un mínimo de 60 euros.
+
+El montante de crédito que se destinará a la cuantía variable se distribuirá entre los solicitantes en función de su renta familiar y de su rendimiento académico, mediante una fórmula que tiene en cuenta la renta per cápita del becario, su nota media, la nota media del mejor decil de becarios y la renta per cápita máxima para ser beneficiario de la cuantía variable. La fórmula se aplica de manera diferente según el tipo de enseñanza y el curso en el que se encuentre el becario. Los beneficiarios de la cuantía variable deben cumplir con ciertos requisitos, como no superar el umbral 2 de renta familiar establecido en la resolución.
+
+Los beneficiarios de la cuantía fija ligada a la excelencia académica son estudiantes que cursen en régimen de matrícula completa los estudios enumerados en las letras a) a f) del artículo 3.1 y en la letra a) del artículo 3.2 de esta Resolución. Para obtener esta cuantía, se requiere una nota media de 8,00 puntos o superior en el curso, pruebas de acceso o estudios previos. Los requisitos varían según el tipo de estudio y el curso en el que se encuentre el estudiante. Además, se aplica un coeficiente corrector a las calificaciones procedentes de estudios del área de arquitectura e ingeniería, ciencias y ciencias de la salud. La adjudicación de la cuantía también se basa en el umbral 3 de renta familiar establecido en esta Resolución.
+
 
 **Artículos relacionados:**
 
-- Art. 11: 11. Cuantías de las becas.
-- Art. 10: 10. Cuantía variable.
-- Art. 8: 8. Cuantía fija ligada a la excelencia académica
-- Art. 4: 4. Clases y cuantías de las becas.
-- Art. 12: 12. Cuantías adicionales por domicilio insular o en las Ciudades de Ceuta o de Melilla.
+- Art. 4: Clases y cuantías de las becas. (pp. 4)
+- Art. 8: Cuantía fija ligada a la excelencia académica (pp. 6-7)
+- Art. 10: Cuantía variable. (pp. 7-9)
+- Art. 11: Cuantías de las becas. (pp. 9-10)
+- Art. 12: Cuantías adicionales por domicilio insular o en las Ciudades de Ceuta o de Melilla. (pp. 10)
 
 ### Beca de Matrícula
 
--   Para estudiantes de licenciatura, las becatas se otorgan siempre que cumplan con los requisitos establecidos por el Ministerio de Educación, Cultura y Deportes y las normas específicas de cada institución de educación superior.
-                -  La cantidad máxima permitida por cada curso es del 100% del precio publico oficial, que varía según la región autonómica, y se puede reducir a un 50% en casos de urgencia o necesidad económica.
-               -    Para estudiantes de postgrado, no hay requisito de cumplimiento de ciertos criterios, pero se deben cumplir las mismas normativas que para las licenciaturas.
-              -     Los estudios de doctorado y de maestría no requieren de cumplimiento del mismo criterio que la licentiatura, por lo que pueden ser otorgados sin cumplimentar los mencionados anteriores.
-             -      Para los estudantes que optan por una licencia, deben ser titulares de una carrera de grado y haber cursado un curso de preparación previo al inicio de su programa de estudio.
-            -       El plazo para presentar la solicitud se establece en 15 días hábiles a partir del día 1 del mes de enero del año escolar siguiente, a través del portal de solicitud de ayuda financiera.
-           -        La solicitud debe incluir la siguiente información: nombre, apellidos, fecha de nacimiento, dirección, teléfono, correo electrónico, nombre y dirección del instituto educativo a donde se inscribirá, número y título del curso a cursar, datos de familia, ingresos familiares y otros datos relevantes para determinar su capacidad para realizar el pago del bequeo.
-          -         El solicitanté debe proporcionar una carta de presentación que justifique su solicitud y que acredite su estatus de ciudadano español o extranjero, según corresponda. Esta carta debe ser firmada por un funcionario público o un abogado que tenga la competencia para emitir declaraciones jurídicas.
-        -          La Comisión de Ayuda Financiera (CAF) revisará y evaluará las solicitudes y emitirá un informe de aceptación o rechazo, junto con una recomendación sobre la cantidad que corresponde a cada solicitud, así como las condiciones bajo las cuales se realizará la transferencia del dinero.
-         -           El dinero se transferirá de manera directa al destinatario a su cuenta bancaria, mediante el sistema de transferencias electrónicas (SEPA) o por vía postal, dependiendo de lo acordado entre las instituciones educativas y los beneficiarios.
 
-¡Espero que esta información te sea útil! ¡Si necesitas algo más,
+Los estudiantes que cursen enseñanzas universitarias pueden optar a una beca de matrícula que cubrirá el importe de los créditos de su primera matrícula en el curso 2022-2023, siempre y cuando no excedan del mínimo necesario para obtener la titulación. La cuantía de la beca será el precio público oficial de los servicios académicos de ese curso. En el caso de universidades privadas o centros adscritos que no apliquen los precios públicos oficiales, la beca será igual al precio mínimo establecido por la Comunidad Autónoma para un estudio con la misma experimentalidad en una universidad pública de esa misma Comunidad Autónoma. La adjudicación de la beca se basa en el umbral 3 de renta familiar establecido en la Resolución. La beca se hará efectiva mediante la exención del importe correspondiente y su compensación a las universidades. No obstante, la condición de beneficiario recae en los estudiantes a quienes se les adjudique de conformidad con lo dispuesto en la Resolución. El importe compensado a la universidad no podrá superar el coste de la beca de matrícula en el curso 2022-2023.
+
+Para obtener una beca en las enseñanzas a que se refiere esta sección, los solicitantes deben estar matriculados en el curso 2022-2023 de 60 créditos, es decir, en régimen de dedicación académica a tiempo completo. En el supuesto de matricularse de un número superior de créditos, todos ellos serán tenidos en cuenta para la valoración del rendimiento académico. No obstante, podrán obtener también beca los estudiantes que se matriculen en el curso académico 2022-2023 de entre 30 y 59 créditos, denominándose esta situación matrícula parcial y siendo de aplicación las siguientes reglas: quienes opten por la matrícula parcial y no se matriculen de todos aquellos créditos de los que les fuera posible, podrán obtener la beca de matrícula y la cuantía variable mínima. Para obtener la beca en el siguiente curso deberán aprobar la totalidad de los créditos en que hubieran estado matriculados. En aquellos casos en los que, en virtud de la normativa propia de la universidad, resulte limitado el número de créditos en que puedan quedar matriculados todos los estudiantes, el solicitante podrá obtener todas las cuantías de beca que le correspondan de conformidad con lo dispuesto en esta convocatoria si se matricula en todos los créditos. Si dichos créditos se cursan
+
+Para obtener una beca en un máster universitario, es necesario ser admitido y matricularse de al menos 60 créditos en el curso 2022-2023. Sin embargo, también se pueden obtener becas si se matricularon entre 30 y 59 créditos en el curso académico 2022-2023, siempre y cuando se aprueben en su totalidad para obtenerla en el siguiente curso. En este caso, si se opta por la matrícula parcial y no se matriculan de todos los créditos posibles, solo se podrá obtener la cuantía variable mínima y la beca de matrícula. Si el número de créditos está limitado por la normativa de la Universidad, se pueden obtener todas las cuantías si se matriculan en todos los créditos posibles. Si los créditos se cursan en un cuatrimestre/semestre o se imparten en régimen de fin de semana o comprenden menos de 300 horas, la cuantía de la beca será la beca de matrícula, la cuantía variable mínima y el cincuenta por ciento de las demás cuantías. En el caso de los estudiantes que se matricularon de un cuatrimestre y posteriormente se matriculan también en el segundo cuatrimestre/semestre correspondiente al curso académico, se completará la cuantía de la beca hasta el total
+
 
 **Artículos relacionados:**
 
-- Art. 5: 5. Beca de matrícula.
-- Art. 23: 23. Número de créditos de matrícula.
-- Art. 28: 28. Número de créditos de matrícula.
+- Art. 5: Beca de matrícula. (pp. 4-5)
+- Art. 23: Número de créditos de matrícula. (pp. 18-19)
+- Art. 28: Número de créditos de matrícula. (pp. 22-23)
 
 ### Beca Básica
 
-La solicitud de una beca no es un obstáculo para estudiar en España. En efecto, hay varias opciones disponibles para aquellos que buscan realizar su formación académica de manera gratuita o con una reducción significativa de los gastos. Una de estas opciones es la Beca Básica, que se ofrece a estudiantes que no tienen acceso a recursos financieros adecuados para seguir sus estudios. Esta bequeza tiene como objetivo proporcionar un apoyo económico para permitir que estos jóvenes continúen su educación sin tener que preocuparse por el costo de la vivienda, la alimentación, el transporte, etc. Es importante destacar que la asignación se basa en el ingreso familiar, por lo que es fundamental cumplir con los requisitos establecidos para asegurar su admisión en una institución educativa. Además, es recomendable que los solicitantes realicen el cálculo de sus ingresos familiares con la ayuda de un profesional, ya que esto puede variar dependiendo de las circunstancias económicas de cada familia. Finalmente, no se requiere presentar documentos adicionales para la solicitud, aunque en algunos casos, puede ser necesario realizar una entrevista para evaluar su situación financiera. Por lo tanto, si deseas seguir tu sueño de estudias, asegúrate de investigar y preparar toda la documentación necesaria antes de proceder con tu solicitud.
+
+1. Los estudiantes de enseñanzas no universitarias pueden solicitar una beca básica.
+2. La beca básica se concede a aquellos que estén por debajo del umbral 3 de renta familiar.
+3. No se puede recibir la beca básica si ya se recibe una cuantía fija ligada a la renta.
+
 
 **Artículos relacionados:**
 
-- Art. 9: 9. Beca básica.
+- Art. 9: Beca básica. (pp. 7)
 
 ## Estudios Cubiertos por la Beca
 
 ### Enseñanzas No Universitarias
 
-Los estudiantes que desean acceden a becalas deben cumplir con los siguientes requisitos:
 
-*   Tener una buena nota promedio en todas las materias que cursan en las universidades públicas y privadas españolas, excepto en aquellas que no sean obligatorias para el título de licenciatura (por ejemplo, ciencias naturales, física, química o matemáticas) y que sean cursadas durante el primer año de estudios en una universidad pública o privada española. (Artículo 1 del Reglamento de Bases y Procedimientos para la Evaluación del Desempeño del Estudiante en los Centros Públicos y Privados Españoles, de acuerdo con el Decreto Legislativo 3/2014, del 29 de junio, por el cual se regula el sistema de educación superior y se establecen las normas y procedimientos que deben seguir las instituciones educativas para garantizar la calidad y eficacia del sistema educativo en España, art. 6.º).
-*    No tener antecedentes penales ni de inadmisión en ninguna institución educativa, ni haber sido condenado a una pena de prisión o de libertad condicional durante un período de más de un año, o haber recibido una sentencia de confiscación de bienes o inhabilitación para ejercer ciertas profesiones o actividades (artículos 11 y 12 del Código Penal, modificado por la Ley Orgánica 15/1999 del Derecho a la Informatización y Protección de Datos Personales y la Ley 34/2007 del Servicio de Información e Inteligencia (SII), de igual forma, el artículo 13 del texto reflejante la disposición adicional de esta ley, que establece lo siguiente: "Las personas físicas y jurídicas cuyos datos personales sean objeto de una recopilación, procesamiento y almacenamiento de datos, deben informar a las autoridades competentes la existencia y naturaleza de tales datos y, si corresponde, proporcionar información detallada y precisa sobre la finalidad del tratamiento, los destinatarios de dicha información y los derechos de acceso, rectificación, supresión y oposición a tales tratamientos, así como al derecho de portabilidad y transparencia en relación con la protección y gestión de sus datos de manera voluntaria y de forma adecuada, según lo establecido en lo dispuesto en esta Ley y en sus disposiciones adicionales").
-*  No haber participado en actividades que puedan considerarse inapropiadas o perjudiciales para los intereses de terceros, como la participación en grupos extremistas o la violencia contra personas o grupos de personas.
-*
+El cálculo de las notas medias de las enseñanzas se realiza de la siguiente manera:
+
+1. Se utilizan las calificaciones numéricas finales del último curso académico obtenidas por los estudiantes en la escala 0 a 10. Las asignaturas no presentadas se valoran con 2,50 puntos.
+2. En el caso de los alumnos que accedan directamente desde cualquier ciclo de formación profesional a unas enseñanzas no universitarias de nivel superior, la nota media será la calificación final del ciclo formativo correspondiente desde el que se accede.
+3. En todo caso, las notas medias serán las correspondientes al curso o, en el caso de la regla 2, al ciclo completo, con independencia del número de años que el alumno hubiera empleado para su superación.
+4. Si no existen calificaciones numéricas, las calificaciones obtenidas se computarán según el siguiente baremo: Matrícula de Honor = 10 puntos, Sobresaliente = 9 puntos, Notable = 7,5 puntos, Aprobado o apto = 5,5 puntos, Suspenso, no presentado o no apto = 2,50 puntos.
+5. Cuando se trate de planes de estudio organizados por asignaturas, la nota media se calculará dividiendo el total de puntos obtenidos entre el número total de asignaturas.
+6. Cuando se trate de planes de estudios organizados por créditos o por
+
+El Ministerio de Educación y Formación Profesional eximirá del pago de las tasas de matrícula a los estudiantes de centros públicos que reciban becas o ayudas al estudio.
+
 
 **Artículos relacionados:**
 
-- Art. 32: 32. Cálculo de la nota media para enseñanzas no universitarias.
-- Art. 63: 63. Tasas de matrícula en enseñanzas no universitarias.
+- Art. 32: Cálculo de la nota media para enseñanzas no universitarias. (pp. 25-26)
+- Art. 63: Tasas de matrícula en enseñanzas no universitarias. (pp. 46)
 
 ### Enseñanzas Universitarias
 
-- El sistema español cuenta con diferentes tipos de bajas, incluyendo la reducción del impuesto sobre la renta, que puede ser utilizada por estudiantes de universitates con dificultades económicas, entre otros.
-                 En este sentido, el artículo establece que las personas mayores o discíplinas con una condición médica que les impida realizar actividades físicas intensivas pueden optar por esta beque, reduciendo así la carga de impuestos de hasta 100% durante un plazo de dos años, siempre y cuando cumplan con ciertas condiciones, como no utilizar la red de servicios de transporte público y no tener acceso directo a internet en sus hogares.
- 
-                 Además, también se menciona que si el beneficiario no utiliza la bequedad para sus necesidades personales, no podrá reclamarla, lo que significa que no puede utilizarla para pagar servicios básicos como la electricidad o el agua, o para realizar compras esenciales como alimentos y medicamentos.
 
-                 Es importante destacar que estas condiciones deben cumplirse de manera efectiva para asegurar el uso eficaz de este beneficio.
+1. Los estudiantes universitarios con discapacidad igual o superior al 65% pueden reducir su carga lectiva.
+2. Si no se usa la matrícula reducida, las becas se incrementan en un 50%.
+3. La matrícula reducida no limita las cuantías de las becas.
+4. No se concede beca de matrícula si los gastos están cubiertos por servicios o fondos públicos.
+
+Las comisiones de selección de becarios adaptarán los requisitos académicos para quienes sigan planes de estudio organizados por asignaturas.
+
+Las becas convocadas para el curso académico 2022-2023 son para enseñanzas postobligatorias y superiores no universitarias, así como para enseñanzas universitarias del sistema universitario español. Estas becas incluyen cursos de bachillerato, formación profesional, enseñanzas artísticas y deportivas, estudios religiosos superiores, estudios de idiomas, cursos de acceso a la formación profesional, ciclos formativos de grado básico y enseñanzas universitarias conducentes a títulos oficiales de grado y de máster.
+
 
 **Artículos relacionados:**
 
-- Art. 13: 13. Becas especiales para estudiantes universitarios con discapacidad.
-- Art. 66: 66. Adaptación de requisitos académicos en enseñanzas universitarias.
-- Art. 3: 3. Enseñanzas comprendidas.
-- Art. 7: 7. Cuantía fija ligada a la residencia del estudiante durante el curso escolar.
-- Art. 6: 6. Cuantía fija ligada a la renta del estudiante.
-- Art. 61: 61. Solicitudes de estudiantes extranjeros.
+- Art. 3: Enseñanzas comprendidas. (pp. 3-4)
+- Art. 6: Cuantía fija ligada a la renta del estudiante. (pp. 5)
+- Art. 7: Cuantía fija ligada a la residencia del estudiante durante el curso escolar. (pp. 5-6)
+- Art. 13: Becas especiales para estudiantes universitarios con discapacidad. (pp. 10)
+- Art. 61: Solicitudes de estudiantes extranjeros. (pp. 46)
+- Art. 66: Adaptación de requisitos académicos en enseñanzas universitarias. (pp. 47)
 
 ## Requisitos para Solicitar la Beca
 
 ### Requisitos Generales
 
-Para obtener un beque, debes tener al menos 18 años de edad y no tener deudor de la Hacienda General del Estado. Tienes que ser titular o co-titular del título académico correspondiente a tu nivel de estudio (3,2,3 o 5) y haber cumplido el requisito de matrícula en la institución educativa que corresponda a cada curso del año escolar. En el caso de estudiantes con discapacidad, se les otorgarán una tarjeta de identificación especial para facilitar su acceso a las instalaciones y servicios universitarios. Es importante tener en cuenta que para ser elegible para esta ayuda, no se requiere que tengas una licencia de conducir, pero si tienes una, deberás presentarla junto con tu documentación. Los estudiantes que solicitan la ayuda deberán proporcionar información adicional sobre su situación financiera, incluyendo la cantidad de dinero que tienen disponible para cubrir los gastos de estancia. Deberás tener información actualizada sobre la disponibilidad de estos beques, así que asegúrate de revisar periódicamente el sitio web del Ministerio de Economía y Seguridad Social para obtener las últimas actualizaciones. Si tienes alguna duda o inquietud sobre el proceso de solicitud, puedes contactar directamente al Servicio de Ayuda Estudiantil de tu universidad.
+
+Para ser beneficiario de una beca, debes cumplir con los siguientes requisitos:
+1. No tener un título oficial del mismo o superior nivel al de los estudios para los que se solicita la beca. Sin embargo, si tienes un título oficial de grado adscrito al nivel 3 (máster) del MECES o un título oficial de arquitecto, ingeniero, licenciado, arquitecto técnico, ingeniero técnico o diplomado que haya obtenido la correspondencia con el nivel 3 (máster) del MECES, puedes ser beneficiario de una beca para cursar enseñanzas conducentes a un título oficial de máster universitario. También puedes ser beneficiario de una beca si tienes un título oficial de diplomado, arquitecto técnico, ingeniero técnico o maestro que haya obtenido la correspondencia con el nivel 2 (grado) del MECES y necesitas cursar créditos complementarios o complementos de formación necesarios para la obtención del título oficial de grado.
+2. Cumplir los requisitos básicos establecidos en el Real Decreto 1721/2007 y los que se fijan en el Real Decreto 154/2022.
+3. Estar matriculado en alguna de las enseñanzas del sistema educativo español que se enumeran en el artículo 3 de la Resolución.
+4. Ser español o poseer la nacionalidad de un Estado miembro de la Unión Europea,
+
 
 **Artículos relacionados:**
 
-- Art. 15: 15. Requisitos generales.
+- Art. 15: Requisitos generales. (pp. 11-12)
 
 ### Requisitos Económicos
 
--  El estudio de Ingenierías y Arqueología puede ser financiado con 2 años de beca, mientras que en otras disciplinas se puede optar por un solo año, con la posibilidad de ser concedida en un segundo año si se cumple una serie de requisitos específicos.
-                -   Para estudiantes que realicen un curso preparatorio de acceso, una única beque se otorgará por curso y únicamente una vez, por lo que si cambian de carreras no se obtendrá una nueva beka.
-                 En caso especial de que cambien de carretera, solo podrán obtener una bka por el nuevo estudio si quedan 33 crédito más del número que cursaron con becara en las carrerias abandonadas.  Si optan por estudiar un mster, pueden obtener un aporte por año durante todo el programa.
+
+1. Los estudiantes de ingeniería y arquitectura pueden recibir una beca adicional de dos años.
+2. Los estudiantes de otras ramas pueden recibir una beca adicional de un año.
+3. En el último año adicional, la beca incluirá la beca de matrícula, la cuantía variable mínima y el 50% de las demás cuantías.
+4. Los estudiantes que opten por matrícula parcial o estudios no presenciales pueden recibir una beca adicional de un año, pero en el último año solo se concederá la beca de matrícula.
+5. Los becarios con una discapacidad igual o superior al 65% pueden recibir hasta el doble de los años establecidos en el apartado 1.
+6. Los estudiantes que realizan el curso de preparación para acceso a la universidad de mayores de 25 años impartido por las universidades públicas, la beca se concede para un único curso académico y por una sola vez.
+7. Si se produce un cambio de estudios universitarios cursados total o parcialmente con condición de becario, no se podrá obtener ninguna beca en los nuevos estudios hasta que el solicitante haya quedado matriculado de, al menos, treinta créditos más de los que hubiera cursado con beca en los estudios abandonados. Si los créditos adicionales están entre treinta y cincuenta y nueve, se considerará matrícula parcial. Si son sesenta o más, se considerará matr
+
+#### Duración de la condición de becario.
+1. Puedes disfrutar de una beca para un máster universitario durante la duración del plan de estudios.
+2. Si te matricularespartialmente o cursas enseñanzas en modalidad no presencial, puedes disfrutar de la beca un año más, pero solo se concederá la beca de matrícula en ese último año.
+3. Si tienes una discapacidad igual o superior al 65%, puedes disfrutar de la beca durante el doble del tiempo establecido.
+4. Si cambias de estudios universitarios, no podrás obtener ninguna beca hasta que hayas cursado al menos 30 créditos más de los que hubieras cursado con beca en los estudios abandonados. Si cursas entre 30 y 59 créditos adicionales, se considerará matrícula parcial. Si cursas al menos 60 créditos adicionales, se considerará matrícula completa.
+5. Si cambias de estudios sin condición de becario, se considerará el requisito académico que hubieras debido obtener en el último curso de los estudios abandonados para obtener beca en los nuevos estudios.
+
+Se establecen tres umbrales de renta familiar para la concesión de becas: Umbral 1, Umbral 2 y Umbral 3. Cada umbral tiene un valor diferente para cada tamaño de familia, desde una hasta ocho personas. A partir del octavo miembro, se añade una cantidad fija por cada nuevo miembro computable de la familia.
+
 
 **Artículos relacionados:**
 
-- Art. 25: 25. Duración de la condición de becario.
-- Art. 31: 31. Duración de la condición de becario.
-- Art. 19: 19. Umbrales de renta.
-- Art. 18: 18. Deducciones de la renta familiar.
-- Art. 16: 16. Determinación de la renta computable.
-- Art. 17: 17. Miembros computables.
-- Art. 20: 20. Umbrales indicativos de patrimonio familiar.
+- Art. 16: Determinación de la renta computable. (pp. 12)
+- Art. 17: Miembros computables. (pp. 12-13)
+- Art. 18: Deducciones de la renta familiar. (pp. 13-14)
+- Art. 19: Umbrales de renta. (pp. 14-15)
+- Art. 20: Umbrales indicativos de patrimonio familiar. (pp. 15-17)
+- Art. 25: Duración de la condición de becario. (pp. 20-21)
+- Art. 31: Duración de la condición de becario. (pp. 25)
 
 ### Requisitos Académicos
 
-Para tener la posibilidad de obtener un préstamo estudiantil para estudiar en España, debes ser español o tener el derecho de residencia permanente en dicho país. Algunos de estos derechos incluyen ser ciudadano español, tener documentación válida y estar inscrito en alguna institución educativa española. Sin embargo, si estás estudiando en otros países de habla hispana, como Argentina, Chile, Colombia, Costa Rica, Ecuador, El Salvador, Guatemala, Honduras, México, Nicaragua, Panamá, Paraguay, Perú, Puerto Rico, República Dominicana, San Vicente y las Islas del Caribe, Estados Unidos, Uruguay y Venezuela, tienes derecho a recibir ayuda financiera para tu estancia en estos países. Esta ayuda se conoce como Ayuda Financiera Especial para Estudiantes Extranjeros (AFEE) y puede ser utilizada para cubrir gastos de viaje, alojamiento, comida, transporte, libros y otros costos relacionados con tu vida en esos países.
 
-                 La AFEE se otorga por la Comisión Nacional de Educación Superior (CNESE) en colaboración con el Ministerio de Asuntos Sociales y Migraciones (MASM) de España. Es importante destacar que esta ayuda tiene un plazo de vigencia de tres años, después de lo cual se extiende indefinidamente. Por lo tanto, asegúrate de aprovechar al máximo esta oportunidad antes de que termine su período de validez.
+Para obtener una beca en cursos de acceso a la formación profesional, el solicitante debe matricularse de curso completo y no estar repitiendo el curso. La beca se concede por una única vez para cursos de acceso y preparación de pruebas, y no se puede disfrutar de ella durante más años de los establecidos en el plan de estudios para los Ciclos Formativos de Grado Básico.
+
+#### Excepcional rendimiento académico.
+1. Se entenderá que cumplen los requisitos académicos quienes obtengan un excepcional aprovechamiento académico, medido por el incremento porcentual de créditos matriculados sobre el número mínimo de los mismos a cuya matriculación obliga el artículo 23.1.
+2. El porcentaje de créditos a superar establecido en el artículo 24 para obtener beca varía según la rama de estudio. Para ciencias y arquitectura/ingeniería/enseñanzas técnicas, se utiliza la fórmula 65 - (Y/10). Para ciencias de la salud, se utiliza la fórmula 80 - (Y/10). Para ciencias sociales y jurídicas y artes y humanidades, se utiliza la fórmula 90 - (Y/10), donde Y es el incremento porcentual de créditos matriculados sobre el número mínimo de los mismos a cuya matriculación obliga el artículo 23.
+
+#### Cambio de estudios.
+1. Si cambias tus estudios con beca, no podrás obtener otra beca hasta que no pierdas un año en el proceso educativo. Si el cambio está previsto en la legislación, no habrá pérdida de años. Si cambias a estudios universitarios, se aplicarán otras reglas.
+2. Si no tuviste beca en tus estudios anteriores, el requisito académico para obtener una beca en tus nuevos estudios será el mismo que hubieras necesitado en los estudios que abandonaste.
+
 
 **Artículos relacionados:**
 
-- Art. 36: 36. Ciclos Formativos de Grado Básico, cursos de acceso, de preparación de las pruebas
-- Art. 26: 26. Excepcional rendimiento académico.
-- Art. 39: 39. Cambio de estudios.
-- Art. 33: 33. Enseñanzas de grado superior de formación profesional, de artes plásticas y diseño y
-- Art. 27: 27. Dobles titulaciones.
-- Art. 22: 22. Cálculo de la nota media.
-- Art. 30: 30. Cálculo de la nota media.
-- Art. 37: 37. Enseñanzas artísticas superiores y estudios religiosos superiores organizados por
-- Art. 38: 38. Enseñanzas artísticas superiores y estudios religiosos superiores organizados por
-- Art. 34: 34. Enseñanzas de bachillerato, enseñanzas profesionales de música y danza y grado
-- Art. 21: 21. Normas comunes para todos los niveles.
-- Art. 35: 35. Enseñanzas de idiomas.
-- Art. 24: 24. Rendimiento académico en el curso anterior.
-- Art. 29: 29. Rendimiento académico en el curso anterior.
+- Art. 21: Normas comunes para todos los niveles. (pp. 17)
+- Art. 22: Cálculo de la nota media. (pp. 17-18)
+- Art. 24: Rendimiento académico en el curso anterior. (pp. 19-20)
+- Art. 26: Excepcional rendimiento académico. (pp. 21)
+- Art. 27: Dobles titulaciones. (pp. 21-22)
+- Art. 29: Rendimiento académico en el curso anterior. (pp. 23)
+- Art. 30: Cálculo de la nota media. (pp. 23-25)
+- Art. 33: Enseñanzas de grado superior de formación profesional, de artes plásticas y diseño y (pp. 26-28)
+- Art. 34: Enseñanzas de bachillerato, enseñanzas profesionales de música y danza y grado (pp. 28-29)
+- Art. 35: Enseñanzas de idiomas. (pp. 29)
+- Art. 36: Ciclos Formativos de Grado Básico, cursos de acceso, de preparación de las pruebas (pp. 29-30)
+- Art. 37: Enseñanzas artísticas superiores y estudios religiosos superiores organizados por (pp. 30)
+- Art. 38: Enseñanzas artísticas superiores y estudios religiosos superiores organizados por (pp. 30-31)
+- Art. 39: Cambio de estudios. (pp. 31)
 
 ## Proceso de Solicitud y Tramitación
 
 ### Presentación de Solicitud
 
-Para obtener un bequeo, es necesario cumplir con los requisitos establecidos por el Ministerio de Economía y Comercio y la Administración General del Estado. La solicitud debe cumplirse de manera precisa y completa, incluyendo la autenticidad de todos los documentos solicitados. Los estudiantes y sus representantes legales deben ser mayores de edad y tener documentación que demuestre su estatus familiar y económico. En caso de que se presenten múltiples solicitaciones, cada una debe ser tramitada por separado y, si es posible, por la misma institución, para garantizar la eficacia de los procesos de evaluación y selección. Finalmente, los solicitantes deben estar dispuestos a proporcionar información adicional si se les solicita, siempre y cuando se cumplan las normas de privacidad y protección de datos de las instituciones que recopilan y procesan datos personales. De esta manera, podrán aprovechar al máximo sus posibilidades de acceso a estos beques.
+
+Para solicitar una beca, debes cumplimentar un formulario disponible en la sede electrónica del Departamento de Educación en la dirección <https://sede.educacion.gob.es> o en <https://www.educacionyfp.gob.es>. Una vez cumplimentado, debes firmarlo electrónicamente y enviarlo por el procedimiento telemático establecido. Es importante conservar el resguardo de la solicitud. Además, debes autorizar a las universidades y administraciones educativas a obtener información de otras administraciones públicas para verificar tus datos. La firma electrónica debe incluir el IDESP o IXEPS del NIF o NIE y/o la fecha de caducidad del documento de todos los firmantes. Si tienes derecho a deducciones en la renta familiar o eres titular de actividades económicas, debes cumplimentar los datos correspondientes en el modelo de solicitud. Si alegas independencia familiar y económica, debes justificar que tienes medios económicos propios suficientes y la titularidad o alquiler de tu domicilio habitual. El solicitante y su representante legal (si es menor de 18 años) deben declarar bajo responsabilidad solidaria que aceptan las bases de la convocatoria, que los datos de la solicitud son ciertos, que conocen las incompatibilidades de las becas y que autorizan el tratamiento de sus datos. Si presentas más de una solicitud de beca, solo se tramitar
+
+El plazo para solicitar una beca es desde el 30 de marzo de 2022 hasta el 12 de mayo de 2022, a las 24:00 hora peninsular, para estudiantes universitarios y no universitarios. Las solicitudes deben presentarse dentro de este plazo, incluso si no coincide con el plazo de matrícula. Después de esta fecha, solo se aceptarán solicitudes en caso de fallecimiento o jubilación forzosa del sustentador principal de la familia, hasta el 31 de diciembre de 2022. En estos casos, la nueva situación económica familiar será tenida en cuenta para la concesión o denegación de la beca. Las solicitudes también pueden presentarse en registros, oficinas de correos, oficinas consulares de España o mediante las formas previstas en la Ley 39/2015.
+
 
 **Artículos relacionados:**
 
-- Art. 47: 47. Modelo de solicitud y documentación a presentar.
-- Art. 48: 48. Lugar y plazo de presentación de solicitudes.
+- Art. 47: Modelo de solicitud y documentación a presentar. (pp. 34-36)
+- Art. 48: Lugar y plazo de presentación de solicitudes. (pp. 36)
 
 ### Revisión, Subsanación y Alegaciones
 
-Los estudiantes que buscan becar pueden presentar su solicitud de forma anónima o con la ayuda de un representante familiar. La solicitud debe incluir los siguientes datos: nombre y apellidos, fecha de nacimiento, dirección, número de teléfono y correo electrónico. Además, deben proporcionar información adicional sobre su situación financiera, como la cantidad de dinero que tienen disponible para invertir en educación, y cualquier otra información relevante que pueda ayudar a evaluar su capacidad para realizar el estudiado. Es importante mencionar que los solicitantes deben ser mayores a 18 años y tener una buena condición física y mental. También es recomendable que consulten con un abogado para asegurarse de que sus derechos estén protegidos y para obtener asesoramiento sobre cómo proceder de manera efectiva. Finalmente, es fundamental tener en cuenta que el proceso de solicitud puede tomar varios meses, por lo que es importante ser paciente y no esperar resultados de inmediato.
+
+El proceso de selección de solicitudes de becas implica varios pasos. En primer lugar, los órganos de selección examinan los datos personales y familiares de las solicitudes presentadas y requieren al interesado que subsane los eventuales defectos o acompañe los documentos preceptivos en el plazo de diez días contados desde la recepción del requerimiento, indicándoles que si así no lo hicieran, se les tendrá por desistidos de su petición, archivándose la misma, previa resolución dictada a tal efecto de acuerdo con el artículo 21.1 de la citada Ley 39/2015, de 1 de octubre. En casos específicos, los órganos colegiados de selección de solicitudes de becas, podrán requerir los documentos complementarios que se estimen precisos para un adecuado conocimiento de las circunstancias peculiares de cada caso, a los efectos de garantizar la correcta inversión de los recursos presupuestarios destinados a becas. Dichos órganos comprobarán si las solicitudes presentadas cumplen los requisitos personales y familiares exigibles, cursando quincenalmente al Ministerio de Educación y Formación Profesional por los procedimientos informáticos establecidos al efecto, propuesta de denegación de aquellas solicitudes que no reúnan o acrediten dichos requisitos. El Ministerio de Educación y Formación Profesional notificará dicha propuesta de denegación a los interesados haciendo constar
+
+La Dirección General de Planificación y Gestión Educativa tramitará directamente las propuestas de beca correspondientes a convenios o sentencias judiciales, así como las que no puedan ser tratadas por el procedimiento ordinario. En el caso de becas denegadas por motivos académicos, si se presenta una circunstancia médica excepcional de fuerza mayor, se podrá revisar la solicitud y conceder una beca básica para estudios no universitarios o una beca de matrícula para estudios universitarios. Tanto las concesiones de beca por esta vía como las que resulten de la resolución de reclamaciones o recursos deberán ser incorporadas a la base de datos de becarios.
+
 
 **Artículos relacionados:**
 
-- Art. 51: 51. Revisión de solicitudes y subsanación de defectos.
-- Art. 62: 62. Tramitación excepcional de solicitudes.
+- Art. 51: Revisión de solicitudes y subsanación de defectos. (pp. 38-39)
+- Art. 62: Tramitación excepcional de solicitudes. (pp. 46)
 
 ### Órganos de Selección y Tramitación
 
-Se creará un órdoño colegiado en todas las instituciones educativas del país para que se estudie y se seleccione la solicitud de bácaras. El órnado colegial será formado por 9 miembros, 5 de los cuales serán designados por la Universidad de Madrid y los otros 4 por cada una de las 21 provincias españolas. Cada miembro tendrá un papel específico: 1 presidente de una institución educativa y 8 vocales que representarán a diferentes sectores del sistema educativo, incluyendo estudiantes, docentes, universitarios y organizadores de actividades extracurriculares, así como 3 representativos de cada provincia. Además, los 2 directores generales del Instituto Nacional de Estadística (INE) y el Instituto para el Desarrollo Económico y Social (IDEES) podrán participar en las reuniones. Los 6 directivos del Consejo General de Universidades (CGU) también tendrán voz en estas asambleas, junto con el presidente del Colegio Oficial de Abogados de España (COAE), el director general del Servicio Público de Administración Tributaria (SPAT), la presidenta del Centro de Investigación Científica y Tecnológica (CICYT), y la directora del Departamento de Políticas Sociales (DPS) del CSIC. Finalmente, la Comisión Nacional para la Evaluación del Sistema Educativo (CNSEE) será responsable de evaluar la eficacia y eficiencia de estas iniciativas y realizar recomendaciones para su mejora.
+
+En resumen, para el estudio y selección de solicitudes de becas universitarias y no universitarias, se constituirán órganos colegiados en cada universidad y dirección provincial del Ministerio de Educación y Formación Profesional, respectivamente. Estos órganos estarán compuestos por representantes de la universidad o ministerio, profesores, estudiantes, comunidad autónoma y otros representantes necesarios. En las comunidades autónomas, se realizará la tarea de examen y selección de solicitudes por el órgano que determine cada comunidad autónoma. Estos órganos podrán estructurarse en subcomisiones o grupos de trabajo y su funcionamiento se ajustará a la Ley 40/2015 de Régimen Jurídico del Sector Público.
+
 
 **Artículos relacionados:**
 
-- Art. 50: 50. Órganos de selección.
+- Art. 50: Órganos de selección. (pp. 36-38)
 
 ### Resolución, Notificación y Consulta de Estado
 
-La bequeza es una ayuda financiera que puede ser utilizada para cubrir gastos relacionados con el estudio, como libros, materiales, viajes, entre otros.  Es una forma de apoyar a estudiantes que buscan realizar su formación universitaria de manera gratuita o con una reducción significativa de costos. Los estudiantes deben cumplir con ciertas condiciones para ser elegibles para recibir esta ayuda. Estas condiciones pueden variar de un país a otro, pero generalmente incluyen el requisito de tener una buena calificación en los exámenes obligatorios, estar matriculado en una institución de educación superior y no tener antecedentes penales o de inadmisión en instituciones educativas. En algunos casos, también se requiere que los estudiantes demuestren un alto nivel de Excelencia en sus estudios. Es importante tener en cuenta que las condiciones de elegibilidad pueden cambiar con la evolución del sistema educativo y las políticas públicas. Por lo tanto, es fundamental investigar y revisar las normas específicas de cada país o región para obtener información precisa y actualizada sobre cómo podrían ser solicitadas y cómo se pueden aprovechar las becatas para mejorar la calidad del aprendizaje y el futuro profesional.
+
+El Ministerio de Educación y Formación Profesional elaborará una base de datos con los solicitantes que tienen derecho a diferentes tipos de becas y sus importes adjudicados, así como otra base de datos con las solicitudes denegadas y sus causas. La Subdirección General de Becas, Ayudas al Estudio y Promoción Educativa elevará las propuestas de concesión de las becas al Director General de Planificación y Gestión Educativa, quien dictará las órdenes de concesión. Las credenciales de concesión deberán contener información sobre el titular, la referencia al Real Decreto 1721/2007, la cuantía concedida, la información sobre la adjudicación posterior de la cuantía variable, el procedimiento de consulta de renta y notas, el procedimiento para hacer efectivo el importe de la beca y el procedimiento y plazos de posible formulación de alegaciones. Las notificaciones de concesión y denegación podrán emitirse por correo electrónico o a través de la página web del Ministerio de Educación y Formación Profesional. El Secretario de Estado de Educación y el Secretario General de Universidades asignarán el porcentaje del importe no invertido en las becas que se destinará a la cuantía variable de los estudiantes universitarios y no universitarios. La SGBecas elevará la propuesta de concesión de las cuantías variables y el Director General de Plan
+
 
 **Artículos relacionados:**
 
-- Art. 52: 52. Concesión, denegación, notificaciones y publicación.
+- Art. 52: Concesión, denegación, notificaciones y publicación. (pp. 39-41)
 
 ## Obligaciones, Control y Situaciones Especiales
 
 ### Obligaciones de los Becarios
 
-Los estudiantes deben utilizar el bequeo para estudiar, participar en actividades extracurriculares, realizar prácticas laborales, etc.
-                 No pueden cambiar de universidad o título de estudio durante el período de duración del programa becativo.
-                No deben recibir otras ayuda financiera para este mismo objetivo, a menos que sea una ayuda complementaria que haya sido solicitada y aprobada previamente por las autoridades competentes.  
-                Las personas con discapacidad no pueden beneficiarse de este programa.  
 
-                Es importante tener en cuenta que esta información puede cambiar, por lo que siempre es recomendable consultar las fuentes oficiales para obtener las últimas y actualizadas información.
+Los beneficiarios de las becas deben:
+1. Usar la beca para matricularse, asistir a clase y aprobar asignaturas o créditos.
+2. Demostrar que cumplen los requisitos y condiciones para recibir la beca.
+3. Permitir verificaciones para comprobar si cumplen las condiciones de la beca.
+4. Informar si cambian de estudios o tienen un título del mismo o superior nivel.
+5. Notificar si reciben otras subvenciones o becas para el mismo fin.
+6. Informar si cancelan su matrícula o cambian las condiciones de la beca.
+7. Devolver el dinero en los casos establecidos por la normativa.
+
+#### Compatibilidades de las becas.
+1. Un estudiante no puede recibir más de una beca convocada por esta resolución, incluso si está estudiando para diferentes títulos académicos. Estas becas son incompatibles con cualquier otro beneficio de la misma finalidad que pueda recibir de otras entidades públicas o privadas. Si las normas reguladoras de otros beneficios permiten su compatibilidad con las becas del Ministerio de Educación y Formación Profesional, se debe solicitar la compatibilidad a la Dirección General de Planificación y Gestión Educativa.
+2. Las becas convocadas por esta resolución no son incompatibles con las becas o ayudas complementarias establecidas por las administraciones públicas en sus respectivos ámbitos de competencia.
+3. Las becas convocadas por esta resolución no son incompatibles con las Becas-Colaboración convocadas por el Ministerio de Educación y Formación Profesional, ni con las becas Erasmus, Tempus y otras de análoga naturaleza.
+4. Las becas para residencia convocadas por la Mutualidad General de Funcionarios Civiles del Estado (MUFACE) son compatibles con las becas convocadas por esta resolución, excepto la cuantía ligada a la residencia.
+5. Si un estudiante recibe simultáneamente una beca convocada por esta resolución y otra incompatible, deberá reintegrar la beca incompatible.
+
+#### Control sobre el cumplimiento de la finalidad de la beca.
+1. After the completion of the 2022-2023 academic year, the governing bodies of the autonomous communities and universities will receive a list of all students who have received any of the scholarships called for by this resolution, including their national ID number, the type and amount of the scholarship, and the center where they are studying.
+2. Through the secretariats of the educational centers, these bodies and universities will verify that the mentioned students have used the scholarship for its intended purpose. University students must pass at least 50% of the credits they have enrolled in during the ordinary or extraordinary call, or 40% in the case of science and technical education branches. For non-university students, they must not have dropped out of the center before the end of the 2022-2023 academic year, have attended at least 80% of the teaching hours, passed at least 50% of the subjects, credits or hours enrolled, and completed the course in the case of access or preparation courses or specific training courses for access to vocational training, or in the case of studies carried out in official schools of languages.
+3. The secretariats of the educational centers will communicate the name, surname and other identifying data of the scholarship holders who are in any of the situations mentioned above, as soon as they are required to do so by the corresponding scholarship selection commissions.
+
 
 **Artículos relacionados:**
 
-- Art. 40: 40. Obligaciones de los beneficiarios.
-- Art. 55: 55. Compatibilidades de las becas.
-- Art. 43: 43. Control sobre el cumplimiento de la finalidad de la beca.
-- Art. 67: 67. Becas de cursos anteriores.
-- Art. 14: 14. Régimen de las becas para las víctimas de violencia de género.
+- Art. 14: Régimen de las becas para las víctimas de violencia de género. (pp. 10-11)
+- Art. 40: Obligaciones de los beneficiarios. (pp. 31)
+- Art. 43: Control sobre el cumplimiento de la finalidad de la beca. (pp. 32-33)
+- Art. 55: Compatibilidades de las becas. (pp. 43-44)
+- Art. 67: Becas de cursos anteriores. (pp. 47)
 
 ### Control, Verificación y Reintegro
 
-La Ley de Becas y Ayudas a Estudiantes Españoles establece que los solicitantes deben cumplir con ciertas condiciones antes de poder recibir una beca. Entre ellas se encuentran la verificación del cumplimiento de sus antecedentes, el pago de impuestos y las obligaciones tributarias, así como la necesidad de presentar documentación que demuestre su estabilidad financiera y su capacidad para realizar el trabajo estudiante. En caso de incumplimiento, pueden procederse a realizar un seguimiento a través de medios electrónicos, lo que puede incluir la notificación por correo electrónico o la solicitud de información adicional por parte del órgano competente. Es importante tener en cuenta que las bajas en el sistema educativo pueden tener graves consecuencias, tanto económicas como sociales, y por lo tanto, es esencial tomar todas las precauciones necesarias para garantizar la integridad del proceso y evitar el fraude.
+
+En resumen, si un beneficiario de una beca recibe indebidamente una cantidad, debe devolverla al Tesoro Público en un plazo de dos meses. Si no lo hace, se iniciará un expediente de reintegro. Si se comprueba que la beca fue concedida correctamente, se archivará el expediente. Si no, se procederá al reintegro parcial o total de la beca y se notificará al interesado y a la delegación provincial del Ministerio de Hacienda. La notificación se hará por vía telemática en la sede electrónica del Ministerio de Educación y Formación Profesional. Las modificaciones y reintegros de becas deben registrarse en las bases de datos de becarios.
+
+La concesión de las becas no requiere otra justificación que la acreditación previa de que el solicitante cumple con los requisitos establecidos en la convocatoria. Los órganos colegiados de selección de becarios verificarán la concurrencia de los requisitos generales, mientras que el Ministerio de Educación y Formación Profesional verificará que el solicitante cumple con los requisitos académicos y económicos requeridos.
+
+#### Verificación de becas concedidas.
+1. Después de asignar las becas, las autoridades educativas y universitarias verificarán al menos el 5% de las becas concedidas.
+2. Las becas pueden ser modificadas y reintegradas si se descubre que se ocultaron o falsearon datos en su concesión, si son incompatibles con otros beneficios similares, o si no se destinaron al uso para el que se concedieron, o si los estudiantes no reunieron los requisitos necesarios.
+3. Las autoridades educativas y universitarias pueden colaborar con otros órganos públicos en la verificación y control de las becas asignadas.
+4. Los acuerdos relacionados con las becas pueden ser comunicados a las autoridades fiscales, académicas o judiciales si es necesario.
+
 
 **Artículos relacionados:**
 
-- Art. 45: 45. Reintegro.
-- Art. 42: 42. Justificación previa.
-- Art. 44: 44. Verificación de becas concedidas.
-- Art. 46: 46. Aplicación de la Ley General de Subvenciones.
-- Art. 41: 41. Control de las administraciones y de las universidades.
-- Art. 64: 64. Enseñanzas cursadas en centros penitenciarios.
+- Art. 41: Control de las administraciones y de las universidades. (pp. 31-32)
+- Art. 42: Justificación previa. (pp. 32)
+- Art. 44: Verificación de becas concedidas. (pp. 33)
+- Art. 45: Reintegro. (pp. 33-34)
+- Art. 46: Aplicación de la Ley General de Subvenciones. (pp. 34)
+- Art. 64: Enseñanzas cursadas en centros penitenciarios. (pp. 46-47)
 
 ### Compatibilidades e Incompatibilidades con otras ayudas
 
-Las becatas son una forma de apoyar a estudiantes que buscan estudiar en España, ofreciendo una ayuda financiera para cubrir los gastos de estudio, permitiéndoles enfocarse en su aprendizaje sin preocuparse por los costos. Para que puedan accedernos a esta ayuda, es necesario cumplir con ciertas condiciones, como matricularse en una universidad española y no tener antecedentes penales o de inadmisión en ninguna institución educativa. Además, se requiere presentar una solicitud formal, que deberá incluir información detallada sobre el crédito que desean cursar y la cantidad de dinero con la que están dispuestos a abonar el precio de la matricula. Es importante tener en cuenta que, si no cumplen con las condiciones mencionadas anteriormente, podrían no ser considerados para recibir la ayuda. La ayuda se compara con el costo total del estudio para determinar si es exenta o no, y se paga a través de una transferencia bancaria directa al beneficiario. Por lo tanto, para obtener la becamiento, debes tener una buena situación económica y estar dispuesto a comprometer tu tiempo y esfuerzo para lograr tus objetivos educativos. ¡Espero que esta información te sea útil!
+
+Los estudiantes universitarios que soliciten beca podrán formalizar su matrícula sin el previo pago de los precios públicos por servicios académicos de aquellos créditos de los que se matriculen por primera vez. No obstante, las secretarías de los centros universitarios podrán requerir cautelarmente el abono de dichos precios públicos a quienes no cumplan los requisitos establecidos en esta convocatoria. El Ministerio de Educación y Formación Profesional aportará a las universidades, en concepto de compensación de los precios públicos por servicios académicos correspondientes a los estudiantes becarios exentos de su pago, una cantidad por estudiante becado igual a la del precio público fijado para la titulación correspondiente en el curso 2022-2023, con las siguientes precisiones: en el supuesto de que el precio del crédito en los estudios conducentes al título de Grado en el curso 2022-2023 fuese superior al vigente en el curso de referencia 2011-2012 para los mismos estudios, el Ministerio de Educación y Formación Profesional aportará a las universidades una cantidad por estudiante con beca igual a este último importe, con el límite de 18,46 euros por cada crédito. En el supuesto de que el precio del crédito en los estudios conducentes al título de Máster habilitante o vinculado en el curso 2022-20
+
+Las "enseñanzas técnicas" se refieren a todos los estudios que están clasificados como tales en el Real Decreto 1954/1994, de 30 de septiembre.
+
 
 **Artículos relacionados:**
 
-- Art. 54: 54. Exención de los precios públicos por servicios académicos y abono a las
-- Art. 60: 60. Enseñanzas técnicas.
+- Art. 54: Exención de los precios públicos por servicios académicos y abono a las (pp. 41-43)
+- Art. 60: Enseñanzas técnicas. (pp. 46)
 
 ### Situaciones Específicas
 
-Los estudiantes de España que desean estudiar en un centro docente de otro país pueden solicita una beca que cubre varios montos: 
-                 - Una cuarta parte de su salario mínimo interprofesional (RMI) para su estancia en su país de origen, hasta un límite de € 1.000,00 por año.  
-                 La cantidad se calculará de acuerdo a su situación laboral y no dependerá del tipo de empleo que realicen.  
 
-                 Para obtener esta ayuda, el solicitante debe presentar una solicitud en las oficinas de sus consejeras de enseñanza, donde deben proporcionar la siguiente información: 
+Los alumnos escolarizados en centros españoles en el extranjero pueden optar a becas que incluyen cuantías fijas por renta, residencia y excelencia académica, así como una beca básica y una cuantía variable mínima. Las solicitudes de beca deben presentarse en el plazo y forma establecidos, y los ingresos familiares se convierten a euros utilizando el tipo de cambio oficial del primer día hábil de 2022. Para los alumnos de centros españoles en Francia, Reino Unido e Italia, los ingresos obtenidos en esos países se multiplican por 0,80. Las consejerías de educación calcularán la renta de los solicitantes y verificarán el cumplimiento de los requisitos, y luego remitirán las solicitudes a la SGBecas. El Director General de Planificación y Gestión Educativa realizará los libramientos a los cajeros pagadores de las Consejerías de Educación en el exterior, que entregarán el importe de la ayuda a los beneficiarios. Las consejerías de educación adaptarán las normas de procedimiento a los calendarios y circunstancias de cada país. El disfrute de estas becas es incompatible con el disfrute de beneficios de análogo carácter procedentes de la Dirección General de Migraciones.
 
-                 *   Su nombre y apellidos; 
-               **   Número de matrícula y número de identificación personal (NIP); 
-             **    Su dirección actual y la dirección del centro de ensenanza donde desee matricularse, así como la fecha de inicio y fin del período de estudios; 
-
-               La información debe ser presentada en una hoja de solicitudes que debe adjuntarse junto con la documentación adicional necesaria (por ejemplo, certificado de antecedentes, copia de pasaporte, etc.). 
-
-La solicitud se debe hacer antes del 31 de marzo del año siguiente a aquella en que se haya obtenido el RMI, o antes de que comience el curso escolástico, según lo establecido por la legislación vigente.
 
 **Artículos relacionados:**
 
-- Art. 58: 58. Centros españoles en el exterior.
+- Art. 58: Centros españoles en el exterior. (pp. 44-45)
 
 ### Recursos contra la resolución
 
-- La solicitud se debe hacer ante el Servicio Bicentenario de Beca y Ayuda al Estudio (SBAE) de manera directa o mediante la plataforma de solicitud en línea del sitio web oficial del SBBE.
-                - Para obtener la información necesaria, es recomendable contactar con las oficinas de asesoramiento y orientación a estudiantes (OAS) en tu institución educativa, ya que pueden proporcionarte información adicional sobre el proceso y cualquier requisito específico para tu situación.
-               - Es importante tener en cuenta que la decisión final de aceptar o rechazar la beca dependerá del resultado de tu solicitud, por lo que es fundamental seguir todas las instrucciones proporcionadas por las autoridades competentes.
+
+1. Se puede presentar un recurso de reposición ante la Secretaría de Estado de Educación en el plazo de un mes después de la publicación en el Boletín Oficial del Estado. Si se presenta este recurso, se puede interponer un recurso contencioso-administrativo ante la Sala de lo Contencioso Administrativo de la Audiencia Nacional en un plazo de dos meses si se notifica la resolución expresa del recurso de reposición, o de seis meses si no se notifica.
+2. También se puede interponer directamente un recurso contencioso-administrativo ante la Sala de lo Contencioso-Administrativo de la Audiencia Nacional en el plazo de dos meses después de la publicación en el Boletín Oficial del Estado del extracto de la resolución.
+
+La Dirección General de Planificación y Gestión Educativa tomará las medidas necesarias para aplicar esta resolución.
+
+La resolución de la convocatoria pondrá fin a la vía administrativa y podrá ser recurrida en reposición en el plazo de un mes contado a partir del día siguiente al de su publicación en la página web del Ministerio de Educación y Formación Profesional. Contra esta resolución, se puede interponer un recurso contencioso-administrativo ante la Sala de lo Contencioso Administrativo de la Audiencia Nacional en el plazo de dos meses si se resuelve expresamente el recurso de reposición, o en el plazo de seis meses si no hay resolución expresa. También se puede interponer directamente un recurso contencioso-administrativo en el plazo de dos meses contados desde el día siguiente al de su publicación en la página web del Ministerio de Educación y Formación Profesional. Las universidades, los órganos correspondientes de las Comunidades Autónomas y las Direcciones Provinciales del Ministerio de Educación y Formación Profesional tendrán la consideración de registros y deberán consignar en los escritos que se presenten la fecha de presentación. Además, quienes se consideren acreedores de beca de cuantía superior a la concedida también podrán interponer dichos recursos. Las cuantías de las becas que se concedan como consecuencia de estimaciones de recursos administrativos o contenciosos, de incidencias que hayan postergado su concesión y de las revisiones de oficio que procedan se abonarán con cargo a los
+
 
 **Artículos relacionados:**
 
-- Art. 70: 70. Recursos contra esta Resolución
-- Art. 69: 69. Aplicación de esta Resolución.
-- Art. 57: 57. Recursos.
-- Art. 71: 71. Producción de efectos.
-- Art. 65: 65. Convenios de colaboración.
-- Art. 56: 56. Cumplimiento de plazos.
-- Art. 68: 68. Comunidad Autónoma del País Vasco.
-- Art. 49: 49. Remisión de solicitudes a las administraciones educativas y a las universidades.
-- Art. 1: 1. Objeto y beneficiarios.
-- Art. 59: 59. Carencia de datos necesarios.
+- Art. 1: Objeto y beneficiarios. (pp. 2)
+- Art. 49: Remisión de solicitudes a las administraciones educativas y a las universidades. (pp. 36)
+- Art. 56: Cumplimiento de plazos. (pp. 44)
+- Art. 57: Recursos. (pp. 44)
+- Art. 59: Carencia de datos necesarios. (pp. 45-46)
+- Art. 65: Convenios de colaboración. (pp. 47)
+- Art. 68: Comunidad Autónoma del País Vasco. (pp. 47)
+- Art. 69: Aplicación de esta Resolución. (pp. 47)
+- Art. 70: Recursos contra esta Resolución (pp. 47-48)
+- Art. 71: Producción de efectos. (pp. 48)
 

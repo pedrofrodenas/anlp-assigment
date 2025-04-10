@@ -88,3 +88,4 @@ dmypy.json
 
 # Local development
 *.local
+iris_conf.yaml

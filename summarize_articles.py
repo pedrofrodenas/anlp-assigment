@@ -159,7 +159,6 @@ if __name__ == "__main__":
         model_name,
         device_map="auto",
         quantization_config=quantization_config
-        # torch_dtype=torch.float16  # Use float16 for efficiency
     )
     else:
     
