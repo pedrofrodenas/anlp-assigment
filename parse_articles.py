@@ -49,7 +49,7 @@ def parse_articles(combined_text, page_ranges):
     
     # Pattern to find articles
     article_pattern = re.compile(
-        r'(Artículo \d+\.\s*.*?)(?=\s*(?:Artículo \d+\.|CAPÍTULO|SECCIÓN|\Z))',
+        r'(Artículo\s+\d+[\.]?\s+.*?)(?=\s*(?:Artículo\s+\d+[\.]?|CAPÍTULO|SECCIÓN|\Z))', 
         re.DOTALL
     )
     articles_dict = {}
@@ -75,7 +75,7 @@ def parse_articles(combined_text, page_ranges):
             body = article_text[title_end+1:].strip()
         
         # Extract article number and trim title
-        match_num = re.search(r'Artículo (\d+)\.', title)
+        match_num = re.search(r'Artículo[ \t\xa0]*(\d+)[\.\s]*', title)
         if match_num:
             num = int(match_num.group(1))
             trimmed_title = re.sub(r'^Artículo \d+\.\s*', '', title).strip()

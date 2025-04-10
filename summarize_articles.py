@@ -10,7 +10,7 @@ from huggingface_hub import login
 import os
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
-login()
+login("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")
 
 def extract_text_from_pdf2(pdf_path):
     """Extracts text from each page of a PDF file, returning a list of pages with their numbers and text."""
@@ -58,7 +58,7 @@ def parse_articles(combined_text, page_ranges):
     
     # Pattern to find articles
     article_pattern = re.compile(
-        r'(Artículo \d+\.\s*.*?)(?=\s*(?:Artículo \d+\.|CAPÍTULO|SECCIÓN|\Z))',
+        r'(Artículo\s+\d+[\.]?\s+.*?)(?=\s*(?:Artículo\s+\d+[\.]?|CAPÍTULO|SECCIÓN|\Z))', 
         re.DOTALL
     )
     articles_dict = {}
@@ -84,7 +84,7 @@ def parse_articles(combined_text, page_ranges):
             body = article_text[title_end+1:].strip()
         
         # Extract article number and trim title
-        match_num = re.search(r'Artículo (\d+)\.', title)
+        match_num = re.search(r'Artículo[ \t\xa0]*(\d+)[\.\s]*', title)
         if match_num:
             num = int(match_num.group(1))
             trimmed_title = re.sub(r'^Artículo \d+\.\s*', '', title).strip()
@@ -117,6 +117,18 @@ def parse_articles(combined_text, page_ranges):
 def summarize_with_mistral(text, model, tokenizer):
     """Generate a summary using the Mistral-Nemo-Instruct model."""
     prompt = f"<|im_start|>user\nResume el siguiente texto con tus propias palabras de forma muy breve, evitando copiar frases textuales :\n\n{text}<|im_end|>\n<|im_start|>assistant\n"
+    prompt = f"<|im_start|>user\nResume este artículo en formato: (1) Contexto general en una frase, (2) 3-5 conceptos clave sin elaboraciones innecesarias:\n\n{text}<|im_end|>\n<|im_start|>assistant\n"
+
+    prompt = f"""<|im_start|>user
+        Resume este artículo en formato conciso:
+        (1) Contexto general en UNA SOLA frase
+        (2) Máximo 4 conceptos clave (solo si son relevantes)
+
+        No incluyas elaboraciones innecesarias. Sé directo y breve.
+        {text}
+        <|im_end|>
+        <|im_start|>assistant\n
+        """
     inputs = tokenizer(prompt, return_tensors="pt", truncation=True, max_length=4096)
     inputs = {k: v.to(model.device) for k, v in inputs.items()}
 
