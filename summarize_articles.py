@@ -10,7 +10,7 @@ from huggingface_hub import login
 import os
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
-login("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")
+login()
 
 def extract_text_from_pdf2(pdf_path):
     """Extracts text from each page of a PDF file, returning a list of pages with their numbers and text."""
