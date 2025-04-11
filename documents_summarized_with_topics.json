@@ -13,7 +13,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Recursos contra la resolución",
             "topic_score": 0.6534093022346497,
-            "user_query_score": 0.6540930271148682
+            "user_query_score": null
         },
         "2": {
             "title": "Artículo 2. Financiación de la convocatoria.",
@@ -29,7 +29,7 @@
             "topic": "Información General y Tipos de Beca",
             "subtopic": "Objeto de la Convocatoria y Financiación",
             "topic_score": 0.7601205110549927,
-            "user_query_score": 0.6836034059524536
+            "user_query_score": null
         },
         "3": {
             "title": "Artículo 3. Enseñanzas comprendidas.",
@@ -45,7 +45,7 @@
             "topic": "Estudios Cubiertos por la Beca",
             "subtopic": "Enseñanzas Universitarias",
             "topic_score": 0.7106075286865234,
-            "user_query_score": 0.6687243580818176
+            "user_query_score": null
         },
         "4": {
             "title": "Artículo 4. Clases y cuantías de las becas.",
@@ -61,7 +61,7 @@
             "topic": "Información General y Tipos de Beca",
             "subtopic": "Tipos de Cuantías",
             "topic_score": 0.6907556056976318,
-            "user_query_score": 0.6451396942138672
+            "user_query_score": null
         },
         "5": {
             "title": "Artículo 5. Beca de matrícula.",
@@ -76,7 +76,7 @@
             "topic": "Información General y Tipos de Beca",
             "subtopic": "Beca de Matrícula",
             "topic_score": 0.7978495359420776,
-            "user_query_score": 0.6524343490600586
+            "user_query_score": null
         },
         "6": {
             "title": "Artículo 6. Cuantía fija ligada a la renta del estudiante.",
@@ -91,7 +91,7 @@
             "topic": "Estudios Cubiertos por la Beca",
             "subtopic": "Enseñanzas Universitarias",
             "topic_score": 0.7004068493843079,
-            "user_query_score": 0.6492635011672974
+            "user_query_score": null
         },
         "7": {
             "title": "Artículo 7. Cuantía fija ligada a la residencia del estudiante durante el curso escolar.",
@@ -107,7 +107,7 @@
             "topic": "Estudios Cubiertos por la Beca",
             "subtopic": "Enseñanzas Universitarias",
             "topic_score": 0.7074362635612488,
-            "user_query_score": 0.6205405592918396
+            "user_query_score": null
         },
         "8": {
             "title": "Artículo 8. Cuantía fija ligada a la excelencia académica",
@@ -124,7 +124,7 @@
             "topic": "Información General y Tipos de Beca",
             "subtopic": "Tipos de Cuantías",
             "topic_score": 0.7064923048019409,
-            "user_query_score": 0.6963289976119995
+            "user_query_score": null
         },
         "9": {
             "title": "Artículo 9. Beca básica.",
@@ -139,7 +139,7 @@
             "topic": "Información General y Tipos de Beca",
             "subtopic": "Beca Básica",
             "topic_score": 0.8052619695663452,
-            "user_query_score": 0.6852242946624756
+            "user_query_score": null
         },
         "10": {
             "title": "Artículo 10. Cuantía variable.",
@@ -156,7 +156,7 @@
             "topic": "Información General y Tipos de Beca",
             "subtopic": "Tipos de Cuantías",
             "topic_score": 0.7168877720832825,
-            "user_query_score": 0.6196153163909912
+            "user_query_score": null
         },
         "11": {
             "title": "Artículo 11. Cuantías de las becas.",
@@ -171,7 +171,7 @@
             "topic": "Información General y Tipos de Beca",
             "subtopic": "Tipos de Cuantías",
             "topic_score": 0.7293391227722168,
-            "user_query_score": 0.6764782667160034
+            "user_query_score": null
         },
         "12": {
             "title": "Artículo 12. Cuantías adicionales por domicilio insular o en Ceuta o Melilla.",
@@ -187,7 +187,7 @@
             "topic": "Información General y Tipos de Beca",
             "subtopic": "Tipos de Cuantías",
             "topic_score": 0.6874136924743652,
-            "user_query_score": 0.6122808456420898
+            "user_query_score": null
         },
         "13": {
             "title": "Artículo 13. Becas especiales para estudiantes universitarios con discapacidad.",
@@ -202,7 +202,7 @@
             "topic": "Estudios Cubiertos por la Beca",
             "subtopic": "Enseñanzas Universitarias",
             "topic_score": 0.7595870494842529,
-            "user_query_score": 0.6494272947311401
+            "user_query_score": null
         },
         "14": {
             "title": "Artículo 14. Régimen de las becas para las víctimas de violencia de género.",
@@ -218,7 +218,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Obligaciones de los Becarios",
             "topic_score": 0.6774464845657349,
-            "user_query_score": 0.6496678590774536
+            "user_query_score": null
         },
         "15": {
             "title": "Artículo 15. Requisitos generales.",
@@ -234,7 +234,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Generales",
             "topic_score": 0.7854216694831848,
-            "user_query_score": 0.704573392868042
+            "user_query_score": null
         },
         "17": {
             "title": "Artículo 17. Miembros computables.",
@@ -250,7 +250,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Económicos",
             "topic_score": 0.7261571884155273,
-            "user_query_score": 0.7087762355804443
+            "user_query_score": null
         },
         "18": {
             "title": "Artículo 18. Deducciones de la renta familiar.",
@@ -266,7 +266,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Económicos",
             "topic_score": 0.7494264841079712,
-            "user_query_score": 0.689845085144043
+            "user_query_score": null
         },
         "19": {
             "title": "Artículo 19. Umbrales de renta.",
@@ -282,7 +282,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Económicos",
             "topic_score": 0.7688677906990051,
-            "user_query_score": 0.7239896059036255
+            "user_query_score": null
         },
         "20": {
             "title": "Artículo 20. Umbrales indicativos de patrimonio familiar.",
@@ -299,7 +299,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Económicos",
             "topic_score": 0.7196919918060303,
-            "user_query_score": 0.6758540868759155
+            "user_query_score": null
         },
         "21": {
             "title": "Artículo 21. Normas comunes para todos los niveles.",
@@ -314,7 +314,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7169235944747925,
-            "user_query_score": 0.7169384360313416
+            "user_query_score": null
         },
         "22": {
             "title": "Artículo 22. Cálculo de la nota media.",
@@ -330,7 +330,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7300121188163757,
-            "user_query_score": 0.7377653121948242
+            "user_query_score": null
         },
         "23": {
             "title": "Artículo 23. Número de créditos de matrícula.",
@@ -347,7 +347,7 @@
             "topic": "Información General y Tipos de Beca",
             "subtopic": "Beca de Matrícula",
             "topic_score": 0.7448068857192993,
-            "user_query_score": 0.7095044255256653
+            "user_query_score": null
         },
         "24": {
             "title": "Artículo 24. Rendimiento académico en el curso anterior.",
@@ -363,7 +363,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.6982449293136597,
-            "user_query_score": 0.7009046077728271
+            "user_query_score": null
         },
         "25": {
             "title": "Artículo 25. Duración de la condición de becario.",
@@ -379,7 +379,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Económicos",
             "topic_score": 0.7845187187194824,
-            "user_query_score": 0.7323235869407654
+            "user_query_score": null
         },
         "26": {
             "title": "Artículo 26. Excepcional rendimiento académico.",
@@ -394,7 +394,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7697629332542419,
-            "user_query_score": 0.7519025206565857
+            "user_query_score": null
         },
         "27": {
             "title": "Artículo 27. Dobles titulaciones.",
@@ -410,7 +410,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7401064038276672,
-            "user_query_score": 0.6812120676040649
+            "user_query_score": null
         },
         "28": {
             "title": "Artículo 28. Número de créditos de matrícula.",
@@ -426,7 +426,7 @@
             "topic": "Información General y Tipos de Beca",
             "subtopic": "Beca de Matrícula",
             "topic_score": 0.7448068857192993,
-            "user_query_score": 0.7095044255256653
+            "user_query_score": null
         },
         "29": {
             "title": "Artículo 29. Rendimiento académico en el curso anterior.",
@@ -441,7 +441,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.6982449293136597,
-            "user_query_score": 0.7009046077728271
+            "user_query_score": null
         },
         "30": {
             "title": "Artículo 30. Cálculo de la nota media.",
@@ -458,7 +458,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7300121188163757,
-            "user_query_score": 0.7377653121948242
+            "user_query_score": null
         },
         "31": {
             "title": "Artículo 31. Duración de la condición de becario.",
@@ -473,7 +473,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Económicos",
             "topic_score": 0.7845187187194824,
-            "user_query_score": 0.7323235869407654
+            "user_query_score": null
         },
         "32": {
             "title": "Artículo 32. Cálculo de la nota media para enseñanzas no universitarias.",
@@ -489,7 +489,7 @@
             "topic": "Estudios Cubiertos por la Beca",
             "subtopic": "Enseñanzas No Universitarias",
             "topic_score": 0.773428201675415,
-            "user_query_score": 0.7239813804626465
+            "user_query_score": null
         },
         "33": {
             "title": "Artículo 33. Enseñanzas de grado superior de formación profesional, de artes plásticas y diseño y de",
@@ -506,7 +506,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7394627928733826,
-            "user_query_score": 0.7010790109634399
+            "user_query_score": null
         },
         "34": {
             "title": "Artículo 34. Enseñanzas de bachillerato, enseñanzas profesionales de música y danza y grado medio",
@@ -523,7 +523,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7276018261909485,
-            "user_query_score": 0.6790259480476379
+            "user_query_score": null
         },
         "35": {
             "title": "Artículo 35. Enseñanzas de idiomas.",
@@ -538,7 +538,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7049223184585571,
-            "user_query_score": 0.6922973394393921
+            "user_query_score": null
         },
         "36": {
             "title": "Artículo 36. Ciclos Formativos de Grado Básico, cursos de acceso, de preparación de las pruebas de",
@@ -554,7 +554,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7785021066665649,
-            "user_query_score": 0.7328653931617737
+            "user_query_score": null
         },
         "37": {
             "title": "Artículo 37. Enseñanzas artísticas superiores y estudios religiosos superiores organizados por",
@@ -569,7 +569,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7290823459625244,
-            "user_query_score": 0.69606614112854
+            "user_query_score": null
         },
         "38": {
             "title": "Artículo 38. Enseñanzas artísticas superiores y estudios religiosos superiores organizados por",
@@ -585,7 +585,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7290823459625244,
-            "user_query_score": 0.69606614112854
+            "user_query_score": null
         },
         "39": {
             "title": "Artículo 39. Cambio de estudios.",
@@ -600,7 +600,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7409834861755371,
-            "user_query_score": 0.7020217180252075
+            "user_query_score": null
         },
         "40": {
             "title": "Artículo 40. Obligaciones de los beneficiarios.",
@@ -616,7 +616,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Obligaciones de los Becarios",
             "topic_score": 0.8106329441070557,
-            "user_query_score": 0.6874381303787231
+            "user_query_score": null
         },
         "41": {
             "title": "Artículo 41. Control de las administraciones y de las universidades.",
@@ -631,7 +631,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Control, Verificación y Reintegro",
             "topic_score": 0.6948925852775574,
-            "user_query_score": 0.5952261090278625
+            "user_query_score": null
         },
         "42": {
             "title": "Artículo 42. Justificación previa.",
@@ -646,7 +646,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Control, Verificación y Reintegro",
             "topic_score": 0.7644969820976257,
-            "user_query_score": 0.7105138301849365
+            "user_query_score": null
         },
         "43": {
             "title": "Artículo 43. Control sobre el cumplimiento de la finalidad de la beca.",
@@ -662,7 +662,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Obligaciones de los Becarios",
             "topic_score": 0.7524654865264893,
-            "user_query_score": 0.676469624042511
+            "user_query_score": null
         },
         "44": {
             "title": "Artículo 44. Verificación de becas concedidas.",
@@ -678,7 +678,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Control, Verificación y Reintegro",
             "topic_score": 0.7500271797180176,
-            "user_query_score": 0.7093138098716736
+            "user_query_score": null
         },
         "45": {
             "title": "Artículo 45. Reintegro.",
@@ -694,7 +694,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Control, Verificación y Reintegro",
             "topic_score": 0.8358831405639648,
-            "user_query_score": 0.6603419780731201
+            "user_query_score": null
         },
         "46": {
             "title": "Artículo 46. Aplicación de la Ley General de Subvenciones.",
@@ -709,7 +709,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Control, Verificación y Reintegro",
             "topic_score": 0.7403498888015747,
-            "user_query_score": 0.6643872857093811
+            "user_query_score": null
         },
         "47": {
             "title": "Artículo 47. Modelo de solicitud y documentación a presentar.",
@@ -725,7 +725,7 @@
             "topic": "Proceso de Solicitud y Tramitación",
             "subtopic": "Presentación de Solicitud",
             "topic_score": 0.7454218864440918,
-            "user_query_score": 0.6257327198982239
+            "user_query_score": null
         },
         "48": {
             "title": "Artículo 48. Lugar y plazo de presentación de solicitudes.",
@@ -741,7 +741,7 @@
             "topic": "Proceso de Solicitud y Tramitación",
             "subtopic": "Presentación de Solicitud",
             "topic_score": 0.7234036326408386,
-            "user_query_score": 0.607411801815033
+            "user_query_score": null
         },
         "49": {
             "title": "Artículo 49. Remisión de solicitudes a las administraciones educativas y a las universidades.",
@@ -756,7 +756,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Recursos contra la resolución",
             "topic_score": 0.6632698178291321,
-            "user_query_score": 0.5840154886245728
+            "user_query_score": null
         },
         "50": {
             "title": "Artículo 50. Órganos de selección.",
@@ -772,7 +772,7 @@
             "topic": "Proceso de Solicitud y Tramitación",
             "subtopic": "Órganos de Selección y Tramitación",
             "topic_score": 0.7632818222045898,
-            "user_query_score": 0.5756425857543945
+            "user_query_score": null
         },
         "51": {
             "title": "Artículo 51. Revisión de solicitudes y subsanación de defectos.",
@@ -788,7 +788,7 @@
             "topic": "Proceso de Solicitud y Tramitación",
             "subtopic": "Revisión, Subsanación y Alegaciones",
             "topic_score": 0.8103717565536499,
-            "user_query_score": 0.6157671213150024
+            "user_query_score": null
         },
         "52": {
             "title": "Artículo 52. Concesión, denegación, notificaciones y publicación.",
@@ -805,7 +805,7 @@
             "topic": "Proceso de Solicitud y Tramitación",
             "subtopic": "Resolución, Notificación y Consulta de Estado",
             "topic_score": 0.7306632995605469,
-            "user_query_score": 0.6185163259506226
+            "user_query_score": null
         },
         "54": {
             "title": "Artículo 54. Exención de los precios públicos por servicios académicos y abono a las universidades.",
@@ -822,7 +822,7 @@
             "topic": "Estudios Cubiertos por la Beca",
             "subtopic": "Enseñanzas Universitarias",
             "topic_score": 0.747244656085968,
-            "user_query_score": 0.7025655508041382
+            "user_query_score": null
         },
         "55": {
             "title": "Artículo 55. Compatibilidades de las becas.",
@@ -837,7 +837,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Obligaciones de los Becarios",
             "topic_score": 0.7596402764320374,
-            "user_query_score": 0.7106978893280029
+            "user_query_score": null
         },
         "56": {
             "title": "Artículo 56. Cumplimiento de plazos.",
@@ -852,7 +852,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Recursos contra la resolución",
             "topic_score": 0.6720803380012512,
-            "user_query_score": 0.5956196784973145
+            "user_query_score": null
         },
         "57": {
             "title": "Artículo 57. Recursos.",
@@ -868,7 +868,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Recursos contra la resolución",
             "topic_score": 0.7583445906639099,
-            "user_query_score": 0.6349586248397827
+            "user_query_score": null
         },
         "58": {
             "title": "Artículo 58. Centros españoles en el exterior.",
@@ -884,7 +884,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Situaciones Específicas",
             "topic_score": 0.7331464886665344,
-            "user_query_score": 0.5851113796234131
+            "user_query_score": null
         },
         "59": {
             "title": "Artículo 59. Carencia de datos necesarios.",
@@ -899,7 +899,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Recursos contra la resolución",
             "topic_score": 0.649894118309021,
-            "user_query_score": 0.6396974921226501
+            "user_query_score": null
         },
         "60": {
             "title": "Artículo 60. Enseñanzas técnicas.",
@@ -914,7 +914,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Compatibilidades e Incompatibilidades con otras ayudas",
             "topic_score": 0.6789060235023499,
-            "user_query_score": 0.6539032459259033
+            "user_query_score": null
         },
         "61": {
             "title": "Artículo 61. Solicitudes de estudiantes extranjeros.",
@@ -930,7 +930,7 @@
             "topic": "Estudios Cubiertos por la Beca",
             "subtopic": "Enseñanzas Universitarias",
             "topic_score": 0.6345125436782837,
-            "user_query_score": 0.5899649262428284
+            "user_query_score": null
         },
         "62": {
             "title": "Artículo 62. Tramitación excepcional de solicitudes.",
@@ -945,7 +945,7 @@
             "topic": "Proceso de Solicitud y Tramitación",
             "subtopic": "Revisión, Subsanación y Alegaciones",
             "topic_score": 0.7601563334465027,
-            "user_query_score": 0.6481644511222839
+            "user_query_score": null
         },
         "63": {
             "title": "Artículo 63. Tasas de matrícula en enseñanzas no universitarias.",
@@ -960,7 +960,7 @@
             "topic": "Estudios Cubiertos por la Beca",
             "subtopic": "Enseñanzas No Universitarias",
             "topic_score": 0.7221885919570923,
-            "user_query_score": 0.5621535778045654
+            "user_query_score": null
         },
         "64": {
             "title": "Artículo 64. Enseñanzas cursadas en centros penitenciarios.",
@@ -975,7 +975,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Control, Verificación y Reintegro",
             "topic_score": 0.6721594333648682,
-            "user_query_score": 0.6068833470344543
+            "user_query_score": null
         },
         "65": {
             "title": "Artículo 65. Convenios de colaboración.",
@@ -991,7 +991,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Recursos contra la resolución",
             "topic_score": 0.6845704317092896,
-            "user_query_score": 0.618844747543335
+            "user_query_score": null
         },
         "66": {
             "title": "Artículo 66. Adaptación de requisitos académicos en enseñanzas universitarias.",
@@ -1006,7 +1006,7 @@
             "topic": "Estudios Cubiertos por la Beca",
             "subtopic": "Enseñanzas Universitarias",
             "topic_score": 0.7365407347679138,
-            "user_query_score": 0.6865603923797607
+            "user_query_score": null
         },
         "67": {
             "title": "Artículo 67. Becas de cursos anteriores.",
@@ -1021,7 +1021,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Obligaciones de los Becarios",
             "topic_score": 0.6943185925483704,
-            "user_query_score": 0.6361618041992188
+            "user_query_score": null
         },
         "68": {
             "title": "Artículo 68. Comunidad Autónoma del País Vasco.",
@@ -1036,7 +1036,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Recursos contra la resolución",
             "topic_score": 0.670748233795166,
-            "user_query_score": 0.5705900192260742
+            "user_query_score": null
         },
         "69": {
             "title": "Artículo 69. Aplicación de esta Resolución.",
@@ -1051,7 +1051,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Recursos contra la resolución",
             "topic_score": 0.7836264371871948,
-            "user_query_score": 0.5858865976333618
+            "user_query_score": null
         },
         "70": {
             "title": "Artículo 70. Recursos contra esta Resolución",
@@ -1067,7 +1067,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Recursos contra la resolución",
             "topic_score": 0.8324621319770813,
-            "user_query_score": 0.619995653629303
+            "user_query_score": null
         },
         "71": {
             "title": "Artículo 71. Producción de efectos.",
@@ -1082,7 +1082,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Recursos contra la resolución",
             "topic_score": 0.7186452150344849,
-            "user_query_score": 0.6554132699966431
+            "user_query_score": null
         }
     },
     "ayudas_22-23.pdf": {
@@ -1099,7 +1099,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Recursos contra la resolución",
             "topic_score": 0.6534093022346497,
-            "user_query_score": 0.6540930271148682
+            "user_query_score": null
         },
         "2": {
             "title": "Artículo 2. Financiación de la convocatoria.",
@@ -1115,7 +1115,7 @@
             "topic": "Información General y Tipos de Beca",
             "subtopic": "Objeto de la Convocatoria y Financiación",
             "topic_score": 0.7601205110549927,
-            "user_query_score": 0.6836034059524536
+            "user_query_score": null
         },
         "3": {
             "title": "Artículo 3. Enseñanzas comprendidas.",
@@ -1131,7 +1131,7 @@
             "topic": "Estudios Cubiertos por la Beca",
             "subtopic": "Enseñanzas Universitarias",
             "topic_score": 0.7106075286865234,
-            "user_query_score": 0.6687243580818176
+            "user_query_score": null
         },
         "4": {
             "title": "Artículo 4. Clases y cuantías de las becas.",
@@ -1146,7 +1146,7 @@
             "topic": "Información General y Tipos de Beca",
             "subtopic": "Tipos de Cuantías",
             "topic_score": 0.6907556056976318,
-            "user_query_score": 0.6451396942138672
+            "user_query_score": null
         },
         "5": {
             "title": "Artículo 5. Beca de matrícula.",
@@ -1162,7 +1162,7 @@
             "topic": "Información General y Tipos de Beca",
             "subtopic": "Beca de Matrícula",
             "topic_score": 0.7978495359420776,
-            "user_query_score": 0.6524343490600586
+            "user_query_score": null
         },
         "6": {
             "title": "Artículo 6. Cuantía fija ligada a la renta del estudiante.",
@@ -1177,7 +1177,7 @@
             "topic": "Estudios Cubiertos por la Beca",
             "subtopic": "Enseñanzas Universitarias",
             "topic_score": 0.7004068493843079,
-            "user_query_score": 0.6492635011672974
+            "user_query_score": null
         },
         "7": {
             "title": "Artículo 7. Cuantía fija ligada a la residencia del estudiante durante el curso escolar.",
@@ -1193,7 +1193,7 @@
             "topic": "Estudios Cubiertos por la Beca",
             "subtopic": "Enseñanzas Universitarias",
             "topic_score": 0.7074362635612488,
-            "user_query_score": 0.6205405592918396
+            "user_query_score": null
         },
         "8": {
             "title": "Artículo 8. Cuantía fija ligada a la excelencia académica",
@@ -1209,7 +1209,7 @@
             "topic": "Información General y Tipos de Beca",
             "subtopic": "Tipos de Cuantías",
             "topic_score": 0.7064923048019409,
-            "user_query_score": 0.6963289976119995
+            "user_query_score": null
         },
         "9": {
             "title": "Artículo 9. Beca básica.",
@@ -1224,7 +1224,7 @@
             "topic": "Información General y Tipos de Beca",
             "subtopic": "Beca Básica",
             "topic_score": 0.8052619695663452,
-            "user_query_score": 0.6852242946624756
+            "user_query_score": null
         },
         "10": {
             "title": "Artículo 10. Cuantía variable.",
@@ -1241,7 +1241,7 @@
             "topic": "Información General y Tipos de Beca",
             "subtopic": "Tipos de Cuantías",
             "topic_score": 0.7168877720832825,
-            "user_query_score": 0.6196153163909912
+            "user_query_score": null
         },
         "11": {
             "title": "Artículo 11. Cuantías de las becas.",
@@ -1257,7 +1257,7 @@
             "topic": "Información General y Tipos de Beca",
             "subtopic": "Tipos de Cuantías",
             "topic_score": 0.7293391227722168,
-            "user_query_score": 0.6764782667160034
+            "user_query_score": null
         },
         "12": {
             "title": "Artículo 12. Cuantías adicionales por domicilio insular o en las Ciudades de Ceuta o de Melilla.",
@@ -1272,7 +1272,7 @@
             "topic": "Información General y Tipos de Beca",
             "subtopic": "Tipos de Cuantías",
             "topic_score": 0.6837970614433289,
-            "user_query_score": 0.6177572011947632
+            "user_query_score": null
         },
         "13": {
             "title": "Artículo 13. Becas especiales para estudiantes universitarios con discapacidad.",
@@ -1287,7 +1287,7 @@
             "topic": "Estudios Cubiertos por la Beca",
             "subtopic": "Enseñanzas Universitarias",
             "topic_score": 0.7595870494842529,
-            "user_query_score": 0.6494272947311401
+            "user_query_score": null
         },
         "14": {
             "title": "Artículo 14. Régimen de las becas para las víctimas de violencia de género.",
@@ -1303,7 +1303,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Obligaciones de los Becarios",
             "topic_score": 0.6774464845657349,
-            "user_query_score": 0.6496678590774536
+            "user_query_score": null
         },
         "15": {
             "title": "Artículo 15. Requisitos generales.",
@@ -1319,7 +1319,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Generales",
             "topic_score": 0.7854216694831848,
-            "user_query_score": 0.704573392868042
+            "user_query_score": null
         },
         "16": {
             "title": "Artículo 16. Determinación de la renta computable.",
@@ -1334,7 +1334,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Económicos",
             "topic_score": 0.7472876906394958,
-            "user_query_score": 0.7116986513137817
+            "user_query_score": null
         },
         "17": {
             "title": "Artículo 17. Miembros computables.",
@@ -1350,7 +1350,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Económicos",
             "topic_score": 0.7261571884155273,
-            "user_query_score": 0.7087762355804443
+            "user_query_score": null
         },
         "18": {
             "title": "Artículo 18. Deducciones de la renta familiar.",
@@ -1366,7 +1366,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Económicos",
             "topic_score": 0.7494264841079712,
-            "user_query_score": 0.689845085144043
+            "user_query_score": null
         },
         "19": {
             "title": "Artículo 19. Umbrales de renta.",
@@ -1382,7 +1382,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Económicos",
             "topic_score": 0.7688677906990051,
-            "user_query_score": 0.7239896059036255
+            "user_query_score": null
         },
         "20": {
             "title": "Artículo 20. Umbrales indicativos de patrimonio familiar.",
@@ -1399,7 +1399,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Económicos",
             "topic_score": 0.7196919918060303,
-            "user_query_score": 0.6758540868759155
+            "user_query_score": null
         },
         "21": {
             "title": "Artículo 21. Normas comunes para todos los niveles.",
@@ -1414,7 +1414,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7169235944747925,
-            "user_query_score": 0.7169384360313416
+            "user_query_score": null
         },
         "22": {
             "title": "Artículo 22. Cálculo de la nota media.",
@@ -1430,7 +1430,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7300121188163757,
-            "user_query_score": 0.7377653121948242
+            "user_query_score": null
         },
         "23": {
             "title": "Artículo 23. Número de créditos de matrícula.",
@@ -1446,7 +1446,7 @@
             "topic": "Información General y Tipos de Beca",
             "subtopic": "Beca de Matrícula",
             "topic_score": 0.7448068857192993,
-            "user_query_score": 0.7095044255256653
+            "user_query_score": null
         },
         "24": {
             "title": "Artículo 24. Rendimiento académico en el curso anterior.",
@@ -1462,7 +1462,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.6982449293136597,
-            "user_query_score": 0.7009046077728271
+            "user_query_score": null
         },
         "25": {
             "title": "Artículo 25. Duración de la condición de becario.",
@@ -1478,7 +1478,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Económicos",
             "topic_score": 0.7845187187194824,
-            "user_query_score": 0.7323235869407654
+            "user_query_score": null
         },
         "26": {
             "title": "Artículo 26. Excepcional rendimiento académico.",
@@ -1493,7 +1493,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7697629332542419,
-            "user_query_score": 0.7519025206565857
+            "user_query_score": null
         },
         "27": {
             "title": "Artículo 27. Dobles titulaciones.",
@@ -1509,7 +1509,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7401064038276672,
-            "user_query_score": 0.6812120676040649
+            "user_query_score": null
         },
         "28": {
             "title": "Artículo 28. Número de créditos de matrícula.",
@@ -1525,7 +1525,7 @@
             "topic": "Información General y Tipos de Beca",
             "subtopic": "Beca de Matrícula",
             "topic_score": 0.7448068857192993,
-            "user_query_score": 0.7095044255256653
+            "user_query_score": null
         },
         "29": {
             "title": "Artículo 29. Rendimiento académico en el curso anterior.",
@@ -1540,7 +1540,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.6982449293136597,
-            "user_query_score": 0.7009046077728271
+            "user_query_score": null
         },
         "30": {
             "title": "Artículo 30. Cálculo de la nota media.",
@@ -1557,7 +1557,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7300121188163757,
-            "user_query_score": 0.7377653121948242
+            "user_query_score": null
         },
         "31": {
             "title": "Artículo 31. Duración de la condición de becario.",
@@ -1572,7 +1572,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Económicos",
             "topic_score": 0.7845187187194824,
-            "user_query_score": 0.7323235869407654
+            "user_query_score": null
         },
         "32": {
             "title": "Artículo 32. Cálculo de la nota media para enseñanzas no universitarias.",
@@ -1588,7 +1588,7 @@
             "topic": "Estudios Cubiertos por la Beca",
             "subtopic": "Enseñanzas No Universitarias",
             "topic_score": 0.773428201675415,
-            "user_query_score": 0.7239813804626465
+            "user_query_score": null
         },
         "33": {
             "title": "Artículo 33. Enseñanzas de grado superior de formación profesional, de artes plásticas y diseño y",
@@ -1605,7 +1605,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7408602237701416,
-            "user_query_score": 0.700714111328125
+            "user_query_score": null
         },
         "34": {
             "title": "Artículo 34. Enseñanzas de bachillerato, enseñanzas profesionales de música y danza y grado",
@@ -1621,7 +1621,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7259201407432556,
-            "user_query_score": 0.6797267198562622
+            "user_query_score": null
         },
         "35": {
             "title": "Artículo 35. Enseñanzas de idiomas.",
@@ -1636,7 +1636,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7049223184585571,
-            "user_query_score": 0.6922973394393921
+            "user_query_score": null
         },
         "36": {
             "title": "Artículo 36. Ciclos Formativos de Grado Básico, cursos de acceso, de preparación de las pruebas",
@@ -1652,7 +1652,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7738783359527588,
-            "user_query_score": 0.7309333682060242
+            "user_query_score": null
         },
         "37": {
             "title": "Artículo 37. Enseñanzas artísticas superiores y estudios religiosos superiores organizados por",
@@ -1667,7 +1667,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7290823459625244,
-            "user_query_score": 0.69606614112854
+            "user_query_score": null
         },
         "38": {
             "title": "Artículo 38. Enseñanzas artísticas superiores y estudios religiosos superiores organizados por",
@@ -1683,7 +1683,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7290823459625244,
-            "user_query_score": 0.69606614112854
+            "user_query_score": null
         },
         "39": {
             "title": "Artículo 39. Cambio de estudios.",
@@ -1698,7 +1698,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7409834861755371,
-            "user_query_score": 0.7020217180252075
+            "user_query_score": null
         },
         "40": {
             "title": "Artículo 40. Obligaciones de los beneficiarios.",
@@ -1713,7 +1713,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Obligaciones de los Becarios",
             "topic_score": 0.8106329441070557,
-            "user_query_score": 0.6874381303787231
+            "user_query_score": null
         },
         "41": {
             "title": "Artículo 41. Control de las administraciones y de las universidades.",
@@ -1729,7 +1729,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Control, Verificación y Reintegro",
             "topic_score": 0.6948925852775574,
-            "user_query_score": 0.5952261090278625
+            "user_query_score": null
         },
         "42": {
             "title": "Artículo 42. Justificación previa.",
@@ -1744,7 +1744,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Control, Verificación y Reintegro",
             "topic_score": 0.7644969820976257,
-            "user_query_score": 0.7105138301849365
+            "user_query_score": null
         },
         "43": {
             "title": "Artículo 43. Control sobre el cumplimiento de la finalidad de la beca.",
@@ -1760,7 +1760,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Obligaciones de los Becarios",
             "topic_score": 0.7524654865264893,
-            "user_query_score": 0.676469624042511
+            "user_query_score": null
         },
         "44": {
             "title": "Artículo 44. Verificación de becas concedidas.",
@@ -1775,7 +1775,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Control, Verificación y Reintegro",
             "topic_score": 0.7500271797180176,
-            "user_query_score": 0.7093138098716736
+            "user_query_score": null
         },
         "45": {
             "title": "Artículo 45. Reintegro.",
@@ -1791,7 +1791,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Control, Verificación y Reintegro",
             "topic_score": 0.8358831405639648,
-            "user_query_score": 0.6603419780731201
+            "user_query_score": null
         },
         "46": {
             "title": "Artículo 46. Aplicación de la Ley General de Subvenciones.",
@@ -1806,7 +1806,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Control, Verificación y Reintegro",
             "topic_score": 0.7403498888015747,
-            "user_query_score": 0.6643872857093811
+            "user_query_score": null
         },
         "47": {
             "title": "Artículo 47. Modelo de solicitud y documentación a presentar.",
@@ -1823,7 +1823,7 @@
             "topic": "Proceso de Solicitud y Tramitación",
             "subtopic": "Presentación de Solicitud",
             "topic_score": 0.7454218864440918,
-            "user_query_score": 0.6257327198982239
+            "user_query_score": null
         },
         "48": {
             "title": "Artículo 48. Lugar y plazo de presentación de solicitudes.",
@@ -1838,7 +1838,7 @@
             "topic": "Proceso de Solicitud y Tramitación",
             "subtopic": "Presentación de Solicitud",
             "topic_score": 0.7234036326408386,
-            "user_query_score": 0.607411801815033
+            "user_query_score": null
         },
         "49": {
             "title": "Artículo 49. Remisión de solicitudes a las administraciones educativas y a las universidades.",
@@ -1853,7 +1853,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Recursos contra la resolución",
             "topic_score": 0.6632698178291321,
-            "user_query_score": 0.5840154886245728
+            "user_query_score": null
         },
         "50": {
             "title": "Artículo 50. Órganos de selección.",
@@ -1870,7 +1870,7 @@
             "topic": "Proceso de Solicitud y Tramitación",
             "subtopic": "Órganos de Selección y Tramitación",
             "topic_score": 0.7632818222045898,
-            "user_query_score": 0.5756425857543945
+            "user_query_score": null
         },
         "51": {
             "title": "Artículo 51. Revisión de solicitudes y subsanación de defectos.",
@@ -1886,7 +1886,7 @@
             "topic": "Proceso de Solicitud y Tramitación",
             "subtopic": "Revisión, Subsanación y Alegaciones",
             "topic_score": 0.8103717565536499,
-            "user_query_score": 0.6157671213150024
+            "user_query_score": null
         },
         "52": {
             "title": "Artículo 52. Concesión, denegación, notificaciones y publicación.",
@@ -1903,7 +1903,7 @@
             "topic": "Proceso de Solicitud y Tramitación",
             "subtopic": "Resolución, Notificación y Consulta de Estado",
             "topic_score": 0.7306632995605469,
-            "user_query_score": 0.6185163259506226
+            "user_query_score": null
         },
         "54": {
             "title": "Artículo 54. Exención de los precios públicos por servicios académicos y abono a las",
@@ -1920,7 +1920,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Compatibilidades e Incompatibilidades con otras ayudas",
             "topic_score": 0.7298760414123535,
-            "user_query_score": 0.7694488167762756
+            "user_query_score": null
         },
         "55": {
             "title": "Artículo 55. Compatibilidades de las becas.",
@@ -1936,7 +1936,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Obligaciones de los Becarios",
             "topic_score": 0.7596402764320374,
-            "user_query_score": 0.7106978893280029
+            "user_query_score": null
         },
         "56": {
             "title": "Artículo 56. Cumplimiento de plazos.",
@@ -1951,7 +1951,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Recursos contra la resolución",
             "topic_score": 0.6720803380012512,
-            "user_query_score": 0.5956196784973145
+            "user_query_score": null
         },
         "57": {
             "title": "Artículo 57. Recursos.",
@@ -1966,7 +1966,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Recursos contra la resolución",
             "topic_score": 0.7583445906639099,
-            "user_query_score": 0.6349586248397827
+            "user_query_score": null
         },
         "58": {
             "title": "Artículo 58. Centros españoles en el exterior.",
@@ -1982,7 +1982,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Situaciones Específicas",
             "topic_score": 0.7331464886665344,
-            "user_query_score": 0.5851113796234131
+            "user_query_score": null
         },
         "59": {
             "title": "Artículo 59. Carencia de datos necesarios.",
@@ -1998,7 +1998,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Recursos contra la resolución",
             "topic_score": 0.649894118309021,
-            "user_query_score": 0.6396974921226501
+            "user_query_score": null
         },
         "60": {
             "title": "Artículo 60. Enseñanzas técnicas.",
@@ -2013,7 +2013,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Compatibilidades e Incompatibilidades con otras ayudas",
             "topic_score": 0.6789060235023499,
-            "user_query_score": 0.6539032459259033
+            "user_query_score": null
         },
         "61": {
             "title": "Artículo 61. Solicitudes de estudiantes extranjeros.",
@@ -2028,7 +2028,7 @@
             "topic": "Estudios Cubiertos por la Beca",
             "subtopic": "Enseñanzas Universitarias",
             "topic_score": 0.6345125436782837,
-            "user_query_score": 0.5899649262428284
+            "user_query_score": null
         },
         "62": {
             "title": "Artículo 62. Tramitación excepcional de solicitudes.",
@@ -2043,7 +2043,7 @@
             "topic": "Proceso de Solicitud y Tramitación",
             "subtopic": "Revisión, Subsanación y Alegaciones",
             "topic_score": 0.7601563334465027,
-            "user_query_score": 0.6481644511222839
+            "user_query_score": null
         },
         "63": {
             "title": "Artículo 63. Tasas de matrícula en enseñanzas no universitarias.",
@@ -2058,7 +2058,7 @@
             "topic": "Estudios Cubiertos por la Beca",
             "subtopic": "Enseñanzas No Universitarias",
             "topic_score": 0.7221885919570923,
-            "user_query_score": 0.5621535778045654
+            "user_query_score": null
         },
         "64": {
             "title": "Artículo 64. Enseñanzas cursadas en centros penitenciarios.",
@@ -2074,7 +2074,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Control, Verificación y Reintegro",
             "topic_score": 0.6721594333648682,
-            "user_query_score": 0.6068833470344543
+            "user_query_score": null
         },
         "65": {
             "title": "Artículo 65. Convenios de colaboración.",
@@ -2089,7 +2089,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Recursos contra la resolución",
             "topic_score": 0.6845704317092896,
-            "user_query_score": 0.618844747543335
+            "user_query_score": null
         },
         "66": {
             "title": "Artículo 66. Adaptación de requisitos académicos en enseñanzas universitarias.",
@@ -2104,7 +2104,7 @@
             "topic": "Estudios Cubiertos por la Beca",
             "subtopic": "Enseñanzas Universitarias",
             "topic_score": 0.7365407347679138,
-            "user_query_score": 0.6865603923797607
+            "user_query_score": null
         },
         "67": {
             "title": "Artículo 67. Becas de cursos anteriores.",
@@ -2119,7 +2119,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Obligaciones de los Becarios",
             "topic_score": 0.6943185925483704,
-            "user_query_score": 0.6361618041992188
+            "user_query_score": null
         },
         "68": {
             "title": "Artículo 68. Comunidad Autónoma del País Vasco.",
@@ -2134,7 +2134,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Recursos contra la resolución",
             "topic_score": 0.670748233795166,
-            "user_query_score": 0.5705900192260742
+            "user_query_score": null
         },
         "69": {
             "title": "Artículo 69. Aplicación de esta Resolución.",
@@ -2149,7 +2149,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Recursos contra la resolución",
             "topic_score": 0.7836264371871948,
-            "user_query_score": 0.5858865976333618
+            "user_query_score": null
         },
         "70": {
             "title": "Artículo 70. Recursos contra esta Resolución",
@@ -2165,7 +2165,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Recursos contra la resolución",
             "topic_score": 0.8324621319770813,
-            "user_query_score": 0.619995653629303
+            "user_query_score": null
         },
         "71": {
             "title": "Artículo 71. Producción de efectos.",
@@ -2180,7 +2180,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Recursos contra la resolución",
             "topic_score": 0.7186452150344849,
-            "user_query_score": 0.6554132699966431
+            "user_query_score": null
         }
     },
     "ayudas_23-24.pdf": {
@@ -2197,7 +2197,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Recursos contra la resolución",
             "topic_score": 0.6534093022346497,
-            "user_query_score": 0.6540930271148682
+            "user_query_score": null
         },
         "2": {
             "title": "Artículo 2. Financiación de la convocatoria.",
@@ -2213,7 +2213,7 @@
             "topic": "Información General y Tipos de Beca",
             "subtopic": "Objeto de la Convocatoria y Financiación",
             "topic_score": 0.7601205110549927,
-            "user_query_score": 0.6836034059524536
+            "user_query_score": null
         },
         "3": {
             "title": "Artículo 3. Enseñanzas comprendidas.",
@@ -2229,7 +2229,7 @@
             "topic": "Estudios Cubiertos por la Beca",
             "subtopic": "Enseñanzas Universitarias",
             "topic_score": 0.7106075286865234,
-            "user_query_score": 0.6687243580818176
+            "user_query_score": null
         },
         "4": {
             "title": "Artículo 4. Clases y cuantías de las becas.",
@@ -2244,7 +2244,7 @@
             "topic": "Información General y Tipos de Beca",
             "subtopic": "Tipos de Cuantías",
             "topic_score": 0.6907556056976318,
-            "user_query_score": 0.6451396942138672
+            "user_query_score": null
         },
         "5": {
             "title": "Artículo 5. Beca de matrícula.",
@@ -2260,7 +2260,7 @@
             "topic": "Información General y Tipos de Beca",
             "subtopic": "Beca de Matrícula",
             "topic_score": 0.7978495359420776,
-            "user_query_score": 0.6524343490600586
+            "user_query_score": null
         },
         "6": {
             "title": "Artículo 6. Cuantía fija ligada a la renta del estudiante.",
@@ -2275,7 +2275,7 @@
             "topic": "Estudios Cubiertos por la Beca",
             "subtopic": "Enseñanzas Universitarias",
             "topic_score": 0.7004068493843079,
-            "user_query_score": 0.6492635011672974
+            "user_query_score": null
         },
         "7": {
             "title": "Artículo 7. Cuantía fija ligada a la residencia del estudiante durante el curso escolar.",
@@ -2291,7 +2291,7 @@
             "topic": "Estudios Cubiertos por la Beca",
             "subtopic": "Enseñanzas Universitarias",
             "topic_score": 0.7074362635612488,
-            "user_query_score": 0.6205405592918396
+            "user_query_score": null
         },
         "8": {
             "title": "Artículo 8. Cuantía fija ligada a la excelencia académica.",
@@ -2307,7 +2307,7 @@
             "topic": "Información General y Tipos de Beca",
             "subtopic": "Tipos de Cuantías",
             "topic_score": 0.7122015953063965,
-            "user_query_score": 0.7052862644195557
+            "user_query_score": null
         },
         "9": {
             "title": "Artículo 9. Beca básica.",
@@ -2322,7 +2322,7 @@
             "topic": "Información General y Tipos de Beca",
             "subtopic": "Beca Básica",
             "topic_score": 0.8052619695663452,
-            "user_query_score": 0.6852242946624756
+            "user_query_score": null
         },
         "10": {
             "title": "Artículo 10. Cuantía variable.",
@@ -2339,7 +2339,7 @@
             "topic": "Información General y Tipos de Beca",
             "subtopic": "Tipos de Cuantías",
             "topic_score": 0.7168877720832825,
-            "user_query_score": 0.6196153163909912
+            "user_query_score": null
         },
         "11": {
             "title": "Artículo 11. Cuantías de las becas.",
@@ -2355,7 +2355,7 @@
             "topic": "Información General y Tipos de Beca",
             "subtopic": "Tipos de Cuantías",
             "topic_score": 0.7293391227722168,
-            "user_query_score": 0.6764782667160034
+            "user_query_score": null
         },
         "12": {
             "title": "Artículo 12. Cuantías adicionales por domicilio insular o en las Ciudades de Ceuta o de Melilla.",
@@ -2370,7 +2370,7 @@
             "topic": "Información General y Tipos de Beca",
             "subtopic": "Tipos de Cuantías",
             "topic_score": 0.6837970614433289,
-            "user_query_score": 0.6177572011947632
+            "user_query_score": null
         },
         "13": {
             "title": "Artículo 13. Becas especiales para estudiantes universitarios con discapacidad.",
@@ -2386,7 +2386,7 @@
             "topic": "Estudios Cubiertos por la Beca",
             "subtopic": "Enseñanzas Universitarias",
             "topic_score": 0.7595870494842529,
-            "user_query_score": 0.6494272947311401
+            "user_query_score": null
         },
         "14": {
             "title": "Artículo 14. Régimen de las becas para las víctimas de violencia de género.",
@@ -2401,7 +2401,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Obligaciones de los Becarios",
             "topic_score": 0.6774464845657349,
-            "user_query_score": 0.6496678590774536
+            "user_query_score": null
         },
         "15": {
             "title": "Artículo 15. Requisitos generales.",
@@ -2417,7 +2417,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Generales",
             "topic_score": 0.7854216694831848,
-            "user_query_score": 0.704573392868042
+            "user_query_score": null
         },
         "16": {
             "title": "Artículo 16. Determinación de la renta computable.",
@@ -2433,7 +2433,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Económicos",
             "topic_score": 0.7472876906394958,
-            "user_query_score": 0.7116986513137817
+            "user_query_score": null
         },
         "17": {
             "title": "Artículo 17. Miembros computables.",
@@ -2449,7 +2449,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Económicos",
             "topic_score": 0.7261571884155273,
-            "user_query_score": 0.7087762355804443
+            "user_query_score": null
         },
         "18": {
             "title": "Artículo 18. Deducciones de la renta familiar.",
@@ -2465,7 +2465,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Económicos",
             "topic_score": 0.7494264841079712,
-            "user_query_score": 0.689845085144043
+            "user_query_score": null
         },
         "19": {
             "title": "Artículo 19. Umbrales de renta.",
@@ -2481,7 +2481,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Económicos",
             "topic_score": 0.7688677906990051,
-            "user_query_score": 0.7239896059036255
+            "user_query_score": null
         },
         "20": {
             "title": "Artículo 20. Umbrales indicativos de patrimonio familiar.",
@@ -2497,7 +2497,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Económicos",
             "topic_score": 0.7196919918060303,
-            "user_query_score": 0.6758540868759155
+            "user_query_score": null
         },
         "21": {
             "title": "Artículo 21. Normas comunes para todos los niveles.",
@@ -2512,7 +2512,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7169235944747925,
-            "user_query_score": 0.7169384360313416
+            "user_query_score": null
         },
         "22": {
             "title": "Artículo 22. Cálculo de la nota media.",
@@ -2528,7 +2528,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7300121188163757,
-            "user_query_score": 0.7377653121948242
+            "user_query_score": null
         },
         "23": {
             "title": "Artículo 23. Número de créditos de matrícula.",
@@ -2545,7 +2545,7 @@
             "topic": "Información General y Tipos de Beca",
             "subtopic": "Beca de Matrícula",
             "topic_score": 0.7448068857192993,
-            "user_query_score": 0.7095044255256653
+            "user_query_score": null
         },
         "24": {
             "title": "Artículo 24. Rendimiento académico en el curso anterior.",
@@ -2561,7 +2561,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.6982449293136597,
-            "user_query_score": 0.7009046077728271
+            "user_query_score": null
         },
         "25": {
             "title": "Artículo 25. Duración de la condición de becario.",
@@ -2576,7 +2576,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Económicos",
             "topic_score": 0.7845187187194824,
-            "user_query_score": 0.7323235869407654
+            "user_query_score": null
         },
         "26": {
             "title": "Artículo 26. Excepcional rendimiento académico.",
@@ -2592,7 +2592,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7697629332542419,
-            "user_query_score": 0.7519025206565857
+            "user_query_score": null
         },
         "27": {
             "title": "Artículo 27. Dobles titulaciones.",
@@ -2608,7 +2608,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7401064038276672,
-            "user_query_score": 0.6812120676040649
+            "user_query_score": null
         },
         "28": {
             "title": "Artículo 28. Número de créditos de matrícula.",
@@ -2624,7 +2624,7 @@
             "topic": "Información General y Tipos de Beca",
             "subtopic": "Beca de Matrícula",
             "topic_score": 0.7448068857192993,
-            "user_query_score": 0.7095044255256653
+            "user_query_score": null
         },
         "29": {
             "title": "Artículo 29. Rendimiento académico en el curso anterior.",
@@ -2639,7 +2639,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.6982449293136597,
-            "user_query_score": 0.7009046077728271
+            "user_query_score": null
         },
         "30": {
             "title": "Artículo 30. Cálculo de la nota media.",
@@ -2655,7 +2655,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7300121188163757,
-            "user_query_score": 0.7377653121948242
+            "user_query_score": null
         },
         "31": {
             "title": "Artículo 31. Duración de la condición de becario.",
@@ -2671,7 +2671,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Económicos",
             "topic_score": 0.7845187187194824,
-            "user_query_score": 0.7323235869407654
+            "user_query_score": null
         },
         "32": {
             "title": "Artículo 32. Cálculo de la nota media para enseñanzas no universitarias.",
@@ -2687,7 +2687,7 @@
             "topic": "Estudios Cubiertos por la Beca",
             "subtopic": "Enseñanzas No Universitarias",
             "topic_score": 0.773428201675415,
-            "user_query_score": 0.7239813804626465
+            "user_query_score": null
         },
         "33": {
             "title": "Artículo 33. Enseñanzas de grado superior de formación profesional, de artes plásticas y diseño y",
@@ -2703,7 +2703,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7408602237701416,
-            "user_query_score": 0.700714111328125
+            "user_query_score": null
         },
         "34": {
             "title": "Artículo 34. Enseñanzas de bachillerato, enseñanzas profesionales de música y danza y grado",
@@ -2719,7 +2719,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7259201407432556,
-            "user_query_score": 0.6797267198562622
+            "user_query_score": null
         },
         "35": {
             "title": "Artículo 35. Enseñanzas de idiomas.",
@@ -2735,7 +2735,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7049223184585571,
-            "user_query_score": 0.6922973394393921
+            "user_query_score": null
         },
         "36": {
             "title": "Artículo 36. Ciclos Formativos de Grado Básico, cursos de acceso, de preparación de las pruebas",
@@ -2750,7 +2750,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7738783359527588,
-            "user_query_score": 0.7309333682060242
+            "user_query_score": null
         },
         "37": {
             "title": "Artículo 37. Enseñanzas artísticas superiores y estudios religiosos superiores organizados por",
@@ -2766,7 +2766,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7290823459625244,
-            "user_query_score": 0.69606614112854
+            "user_query_score": null
         },
         "38": {
             "title": "Artículo 38. Enseñanzas artísticas superiores y estudios religiosos superiores organizados por",
@@ -2781,7 +2781,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7290823459625244,
-            "user_query_score": 0.69606614112854
+            "user_query_score": null
         },
         "39": {
             "title": "Artículo 39. Cambio de estudios.",
@@ -2797,7 +2797,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7409834861755371,
-            "user_query_score": 0.7020217180252075
+            "user_query_score": null
         },
         "40": {
             "title": "Artículo 40. Obligaciones de los beneficiarios.",
@@ -2812,7 +2812,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Obligaciones de los Becarios",
             "topic_score": 0.8106329441070557,
-            "user_query_score": 0.6874381303787231
+            "user_query_score": null
         },
         "41": {
             "title": "Artículo 41. Control de las administraciones y de las universidades.",
@@ -2828,7 +2828,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Control, Verificación y Reintegro",
             "topic_score": 0.6948925852775574,
-            "user_query_score": 0.5952261090278625
+            "user_query_score": null
         },
         "42": {
             "title": "Artículo 42. Justificación previa.",
@@ -2843,7 +2843,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Control, Verificación y Reintegro",
             "topic_score": 0.7644969820976257,
-            "user_query_score": 0.7105138301849365
+            "user_query_score": null
         },
         "43": {
             "title": "Artículo 43. Control sobre el cumplimiento de la finalidad de la beca.",
@@ -2859,7 +2859,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Obligaciones de los Becarios",
             "topic_score": 0.7524654865264893,
-            "user_query_score": 0.676469624042511
+            "user_query_score": null
         },
         "44": {
             "title": "Artículo 44. Verificación de becas concedidas.",
@@ -2874,7 +2874,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Control, Verificación y Reintegro",
             "topic_score": 0.7500271797180176,
-            "user_query_score": 0.7093138098716736
+            "user_query_score": null
         },
         "45": {
             "title": "Artículo 45. Reintegro.",
@@ -2890,7 +2890,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Control, Verificación y Reintegro",
             "topic_score": 0.8358831405639648,
-            "user_query_score": 0.6603419780731201
+            "user_query_score": null
         },
         "46": {
             "title": "Artículo 46. Aplicación de la Ley General de Subvenciones.",
@@ -2905,7 +2905,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Control, Verificación y Reintegro",
             "topic_score": 0.7403498888015747,
-            "user_query_score": 0.6643872857093811
+            "user_query_score": null
         },
         "47": {
             "title": "Artículo 47. Modelo de solicitud y documentación a presentar.",
@@ -2921,7 +2921,7 @@
             "topic": "Proceso de Solicitud y Tramitación",
             "subtopic": "Presentación de Solicitud",
             "topic_score": 0.7454218864440918,
-            "user_query_score": 0.6257327198982239
+            "user_query_score": null
         },
         "48": {
             "title": "Artículo 48. Lugar y plazo de presentación de solicitudes.",
@@ -2937,7 +2937,7 @@
             "topic": "Proceso de Solicitud y Tramitación",
             "subtopic": "Presentación de Solicitud",
             "topic_score": 0.7234036326408386,
-            "user_query_score": 0.607411801815033
+            "user_query_score": null
         },
         "49": {
             "title": "Artículo 49. Remisión de solicitudes a las administraciones educativas y a las universidades.",
@@ -2952,7 +2952,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Recursos contra la resolución",
             "topic_score": 0.6632698178291321,
-            "user_query_score": 0.5840154886245728
+            "user_query_score": null
         },
         "50": {
             "title": "Artículo 50. Órganos de selección.",
@@ -2968,7 +2968,7 @@
             "topic": "Proceso de Solicitud y Tramitación",
             "subtopic": "Órganos de Selección y Tramitación",
             "topic_score": 0.7632818222045898,
-            "user_query_score": 0.5756425857543945
+            "user_query_score": null
         },
         "51": {
             "title": "Artículo 51. Revisión de solicitudes y subsanación de defectos.",
@@ -2985,7 +2985,7 @@
             "topic": "Proceso de Solicitud y Tramitación",
             "subtopic": "Revisión, Subsanación y Alegaciones",
             "topic_score": 0.8103717565536499,
-            "user_query_score": 0.6157671213150024
+            "user_query_score": null
         },
         "52": {
             "title": "Artículo 52. Concesión, denegación, notificaciones y publicación.",
@@ -3002,7 +3002,7 @@
             "topic": "Proceso de Solicitud y Tramitación",
             "subtopic": "Resolución, Notificación y Consulta de Estado",
             "topic_score": 0.7306632995605469,
-            "user_query_score": 0.6185163259506226
+            "user_query_score": null
         },
         "54": {
             "title": "Artículo 54. Exención de los precios públicos por servicios académicos y abono a las",
@@ -3019,7 +3019,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Compatibilidades e Incompatibilidades con otras ayudas",
             "topic_score": 0.7298760414123535,
-            "user_query_score": 0.7694488167762756
+            "user_query_score": null
         },
         "55": {
             "title": "Artículo 55. Compatibilidades de las becas.",
@@ -3034,7 +3034,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Obligaciones de los Becarios",
             "topic_score": 0.7596402764320374,
-            "user_query_score": 0.7106978893280029
+            "user_query_score": null
         },
         "56": {
             "title": "Artículo 56. Cumplimiento de plazos.",
@@ -3049,7 +3049,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Recursos contra la resolución",
             "topic_score": 0.6720803380012512,
-            "user_query_score": 0.5956196784973145
+            "user_query_score": null
         },
         "57": {
             "title": "Artículo 57. Recursos.",
@@ -3065,7 +3065,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Recursos contra la resolución",
             "topic_score": 0.7583445906639099,
-            "user_query_score": 0.6349586248397827
+            "user_query_score": null
         },
         "58": {
             "title": "Artículo 58. Centros españoles en el exterior.",
@@ -3081,7 +3081,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Situaciones Específicas",
             "topic_score": 0.7331464886665344,
-            "user_query_score": 0.5851113796234131
+            "user_query_score": null
         },
         "59": {
             "title": "Artículo 59. Carencia de datos necesarios.",
@@ -3096,7 +3096,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Recursos contra la resolución",
             "topic_score": 0.649894118309021,
-            "user_query_score": 0.6396974921226501
+            "user_query_score": null
         },
         "60": {
             "title": "Artículo 60. Enseñanzas técnicas.",
@@ -3111,7 +3111,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Compatibilidades e Incompatibilidades con otras ayudas",
             "topic_score": 0.6789060235023499,
-            "user_query_score": 0.6539032459259033
+            "user_query_score": null
         },
         "61": {
             "title": "Artículo 61. Solicitudes de estudiantes extranjeros.",
@@ -3127,7 +3127,7 @@
             "topic": "Estudios Cubiertos por la Beca",
             "subtopic": "Enseñanzas Universitarias",
             "topic_score": 0.6345125436782837,
-            "user_query_score": 0.5899649262428284
+            "user_query_score": null
         },
         "62": {
             "title": "Artículo 62. Tramitación excepcional de solicitudes.",
@@ -3142,7 +3142,7 @@
             "topic": "Proceso de Solicitud y Tramitación",
             "subtopic": "Revisión, Subsanación y Alegaciones",
             "topic_score": 0.7601563334465027,
-            "user_query_score": 0.6481644511222839
+            "user_query_score": null
         },
         "63": {
             "title": "Artículo 63. Tasas de matrícula en enseñanzas no universitarias.",
@@ -3157,7 +3157,7 @@
             "topic": "Estudios Cubiertos por la Beca",
             "subtopic": "Enseñanzas No Universitarias",
             "topic_score": 0.7221885919570923,
-            "user_query_score": 0.5621535778045654
+            "user_query_score": null
         },
         "64": {
             "title": "Artículo 64. Enseñanzas cursadas en centros penitenciarios.",
@@ -3172,7 +3172,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Control, Verificación y Reintegro",
             "topic_score": 0.6721594333648682,
-            "user_query_score": 0.6068833470344543
+            "user_query_score": null
         },
         "65": {
             "title": "Artículo 65. Convenios de colaboración.",
@@ -3188,7 +3188,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Recursos contra la resolución",
             "topic_score": 0.6845704317092896,
-            "user_query_score": 0.618844747543335
+            "user_query_score": null
         },
         "66": {
             "title": "Artículo 66. Adaptación de requisitos académicos en enseñanzas universitarias.",
@@ -3203,7 +3203,7 @@
             "topic": "Estudios Cubiertos por la Beca",
             "subtopic": "Enseñanzas Universitarias",
             "topic_score": 0.7365407347679138,
-            "user_query_score": 0.6865603923797607
+            "user_query_score": null
         },
         "67": {
             "title": "Artículo 67. Becas de cursos anteriores.",
@@ -3218,7 +3218,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Obligaciones de los Becarios",
             "topic_score": 0.6943185925483704,
-            "user_query_score": 0.6361618041992188
+            "user_query_score": null
         },
         "68": {
             "title": "Artículo 68. Comunidad Autónoma del País Vasco.",
@@ -3233,7 +3233,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Recursos contra la resolución",
             "topic_score": 0.670748233795166,
-            "user_query_score": 0.5705900192260742
+            "user_query_score": null
         },
         "69": {
             "title": "Artículo 69. Aplicación de esta Resolución.",
@@ -3248,7 +3248,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Recursos contra la resolución",
             "topic_score": 0.7836264371871948,
-            "user_query_score": 0.5858865976333618
+            "user_query_score": null
         },
         "70": {
             "title": "Artículo 70. Recursos contra esta Resolución",
@@ -3263,7 +3263,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Recursos contra la resolución",
             "topic_score": 0.8324621319770813,
-            "user_query_score": 0.619995653629303
+            "user_query_score": null
         },
         "71": {
             "title": "Artículo 71. Producción de efectos.",
@@ -3279,7 +3279,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Recursos contra la resolución",
             "topic_score": 0.7186452150344849,
-            "user_query_score": 0.6554132699966431
+            "user_query_score": null
         }
     },
     "ayudas_24-25.pdf": {
@@ -3296,7 +3296,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Recursos contra la resolución",
             "topic_score": 0.6534093022346497,
-            "user_query_score": 0.6540930271148682
+            "user_query_score": null
         },
         "2": {
             "title": "Artículo 2. Financiación de la convocatoria.",
@@ -3312,7 +3312,7 @@
             "topic": "Información General y Tipos de Beca",
             "subtopic": "Objeto de la Convocatoria y Financiación",
             "topic_score": 0.7601205110549927,
-            "user_query_score": 0.6836034059524536
+            "user_query_score": null
         },
         "3": {
             "title": "Artículo 3. Enseñanzas comprendidas.",
@@ -3328,7 +3328,7 @@
             "topic": "Estudios Cubiertos por la Beca",
             "subtopic": "Enseñanzas Universitarias",
             "topic_score": 0.7106075286865234,
-            "user_query_score": 0.6687243580818176
+            "user_query_score": null
         },
         "4": {
             "title": "Artículo 4. Clases y cuantías de las becas.",
@@ -3343,7 +3343,7 @@
             "topic": "Información General y Tipos de Beca",
             "subtopic": "Tipos de Cuantías",
             "topic_score": 0.6907556056976318,
-            "user_query_score": 0.6451396942138672
+            "user_query_score": null
         },
         "5": {
             "title": "Artículo 5. Beca de matrícula.",
@@ -3359,7 +3359,7 @@
             "topic": "Información General y Tipos de Beca",
             "subtopic": "Beca de Matrícula",
             "topic_score": 0.7978495359420776,
-            "user_query_score": 0.6524343490600586
+            "user_query_score": null
         },
         "6": {
             "title": "Artículo 6. Cuantía fija ligada a la renta del estudiante.",
@@ -3374,7 +3374,7 @@
             "topic": "Estudios Cubiertos por la Beca",
             "subtopic": "Enseñanzas Universitarias",
             "topic_score": 0.7004068493843079,
-            "user_query_score": 0.6492635011672974
+            "user_query_score": null
         },
         "7": {
             "title": "Artículo 7. Cuantía fija ligada a la residencia del estudiante durante el curso escolar.",
@@ -3390,7 +3390,7 @@
             "topic": "Estudios Cubiertos por la Beca",
             "subtopic": "Enseñanzas Universitarias",
             "topic_score": 0.7074362635612488,
-            "user_query_score": 0.6205405592918396
+            "user_query_score": null
         },
         "8": {
             "title": "Artículo 8. Cuantía fija ligada a la excelencia académica.",
@@ -3406,7 +3406,7 @@
             "topic": "Información General y Tipos de Beca",
             "subtopic": "Tipos de Cuantías",
             "topic_score": 0.7122015953063965,
-            "user_query_score": 0.7052862644195557
+            "user_query_score": null
         },
         "9": {
             "title": "Artículo 9. Beca básica.",
@@ -3421,7 +3421,7 @@
             "topic": "Información General y Tipos de Beca",
             "subtopic": "Beca Básica",
             "topic_score": 0.8052619695663452,
-            "user_query_score": 0.6852242946624756
+            "user_query_score": null
         },
         "10": {
             "title": "Artículo 10. Cuantía variable.",
@@ -3438,7 +3438,7 @@
             "topic": "Información General y Tipos de Beca",
             "subtopic": "Tipos de Cuantías",
             "topic_score": 0.7168877720832825,
-            "user_query_score": 0.6196153163909912
+            "user_query_score": null
         },
         "11": {
             "title": "Artículo 11. Cuantías de las becas.",
@@ -3454,7 +3454,7 @@
             "topic": "Información General y Tipos de Beca",
             "subtopic": "Tipos de Cuantías",
             "topic_score": 0.7293391227722168,
-            "user_query_score": 0.6764782667160034
+            "user_query_score": null
         },
         "12": {
             "title": "Artículo 12. Cuantías adicionales por domicilio insular o en las Ciudades de Ceuta o de Melilla.",
@@ -3469,7 +3469,7 @@
             "topic": "Información General y Tipos de Beca",
             "subtopic": "Tipos de Cuantías",
             "topic_score": 0.6837970614433289,
-            "user_query_score": 0.6177572011947632
+            "user_query_score": null
         },
         "13": {
             "title": "Artículo 13. Becas especiales para estudiantes universitarios con discapacidad.",
@@ -3485,7 +3485,7 @@
             "topic": "Estudios Cubiertos por la Beca",
             "subtopic": "Enseñanzas Universitarias",
             "topic_score": 0.7595870494842529,
-            "user_query_score": 0.6494272947311401
+            "user_query_score": null
         },
         "14": {
             "title": "Artículo 14. Régimen de las becas para las víctimas de violencia de género y violencia sexual.",
@@ -3501,7 +3501,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Obligaciones de los Becarios",
             "topic_score": 0.6479280591011047,
-            "user_query_score": 0.6308987140655518
+            "user_query_score": null
         },
         "15": {
             "title": "Artículo 15. Requisitos generales.",
@@ -3517,7 +3517,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Generales",
             "topic_score": 0.7854216694831848,
-            "user_query_score": 0.704573392868042
+            "user_query_score": null
         },
         "16": {
             "title": "Artículo 16. Determinación de la renta computable.",
@@ -3532,7 +3532,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Económicos",
             "topic_score": 0.7472876906394958,
-            "user_query_score": 0.7116986513137817
+            "user_query_score": null
         },
         "17": {
             "title": "Artículo 17. Miembros computables.",
@@ -3548,7 +3548,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Económicos",
             "topic_score": 0.7261571884155273,
-            "user_query_score": 0.7087762355804443
+            "user_query_score": null
         },
         "18": {
             "title": "Artículo 18. Deducciones de la renta familiar.",
@@ -3564,7 +3564,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Económicos",
             "topic_score": 0.7494264841079712,
-            "user_query_score": 0.689845085144043
+            "user_query_score": null
         },
         "19": {
             "title": "Artículo 19. Umbrales de renta.",
@@ -3579,7 +3579,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Económicos",
             "topic_score": 0.7688677906990051,
-            "user_query_score": 0.7239896059036255
+            "user_query_score": null
         },
         "20": {
             "title": "Artículo 20. Umbrales indicativos de patrimonio familiar.",
@@ -3596,7 +3596,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Económicos",
             "topic_score": 0.7196919918060303,
-            "user_query_score": 0.6758540868759155
+            "user_query_score": null
         },
         "21": {
             "title": "Artículo 21. Normas comunes para todos los niveles.",
@@ -3611,7 +3611,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7169235944747925,
-            "user_query_score": 0.7169384360313416
+            "user_query_score": null
         },
         "22": {
             "title": "Artículo 22. Cálculo de la nota media.",
@@ -3627,7 +3627,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7300121188163757,
-            "user_query_score": 0.7377653121948242
+            "user_query_score": null
         },
         "23": {
             "title": "Artículo 23. Número de créditos de matrícula.",
@@ -3643,7 +3643,7 @@
             "topic": "Información General y Tipos de Beca",
             "subtopic": "Beca de Matrícula",
             "topic_score": 0.7448068857192993,
-            "user_query_score": 0.7095044255256653
+            "user_query_score": null
         },
         "24": {
             "title": "Artículo 24. Rendimiento académico en el curso anterior.",
@@ -3659,7 +3659,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.6982449293136597,
-            "user_query_score": 0.7009046077728271
+            "user_query_score": null
         },
         "25": {
             "title": "Artículo 25. Duración de la condición de becario.",
@@ -3675,7 +3675,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Económicos",
             "topic_score": 0.7845187187194824,
-            "user_query_score": 0.7323235869407654
+            "user_query_score": null
         },
         "26": {
             "title": "Artículo 26. Excepcional rendimiento académico.",
@@ -3690,7 +3690,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7697629332542419,
-            "user_query_score": 0.7519025206565857
+            "user_query_score": null
         },
         "27": {
             "title": "Artículo 27. Dobles titulaciones.",
@@ -3706,7 +3706,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7401064038276672,
-            "user_query_score": 0.6812120676040649
+            "user_query_score": null
         },
         "28": {
             "title": "Artículo 28. Número de créditos de matrícula.",
@@ -3722,7 +3722,7 @@
             "topic": "Información General y Tipos de Beca",
             "subtopic": "Beca de Matrícula",
             "topic_score": 0.7448068857192993,
-            "user_query_score": 0.7095044255256653
+            "user_query_score": null
         },
         "29": {
             "title": "Artículo 29. Rendimiento académico en el curso anterior.",
@@ -3738,7 +3738,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.6982449293136597,
-            "user_query_score": 0.7009046077728271
+            "user_query_score": null
         },
         "30": {
             "title": "Artículo 30. Cálculo de la nota media.",
@@ -3754,7 +3754,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7300121188163757,
-            "user_query_score": 0.7377653121948242
+            "user_query_score": null
         },
         "31": {
             "title": "Artículo 31. Duración de la condición de becario.",
@@ -3769,7 +3769,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Económicos",
             "topic_score": 0.7845187187194824,
-            "user_query_score": 0.7323235869407654
+            "user_query_score": null
         },
         "32": {
             "title": "Artículo 32. Cálculo de la nota media para enseñanzas no universitarias.",
@@ -3786,7 +3786,7 @@
             "topic": "Estudios Cubiertos por la Beca",
             "subtopic": "Enseñanzas No Universitarias",
             "topic_score": 0.773428201675415,
-            "user_query_score": 0.7239813804626465
+            "user_query_score": null
         },
         "33": {
             "title": "Artículo 33. Enseñanzas de grado superior de formación profesional, de artes plásticas y diseño y",
@@ -3802,7 +3802,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7408602237701416,
-            "user_query_score": 0.700714111328125
+            "user_query_score": null
         },
         "34": {
             "title": "Artículo 34. Enseñanzas de bachillerato, enseñanzas profesionales de música y danza y grado",
@@ -3818,7 +3818,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7259201407432556,
-            "user_query_score": 0.6797267198562622
+            "user_query_score": null
         },
         "35": {
             "title": "Artículo 35. Enseñanzas de idiomas.",
@@ -3833,7 +3833,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7049223184585571,
-            "user_query_score": 0.6922973394393921
+            "user_query_score": null
         },
         "36": {
             "title": "Artículo 36. Ciclos Formativos de Grado Básico, cursos de acceso, de preparación de las pruebas",
@@ -3849,7 +3849,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7738783359527588,
-            "user_query_score": 0.7309333682060242
+            "user_query_score": null
         },
         "37": {
             "title": "Artículo 37. Enseñanzas artísticas superiores y estudios religiosos superiores organizados por",
@@ -3864,7 +3864,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7290823459625244,
-            "user_query_score": 0.69606614112854
+            "user_query_score": null
         },
         "38": {
             "title": "Artículo 38. Enseñanzas artísticas superiores y estudios religiosos superiores organizados por",
@@ -3880,7 +3880,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7290823459625244,
-            "user_query_score": 0.69606614112854
+            "user_query_score": null
         },
         "39": {
             "title": "Artículo 39. Cambio de estudios.",
@@ -3895,7 +3895,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7409834861755371,
-            "user_query_score": 0.7020217180252075
+            "user_query_score": null
         },
         "40": {
             "title": "Artículo 40. Obligaciones de los beneficiarios.",
@@ -3911,7 +3911,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Obligaciones de los Becarios",
             "topic_score": 0.8106329441070557,
-            "user_query_score": 0.6874381303787231
+            "user_query_score": null
         },
         "41": {
             "title": "Artículo 41. Control de las administraciones y de las universidades.",
@@ -3926,7 +3926,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Control, Verificación y Reintegro",
             "topic_score": 0.6948925852775574,
-            "user_query_score": 0.5952261090278625
+            "user_query_score": null
         },
         "42": {
             "title": "Artículo 42. Justificación previa.",
@@ -3941,7 +3941,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Control, Verificación y Reintegro",
             "topic_score": 0.7644969820976257,
-            "user_query_score": 0.7105138301849365
+            "user_query_score": null
         },
         "43": {
             "title": "Artículo 43. Control sobre el cumplimiento de la finalidad de la beca.",
@@ -3957,7 +3957,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Obligaciones de los Becarios",
             "topic_score": 0.7524654865264893,
-            "user_query_score": 0.676469624042511
+            "user_query_score": null
         },
         "44": {
             "title": "Artículo 44. Verificación de becas concedidas.",
@@ -3973,7 +3973,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Control, Verificación y Reintegro",
             "topic_score": 0.7500271797180176,
-            "user_query_score": 0.7093138098716736
+            "user_query_score": null
         },
         "45": {
             "title": "Artículo 45. Reintegro.",
@@ -3988,7 +3988,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Control, Verificación y Reintegro",
             "topic_score": 0.8358831405639648,
-            "user_query_score": 0.6603419780731201
+            "user_query_score": null
         },
         "46": {
             "title": "Artículo 46. Aplicación de la Ley General de Subvenciones.",
@@ -4004,7 +4004,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Control, Verificación y Reintegro",
             "topic_score": 0.7403498888015747,
-            "user_query_score": 0.6643872857093811
+            "user_query_score": null
         },
         "47": {
             "title": "Artículo 47. Modelo de solicitud y documentación a presentar.",
@@ -4020,7 +4020,7 @@
             "topic": "Proceso de Solicitud y Tramitación",
             "subtopic": "Presentación de Solicitud",
             "topic_score": 0.7454218864440918,
-            "user_query_score": 0.6257327198982239
+            "user_query_score": null
         },
         "48": {
             "title": "Artículo 48. Lugar y plazo de presentación de solicitudes.",
@@ -4035,7 +4035,7 @@
             "topic": "Proceso de Solicitud y Tramitación",
             "subtopic": "Presentación de Solicitud",
             "topic_score": 0.7234036326408386,
-            "user_query_score": 0.607411801815033
+            "user_query_score": null
         },
         "49": {
             "title": "Artículo 49. Remisión de solicitudes a las administraciones educativas y a las universidades.",
@@ -4051,7 +4051,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Recursos contra la resolución",
             "topic_score": 0.6632698178291321,
-            "user_query_score": 0.5840154886245728
+            "user_query_score": null
         },
         "50": {
             "title": "Artículo 50. Órganos de selección.",
@@ -4067,7 +4067,7 @@
             "topic": "Proceso de Solicitud y Tramitación",
             "subtopic": "Órganos de Selección y Tramitación",
             "topic_score": 0.7632818222045898,
-            "user_query_score": 0.5756425857543945
+            "user_query_score": null
         },
         "51": {
             "title": "Artículo 51. Revisión de solicitudes y subsanación de defectos.",
@@ -4084,7 +4084,7 @@
             "topic": "Proceso de Solicitud y Tramitación",
             "subtopic": "Revisión, Subsanación y Alegaciones",
             "topic_score": 0.8103717565536499,
-            "user_query_score": 0.6157671213150024
+            "user_query_score": null
         },
         "52": {
             "title": "Artículo 52. Concesión, denegación, notificaciones y publicación.",
@@ -4100,7 +4100,7 @@
             "topic": "Proceso de Solicitud y Tramitación",
             "subtopic": "Resolución, Notificación y Consulta de Estado",
             "topic_score": 0.7306632995605469,
-            "user_query_score": 0.6185163259506226
+            "user_query_score": null
         },
         "54": {
             "title": "Artículo 54. Exención de los precios públicos por servicios académicos y abono a las",
@@ -4117,7 +4117,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Compatibilidades e Incompatibilidades con otras ayudas",
             "topic_score": 0.7298760414123535,
-            "user_query_score": 0.7694488167762756
+            "user_query_score": null
         },
         "55": {
             "title": "Artículo 55. Compatibilidades de las becas.",
@@ -4133,7 +4133,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Obligaciones de los Becarios",
             "topic_score": 0.7596402764320374,
-            "user_query_score": 0.7106978893280029
+            "user_query_score": null
         },
         "56": {
             "title": "Artículo 56. Cumplimiento de plazos.",
@@ -4148,7 +4148,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Recursos contra la resolución",
             "topic_score": 0.6720803380012512,
-            "user_query_score": 0.5956196784973145
+            "user_query_score": null
         },
         "57": {
             "title": "Artículo 57. Recursos.",
@@ -4164,7 +4164,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Recursos contra la resolución",
             "topic_score": 0.7583445906639099,
-            "user_query_score": 0.6349586248397827
+            "user_query_score": null
         },
         "58": {
             "title": "Artículo 58. Centros españoles en el exterior.",
@@ -4179,7 +4179,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Situaciones Específicas",
             "topic_score": 0.7331464886665344,
-            "user_query_score": 0.5851113796234131
+            "user_query_score": null
         },
         "59": {
             "title": "Artículo 59. Carencia de datos necesarios.",
@@ -4195,7 +4195,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Recursos contra la resolución",
             "topic_score": 0.649894118309021,
-            "user_query_score": 0.6396974921226501
+            "user_query_score": null
         },
         "60": {
             "title": "Artículo 60. Enseñanzas técnicas.",
@@ -4210,7 +4210,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Compatibilidades e Incompatibilidades con otras ayudas",
             "topic_score": 0.6789060235023499,
-            "user_query_score": 0.6539032459259033
+            "user_query_score": null
         },
         "61": {
             "title": "Artículo 61. Solicitudes de estudiantes extranjeros.",
@@ -4225,7 +4225,7 @@
             "topic": "Estudios Cubiertos por la Beca",
             "subtopic": "Enseñanzas Universitarias",
             "topic_score": 0.6345125436782837,
-            "user_query_score": 0.5899649262428284
+            "user_query_score": null
         },
         "62": {
             "title": "Artículo 62. Tramitación excepcional de solicitudes.",
@@ -4241,7 +4241,7 @@
             "topic": "Proceso de Solicitud y Tramitación",
             "subtopic": "Revisión, Subsanación y Alegaciones",
             "topic_score": 0.7601563334465027,
-            "user_query_score": 0.6481644511222839
+            "user_query_score": null
         },
         "63": {
             "title": "Artículo 63. Tasas de matrícula en enseñanzas no universitarias.",
@@ -4256,7 +4256,7 @@
             "topic": "Estudios Cubiertos por la Beca",
             "subtopic": "Enseñanzas No Universitarias",
             "topic_score": 0.7221885919570923,
-            "user_query_score": 0.5621535778045654
+            "user_query_score": null
         },
         "64": {
             "title": "Artículo 64. Enseñanzas cursadas en centros penitenciarios.",
@@ -4271,7 +4271,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Control, Verificación y Reintegro",
             "topic_score": 0.6721594333648682,
-            "user_query_score": 0.6068833470344543
+            "user_query_score": null
         },
         "65": {
             "title": "Artículo 65. Convenios de colaboración.",
@@ -4286,7 +4286,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Recursos contra la resolución",
             "topic_score": 0.6845704317092896,
-            "user_query_score": 0.618844747543335
+            "user_query_score": null
         },
         "66": {
             "title": "Artículo 66. Adaptación de requisitos académicos en enseñanzas universitarias.",
@@ -4301,7 +4301,7 @@
             "topic": "Estudios Cubiertos por la Beca",
             "subtopic": "Enseñanzas Universitarias",
             "topic_score": 0.7365407347679138,
-            "user_query_score": 0.6865603923797607
+            "user_query_score": null
         },
         "67": {
             "title": "Artículo 67. Becas de cursos anteriores.",
@@ -4316,7 +4316,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Obligaciones de los Becarios",
             "topic_score": 0.6943185925483704,
-            "user_query_score": 0.6361618041992188
+            "user_query_score": null
         },
         "68": {
             "title": "Artículo 68. Comunidad Autónoma del País Vasco.",
@@ -4332,7 +4332,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Recursos contra la resolución",
             "topic_score": 0.670748233795166,
-            "user_query_score": 0.5705900192260742
+            "user_query_score": null
         },
         "69": {
             "title": "Artículo 69. Aplicación de esta Resolución.",
@@ -4347,7 +4347,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Recursos contra la resolución",
             "topic_score": 0.7836264371871948,
-            "user_query_score": 0.5858865976333618
+            "user_query_score": null
         },
         "70": {
             "title": "Artículo 70. Recursos contra esta Resolución",
@@ -4362,7 +4362,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Recursos contra la resolución",
             "topic_score": 0.8324621319770813,
-            "user_query_score": 0.619995653629303
+            "user_query_score": null
         },
         "71": {
             "title": "Artículo 71. Producción de efectos.",
@@ -4377,7 +4377,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Recursos contra la resolución",
             "topic_score": 0.7186452150344849,
-            "user_query_score": 0.6554132699966431
+            "user_query_score": null
         }
     },
     "ayudas_25-26.pdf": {
@@ -4394,7 +4394,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Recursos contra la resolución",
             "topic_score": 0.6534093022346497,
-            "user_query_score": 0.6540930271148682
+            "user_query_score": null
         },
         "2": {
             "title": "Artículo 2. Financiación de la convocatoria.",
@@ -4410,7 +4410,7 @@
             "topic": "Información General y Tipos de Beca",
             "subtopic": "Objeto de la Convocatoria y Financiación",
             "topic_score": 0.7601205110549927,
-            "user_query_score": 0.6836034059524536
+            "user_query_score": null
         },
         "3": {
             "title": "Artículo 3. Enseñanzas comprendidas.",
@@ -4426,7 +4426,7 @@
             "topic": "Estudios Cubiertos por la Beca",
             "subtopic": "Enseñanzas Universitarias",
             "topic_score": 0.7106075286865234,
-            "user_query_score": 0.6687243580818176
+            "user_query_score": null
         },
         "4": {
             "title": "Artículo 4. Clases y cuantías de las becas.",
@@ -4441,7 +4441,7 @@
             "topic": "Información General y Tipos de Beca",
             "subtopic": "Tipos de Cuantías",
             "topic_score": 0.6907556056976318,
-            "user_query_score": 0.6451396942138672
+            "user_query_score": null
         },
         "5": {
             "title": "Artículo 5. Beca de matrícula.",
@@ -4457,7 +4457,7 @@
             "topic": "Información General y Tipos de Beca",
             "subtopic": "Beca de Matrícula",
             "topic_score": 0.7978495359420776,
-            "user_query_score": 0.6524343490600586
+            "user_query_score": null
         },
         "6": {
             "title": "Artículo 6. Cuantía fija ligada a la renta del estudiante.",
@@ -4472,7 +4472,7 @@
             "topic": "Estudios Cubiertos por la Beca",
             "subtopic": "Enseñanzas Universitarias",
             "topic_score": 0.7004068493843079,
-            "user_query_score": 0.6492635011672974
+            "user_query_score": null
         },
         "7": {
             "title": "Artículo 7. Cuantía fija ligada a la residencia del estudiante durante el curso escolar.",
@@ -4488,7 +4488,7 @@
             "topic": "Estudios Cubiertos por la Beca",
             "subtopic": "Enseñanzas Universitarias",
             "topic_score": 0.7074362635612488,
-            "user_query_score": 0.6205405592918396
+            "user_query_score": null
         },
         "8": {
             "title": "Artículo 8. Cuantía fija ligada a la excelencia académica.",
@@ -4504,7 +4504,7 @@
             "topic": "Información General y Tipos de Beca",
             "subtopic": "Tipos de Cuantías",
             "topic_score": 0.7122015953063965,
-            "user_query_score": 0.7052862644195557
+            "user_query_score": null
         },
         "9": {
             "title": "Artículo 9. Beca básica.",
@@ -4519,7 +4519,7 @@
             "topic": "Información General y Tipos de Beca",
             "subtopic": "Beca Básica",
             "topic_score": 0.8052619695663452,
-            "user_query_score": 0.6852242946624756
+            "user_query_score": null
         },
         "10": {
             "title": "Artículo 10. Cuantía variable.",
@@ -4536,7 +4536,7 @@
             "topic": "Información General y Tipos de Beca",
             "subtopic": "Tipos de Cuantías",
             "topic_score": 0.7168877720832825,
-            "user_query_score": 0.6196153163909912
+            "user_query_score": null
         },
         "11": {
             "title": "Artículo 11. Cuantías de las becas.",
@@ -4552,7 +4552,7 @@
             "topic": "Información General y Tipos de Beca",
             "subtopic": "Tipos de Cuantías",
             "topic_score": 0.7293391227722168,
-            "user_query_score": 0.6764782667160034
+            "user_query_score": null
         },
         "12": {
             "title": "Artículo 12. Cuantías adicionales por domicilio insular o en las Ciudades de Ceuta o de Melilla.",
@@ -4567,7 +4567,7 @@
             "topic": "Información General y Tipos de Beca",
             "subtopic": "Tipos de Cuantías",
             "topic_score": 0.6837970614433289,
-            "user_query_score": 0.6177572011947632
+            "user_query_score": null
         },
         "13": {
             "title": "Artículo 13. Becas especiales para estudiantes universitarios con discapacidad.",
@@ -4583,7 +4583,7 @@
             "topic": "Estudios Cubiertos por la Beca",
             "subtopic": "Enseñanzas Universitarias",
             "topic_score": 0.7595870494842529,
-            "user_query_score": 0.6494272947311401
+            "user_query_score": null
         },
         "14": {
             "title": "Artículo 14. Régimen de las becas para las víctimas de violencia de género y violencia sexual.",
@@ -4598,7 +4598,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Obligaciones de los Becarios",
             "topic_score": 0.6479280591011047,
-            "user_query_score": 0.6308987140655518
+            "user_query_score": null
         },
         "15": {
             "title": "Artículo 15. Requisitos generales.",
@@ -4614,7 +4614,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Generales",
             "topic_score": 0.7854216694831848,
-            "user_query_score": 0.704573392868042
+            "user_query_score": null
         },
         "16": {
             "title": "Artículo 16. Determinación de la renta computable.",
@@ -4630,7 +4630,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Económicos",
             "topic_score": 0.7472876906394958,
-            "user_query_score": 0.7116986513137817
+            "user_query_score": null
         },
         "17": {
             "title": "Artículo 17. Miembros computables.",
@@ -4646,7 +4646,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Económicos",
             "topic_score": 0.7261571884155273,
-            "user_query_score": 0.7087762355804443
+            "user_query_score": null
         },
         "18": {
             "title": "Artículo 18. Deducciones de la renta familiar.",
@@ -4662,7 +4662,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Económicos",
             "topic_score": 0.7494264841079712,
-            "user_query_score": 0.689845085144043
+            "user_query_score": null
         },
         "19": {
             "title": "Artículo 19. Umbrales de renta.",
@@ -4677,7 +4677,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Económicos",
             "topic_score": 0.7688677906990051,
-            "user_query_score": 0.7239896059036255
+            "user_query_score": null
         },
         "20": {
             "title": "Artículo 20. Umbrales indicativos de patrimonio familiar.",
@@ -4694,7 +4694,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Económicos",
             "topic_score": 0.7196919918060303,
-            "user_query_score": 0.6758540868759155
+            "user_query_score": null
         },
         "21": {
             "title": "Artículo 21. Normas comunes para todos los niveles.",
@@ -4709,7 +4709,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7169235944747925,
-            "user_query_score": 0.7169384360313416
+            "user_query_score": null
         },
         "22": {
             "title": "Artículo 22. Cálculo de la nota media.",
@@ -4725,7 +4725,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7300121188163757,
-            "user_query_score": 0.7377653121948242
+            "user_query_score": null
         },
         "23": {
             "title": "Artículo 23. Número de créditos de matrícula.",
@@ -4741,7 +4741,7 @@
             "topic": "Información General y Tipos de Beca",
             "subtopic": "Beca de Matrícula",
             "topic_score": 0.7448068857192993,
-            "user_query_score": 0.7095044255256653
+            "user_query_score": null
         },
         "24": {
             "title": "Artículo 24. Rendimiento académico en el curso anterior.",
@@ -4757,7 +4757,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.6982449293136597,
-            "user_query_score": 0.7009046077728271
+            "user_query_score": null
         },
         "25": {
             "title": "Artículo 25. Duración de la condición de becario.",
@@ -4773,7 +4773,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Económicos",
             "topic_score": 0.7845187187194824,
-            "user_query_score": 0.7323235869407654
+            "user_query_score": null
         },
         "26": {
             "title": "Artículo 26. Excepcional rendimiento académico.",
@@ -4788,7 +4788,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7697629332542419,
-            "user_query_score": 0.7519025206565857
+            "user_query_score": null
         },
         "27": {
             "title": "Artículo 27. Dobles titulaciones.",
@@ -4804,7 +4804,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7401064038276672,
-            "user_query_score": 0.6812120676040649
+            "user_query_score": null
         },
         "28": {
             "title": "Artículo 28. Número de créditos de matrícula.",
@@ -4820,7 +4820,7 @@
             "topic": "Información General y Tipos de Beca",
             "subtopic": "Beca de Matrícula",
             "topic_score": 0.7448068857192993,
-            "user_query_score": 0.7095044255256653
+            "user_query_score": null
         },
         "29": {
             "title": "Artículo 29. Rendimiento académico en el curso anterior.",
@@ -4835,7 +4835,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.6982449293136597,
-            "user_query_score": 0.7009046077728271
+            "user_query_score": null
         },
         "30": {
             "title": "Artículo 30. Cálculo de la nota media.",
@@ -4851,7 +4851,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7300121188163757,
-            "user_query_score": 0.7377653121948242
+            "user_query_score": null
         },
         "31": {
             "title": "Artículo 31. Duración de la condición de becario.",
@@ -4867,7 +4867,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Económicos",
             "topic_score": 0.7845187187194824,
-            "user_query_score": 0.7323235869407654
+            "user_query_score": null
         },
         "32": {
             "title": "Artículo 32. Cálculo de la nota media para enseñanzas no universitarias.",
@@ -4883,7 +4883,7 @@
             "topic": "Estudios Cubiertos por la Beca",
             "subtopic": "Enseñanzas No Universitarias",
             "topic_score": 0.773428201675415,
-            "user_query_score": 0.7239813804626465
+            "user_query_score": null
         },
         "33": {
             "title": "Artículo 33. Enseñanzas de grado superior de formación profesional, de artes plásticas y diseño y",
@@ -4899,7 +4899,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7408602237701416,
-            "user_query_score": 0.700714111328125
+            "user_query_score": null
         },
         "34": {
             "title": "Artículo 34. Enseñanzas de bachillerato, enseñanzas profesionales de música y danza y grado",
@@ -4915,7 +4915,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7259201407432556,
-            "user_query_score": 0.6797267198562622
+            "user_query_score": null
         },
         "35": {
             "title": "Artículo 35. Enseñanzas de idiomas.",
@@ -4931,7 +4931,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7049223184585571,
-            "user_query_score": 0.6922973394393921
+            "user_query_score": null
         },
         "36": {
             "title": "Artículo 36. Ciclos Formativos de Grado Básico, cursos de acceso, de preparación de las pruebas",
@@ -4946,7 +4946,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7738783359527588,
-            "user_query_score": 0.7309333682060242
+            "user_query_score": null
         },
         "37": {
             "title": "Artículo 37. Enseñanzas artísticas superiores y estudios religiosos superiores organizados por",
@@ -4962,7 +4962,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7290823459625244,
-            "user_query_score": 0.69606614112854
+            "user_query_score": null
         },
         "38": {
             "title": "Artículo 38. Enseñanzas artísticas superiores y estudios religiosos superiores organizados por",
@@ -4977,7 +4977,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7290823459625244,
-            "user_query_score": 0.69606614112854
+            "user_query_score": null
         },
         "39": {
             "title": "Artículo 39. Cambio de estudios.",
@@ -4992,7 +4992,7 @@
             "topic": "Requisitos para Solicitar la Beca",
             "subtopic": "Requisitos Académicos",
             "topic_score": 0.7409834861755371,
-            "user_query_score": 0.7020217180252075
+            "user_query_score": null
         },
         "40": {
             "title": "Artículo 40. Obligaciones de los beneficiarios.",
@@ -5008,7 +5008,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Obligaciones de los Becarios",
             "topic_score": 0.8106329441070557,
-            "user_query_score": 0.6874381303787231
+            "user_query_score": null
         },
         "41": {
             "title": "Artículo 41. Control de las administraciones y de las universidades.",
@@ -5023,7 +5023,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Control, Verificación y Reintegro",
             "topic_score": 0.6948925852775574,
-            "user_query_score": 0.5952261090278625
+            "user_query_score": null
         },
         "42": {
             "title": "Artículo 42. Justificación previa.",
@@ -5039,7 +5039,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Control, Verificación y Reintegro",
             "topic_score": 0.7644969820976257,
-            "user_query_score": 0.7105138301849365
+            "user_query_score": null
         },
         "43": {
             "title": "Artículo 43. Control sobre el cumplimiento de la finalidad de la beca.",
@@ -5055,7 +5055,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Obligaciones de los Becarios",
             "topic_score": 0.7524654865264893,
-            "user_query_score": 0.676469624042511
+            "user_query_score": null
         },
         "44": {
             "title": "Artículo 44. Verificación de becas concedidas.",
@@ -5070,7 +5070,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Control, Verificación y Reintegro",
             "topic_score": 0.7500271797180176,
-            "user_query_score": 0.7093138098716736
+            "user_query_score": null
         },
         "45": {
             "title": "Artículo 45. Reintegro.",
@@ -5086,7 +5086,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Control, Verificación y Reintegro",
             "topic_score": 0.8358831405639648,
-            "user_query_score": 0.6603419780731201
+            "user_query_score": null
         },
         "46": {
             "title": "Artículo 46. Aplicación de la Ley General de Subvenciones.",
@@ -5101,7 +5101,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Control, Verificación y Reintegro",
             "topic_score": 0.7403498888015747,
-            "user_query_score": 0.6643872857093811
+            "user_query_score": null
         },
         "47": {
             "title": "Artículo 47. Modelo de solicitud y documentación a presentar.",
@@ -5117,7 +5117,7 @@
             "topic": "Proceso de Solicitud y Tramitación",
             "subtopic": "Presentación de Solicitud",
             "topic_score": 0.7454218864440918,
-            "user_query_score": 0.6257327198982239
+            "user_query_score": null
         },
         "48": {
             "title": "Artículo 48. Lugar y plazo de presentación de solicitudes.",
@@ -5133,7 +5133,7 @@
             "topic": "Proceso de Solicitud y Tramitación",
             "subtopic": "Presentación de Solicitud",
             "topic_score": 0.7234036326408386,
-            "user_query_score": 0.607411801815033
+            "user_query_score": null
         },
         "49": {
             "title": "Artículo 49. Remisión de solicitudes a las administraciones educativas y a las universidades.",
@@ -5148,7 +5148,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Recursos contra la resolución",
             "topic_score": 0.6632698178291321,
-            "user_query_score": 0.5840154886245728
+            "user_query_score": null
         },
         "50": {
             "title": "Artículo 50. Órganos de selección.",
@@ -5164,7 +5164,7 @@
             "topic": "Proceso de Solicitud y Tramitación",
             "subtopic": "Órganos de Selección y Tramitación",
             "topic_score": 0.7632818222045898,
-            "user_query_score": 0.5756425857543945
+            "user_query_score": null
         },
         "51": {
             "title": "Artículo 51. Revisión de solicitudes y subsanación de defectos.",
@@ -5181,7 +5181,7 @@
             "topic": "Proceso de Solicitud y Tramitación",
             "subtopic": "Revisión, Subsanación y Alegaciones",
             "topic_score": 0.8103717565536499,
-            "user_query_score": 0.6157671213150024
+            "user_query_score": null
         },
         "52": {
             "title": "Artículo 52. Concesión, denegación, notificaciones y publicación.",
@@ -5197,7 +5197,7 @@
             "topic": "Proceso de Solicitud y Tramitación",
             "subtopic": "Resolución, Notificación y Consulta de Estado",
             "topic_score": 0.7306632995605469,
-            "user_query_score": 0.6185163259506226
+            "user_query_score": null
         },
         "54": {
             "title": "Artículo 54. Exención de los precios públicos por servicios académicos y abono a las universidades",
@@ -5215,7 +5215,7 @@
             "topic": "Estudios Cubiertos por la Beca",
             "subtopic": "Enseñanzas Universitarias",
             "topic_score": 0.7459032535552979,
-            "user_query_score": 0.6913112998008728
+            "user_query_score": null
         },
         "55": {
             "title": "Artículo 55. Compatibilidades de las becas.",
@@ -5231,7 +5231,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Obligaciones de los Becarios",
             "topic_score": 0.7596402764320374,
-            "user_query_score": 0.7106978893280029
+            "user_query_score": null
         },
         "56": {
             "title": "Artículo 56. Cumplimiento de plazos.",
@@ -5246,7 +5246,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Recursos contra la resolución",
             "topic_score": 0.6720803380012512,
-            "user_query_score": 0.5956196784973145
+            "user_query_score": null
         },
         "57": {
             "title": "Artículo 57. Recursos.",
@@ -5261,7 +5261,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Recursos contra la resolución",
             "topic_score": 0.7583445906639099,
-            "user_query_score": 0.6349586248397827
+            "user_query_score": null
         },
         "58": {
             "title": "Artículo 58. Centros españoles en el exterior.",
@@ -5277,7 +5277,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Situaciones Específicas",
             "topic_score": 0.7331464886665344,
-            "user_query_score": 0.5851113796234131
+            "user_query_score": null
         },
         "59": {
             "title": "Artículo 59. Carencia de datos necesarios.",
@@ -5292,7 +5292,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Recursos contra la resolución",
             "topic_score": 0.649894118309021,
-            "user_query_score": 0.6396974921226501
+            "user_query_score": null
         },
         "60": {
             "title": "Artículo 60. Enseñanzas técnicas.",
@@ -5308,7 +5308,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Compatibilidades e Incompatibilidades con otras ayudas",
             "topic_score": 0.6789060235023499,
-            "user_query_score": 0.6539032459259033
+            "user_query_score": null
         },
         "61": {
             "title": "Artículo 61. Solicitudes de estudiantes extranjeros.",
@@ -5323,7 +5323,7 @@
             "topic": "Estudios Cubiertos por la Beca",
             "subtopic": "Enseñanzas Universitarias",
             "topic_score": 0.6345125436782837,
-            "user_query_score": 0.5899649262428284
+            "user_query_score": null
         },
         "62": {
             "title": "Artículo 62. Tramitación excepcional de solicitudes.",
@@ -5338,7 +5338,7 @@
             "topic": "Proceso de Solicitud y Tramitación",
             "subtopic": "Revisión, Subsanación y Alegaciones",
             "topic_score": 0.7601563334465027,
-            "user_query_score": 0.6481644511222839
+            "user_query_score": null
         },
         "63": {
             "title": "Artículo 63. Tasas de matrícula en enseñanzas no universitarias.",
@@ -5353,7 +5353,7 @@
             "topic": "Estudios Cubiertos por la Beca",
             "subtopic": "Enseñanzas No Universitarias",
             "topic_score": 0.7221885919570923,
-            "user_query_score": 0.5621535778045654
+            "user_query_score": null
         },
         "64": {
             "title": "Artículo 64. Enseñanzas cursadas en centros penitenciarios.",
@@ -5368,7 +5368,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Control, Verificación y Reintegro",
             "topic_score": 0.6721594333648682,
-            "user_query_score": 0.6068833470344543
+            "user_query_score": null
         },
         "65": {
             "title": "Artículo 65. Convenios de colaboración.",
@@ -5384,7 +5384,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Recursos contra la resolución",
             "topic_score": 0.6845704317092896,
-            "user_query_score": 0.618844747543335
+            "user_query_score": null
         },
         "66": {
             "title": "Artículo 66. Adaptación de requisitos académicos en enseñanzas universitarias.",
@@ -5399,7 +5399,7 @@
             "topic": "Estudios Cubiertos por la Beca",
             "subtopic": "Enseñanzas Universitarias",
             "topic_score": 0.7365407347679138,
-            "user_query_score": 0.6865603923797607
+            "user_query_score": null
         },
         "67": {
             "title": "Artículo 67. Becas de cursos anteriores.",
@@ -5414,7 +5414,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Obligaciones de los Becarios",
             "topic_score": 0.6943185925483704,
-            "user_query_score": 0.6361618041992188
+            "user_query_score": null
         },
         "68": {
             "title": "Artículo 68. Comunidad Autónoma del País Vasco.",
@@ -5429,7 +5429,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Recursos contra la resolución",
             "topic_score": 0.670748233795166,
-            "user_query_score": 0.5705900192260742
+            "user_query_score": null
         },
         "69": {
             "title": "Artículo 69. Aplicación de esta Resolución.",
@@ -5444,7 +5444,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Recursos contra la resolución",
             "topic_score": 0.7836264371871948,
-            "user_query_score": 0.5858865976333618
+            "user_query_score": null
         },
         "70": {
             "title": "Artículo 70. Recursos contra esta Resolución",
@@ -5460,7 +5460,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Recursos contra la resolución",
             "topic_score": 0.8324621319770813,
-            "user_query_score": 0.619995653629303
+            "user_query_score": null
         },
         "71": {
             "title": "Artículo 71. Producción de efectos.",
@@ -5475,7 +5475,7 @@
             "topic": "Obligaciones, Control y Situaciones Especiales",
             "subtopic": "Recursos contra la resolución",
             "topic_score": 0.7186452150344849,
-            "user_query_score": 0.6554132699966431
+            "user_query_score": null
         }
     }
 }

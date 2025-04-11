@@ -2,12 +2,6 @@ import re
 import fitz  # PyMuPDF
 import json
 import os
-import requests
-from transformers import AutoModelForCausalLM, AutoModelForSeq2SeqLM, AutoTokenizer
-import torch
-
-# import os
-# os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
 
 def extract_text_from_pdf2(pdf_path):
@@ -18,6 +12,7 @@ def extract_text_from_pdf2(pdf_path):
         text = page.get_text()
         pages.append({'page_num': page_num, 'text': text})
     return pages
+
 
 def remove_pattern(text):
     # Combined regex pattern to handle all verification block variations
@@ -38,6 +33,7 @@ def remove_pattern(text):
     
     cleaned_text = re.sub(pattern, '', text)
     return cleaned_text
+
 
 def parse_articles(combined_text, page_ranges):
     """Parse articles and chapters from combined text and determine the pages each article spans."""
@@ -112,6 +108,7 @@ def parse_articles(combined_text, page_ranges):
     
     return articles_dict
 
+
 def summarize_with_mistral(text, model, tokenizer):
     """Generate a summary using the Mistral-Nemo-Instruct model."""
     prompt = f"<|im_start|>user\nResume el siguiente texto con tus propias palabras de forma muy breve, evitando copiar frases textuales :\n\n{text}<|im_end|>\n<|im_start|>assistant\n"
@@ -152,9 +149,56 @@ def summarize_with_mistral(text, model, tokenizer):
     
     return summary
 
+
+def generate_json_summary(model, tokenizer, original_pdf_file: str):
+    " Generates the summary for a single article "
+    os.makedirs("text", exist_ok=True)
+    pages = extract_text_from_pdf2(original_pdf_file)
+    cleaned_pages = []
+
+    result_dict = {}
+    for page in pages:
+        cleaned_text = remove_pattern(page['text'])
+        cleaned_pages.append({'page_num': page['page_num'], 'text': cleaned_text})
+    combined_text = ''
+    page_ranges = []
+    for page in cleaned_pages:
+        start = len(combined_text)
+        combined_text += page['text']
+        end = len(combined_text)
+        page_ranges.append((start, end, page['page_num']))
+    base_name = os.path.basename(original_pdf_file)
+    txt_filename = os.path.splitext(base_name)[0] + ".txt"
+    txt_path = os.path.join("text", txt_filename)
+    with open(txt_path, "w", encoding="utf-8") as txt_file:
+        txt_file.write(combined_text)
+    articles = parse_articles(combined_text, page_ranges)
+
+    print(f"Summarizing articles in {base_name}...")
+    for article_num, article_data in articles.items():
+        print(f"Summarizing Article {article_num}...")
+        summary = summarize_with_mistral(article_data['content'], model, tokenizer)
+        article_data['summary'] = summary
+        result_dict[str(article_num)] = article_data  # Ensure article_num is string key
+
+    return result_dict
+
+
 if __name__ == "__main__":
+    pdf_files = [
+        "documents/ayudas_21-22.pdf",
+        "documents/ayudas_22-23.pdf",
+        "documents/ayudas_23-24.pdf",
+        "documents/ayudas_24-25.pdf",
+        "documents/ayudas_25-26.pdf"
+    ]
+
+    main_dict = {}
+
+    # Create model for summarization
+    import torch
+    from transformers import AutoModelForCausalLM, AutoModelForSeq2SeqLM, AutoTokenizer
     print("Loading Mistral-Nemo-Instruct-2407 model...")
-    model_name = "gsarti/it5-small-wiki-summarization"
     model_name = "mistralai/Mistral-Nemo-Instruct-2407"
 
     tokenizer = AutoTokenizer.from_pretrained(model_name)
@@ -171,54 +215,20 @@ if __name__ == "__main__":
         quantization_config=quantization_config
     )
     else:
-    
         model = AutoModelForSeq2SeqLM.from_pretrained(
             model_name,
             device_map="auto",
             torch_dtype=torch.float16
         )
 
-    pdf_files = [
-        "documents/ayudas_21-22.pdf",
-        "documents/ayudas_22-23.pdf",
-        "documents/ayudas_23-24.pdf",
-        "documents/ayudas_24-25.pdf",
-        "documents/ayudas_25-26.pdf"
-    ]
-
-    os.makedirs("text", exist_ok=True)
-    main_dict = {}
-
+    # Process all pdfs
     for pdf_path in pdf_files:
         print(f"Processing {pdf_path}...")
-        pages = extract_text_from_pdf2(pdf_path)
-        cleaned_pages = []
-        for page in pages:
-            cleaned_text = remove_pattern(page['text'])
-            cleaned_pages.append({'page_num': page['page_num'], 'text': cleaned_text})
-        combined_text = ''
-        page_ranges = []
-        for page in cleaned_pages:
-            start = len(combined_text)
-            combined_text += page['text']
-            end = len(combined_text)
-            page_ranges.append((start, end, page['page_num']))
         base_name = os.path.basename(pdf_path)
-        txt_filename = os.path.splitext(base_name)[0] + ".txt"
-        txt_path = os.path.join("text", txt_filename)
-        with open(txt_path, "w", encoding="utf-8") as txt_file:
-            txt_file.write(combined_text)
-        articles = parse_articles(combined_text, page_ranges)
-        main_dict[base_name] = {}
+        main_dict[base_name] = generate_json_summary(model, tokenizer, pdf_path)
 
-        print(f"Summarizing articles in {base_name}...")
-        for article_num, article_data in articles.items():
-            print(f"Summarizing Article {article_num}...")
-            summary = summarize_with_mistral(article_data['content'], model, tokenizer)
-            article_data['summary'] = summary
-            main_dict[base_name][str(article_num)] = article_data  # Ensure article_num is string key
-
-    with open("documents_summarizedv2.json", "w", encoding="utf-8") as file:
+    # Save all of them
+    with open("documents_summarized.json", "w", encoding="utf-8") as file:
         json.dump(main_dict, file, indent=2, ensure_ascii=False)
 
     print("\nAll documents have been processed and saved to documents_summarized.json")

@@ -166,9 +166,15 @@ Para ser beneficiario de una beca, debes cumplir con los siguientes requisitos:
 4. Si cambias de estudios universitarios, no podrás obtener ninguna beca en los nuevos estudios hasta que hayas cursado al menos 30 créditos más de los que hubieras cursado con beca en los estudios abandonados. Si cursas entre 30 y 59 créditos adicionales, se considerará matrícula parcial. Si cursas al menos 60 créditos adicionales, se considerará matrícula completa.
 5. Si cambias de estudios sin haber sido becario, se considerará el requisito académico que debiste obtener en el último curso de los estudios abandonados para obtener beca en los nuevos estudios.
 
+Se establecen tres umbrales de renta familiar para la concesión de becas: Umbral 1, Umbral 2 y Umbral 3. Cada umbral tiene un valor diferente para cada tamaño de familia, desde una hasta ocho personas. A partir del octavo miembro, se añade una cantidad fija por cada nuevo miembro computable de la familia.
+
 
 **Artículos relacionados:**
 
+- Art. 17: Miembros computables. (pp. 13-14)
+- Art. 18: Deducciones de la renta familiar. (pp. 14-15)
+- Art. 19: Umbrales de renta. (pp. 15-16)
+- Art. 20: Umbrales indicativos de patrimonio familiar. (pp. 16-18)
 - Art. 25: Duración de la condición de becario. (pp. 22-23)
 - Art. 31: Duración de la condición de becario. (pp. 27)
 
@@ -338,10 +344,6 @@ La resolución de la convocatoria pondrá fin a la vía administrativa y podrá 
 **Artículos relacionados:**
 
 - Art. 1: Objeto y beneficiarios. (pp. 2)
-- Art. 17: Miembros computables. (pp. 13-14)
-- Art. 18: Deducciones de la renta familiar. (pp. 14-15)
-- Art. 19: Umbrales de renta. (pp. 15-16)
-- Art. 20: Umbrales indicativos de patrimonio familiar. (pp. 16-18)
 - Art. 49: Remisión de solicitudes a las administraciones educativas y a las universidades. (pp. 40)
 - Art. 56: Cumplimiento de plazos. (pp. 46)
 - Art. 57: Recursos. (pp. 46-47)

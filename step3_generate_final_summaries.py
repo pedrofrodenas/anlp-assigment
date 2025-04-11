@@ -1,9 +1,6 @@
 import json
 import os
-import re
 from topics import topics
-from tqdm import tqdm
-import torch as th
 import warnings
 warnings.filterwarnings("ignore")
 
@@ -41,24 +38,25 @@ def group_articles_by_topic(document_data):
                     "title": article_data.get("title-trimmed", ""),
                     "summary": article_data.get("summary", ""),
                     "pages": article_data.get("pages", []),
-                    "score": article_data.get("topic_score", 0)
+                    "score": article_data.get("topic_score", 0),
+                    "user_query_score": article_data.get("user_query_score", None)
                 })
     
     return organized_data
 
 
-def create_markdown_file(document_name, organized_data, topk=None):
+def create_markdown_file(document_name, organized_data, topk=None, use_user_query=False, threshold=0.0):
     """Create a markdown file with summaries organized by topic and subtopic"""
     # Ensure the output directory exists
     os.makedirs("resumen_por_año", exist_ok=True)
-    
-    output_filename = f"resumen_por_año/{document_name.split('.')[0]}_summary.md"
-    
+
+    output_filename = f"resumen_por_año/{document_name.split('.')[0]}_summary{'_user_query' if use_user_query else ''}.md"
+
     with open(output_filename, 'w', encoding='utf-8') as md_file:
         # Write document title
         doc_title = document_name.replace('.pdf', '').replace('_', ' ').title()
         md_file.write(f"# Resumen de {doc_title}\n\n")
-        
+
         # Create table of contents
         md_file.write("## Índice\n\n")
         for topic, subtopics in organized_data.items():
@@ -69,32 +67,41 @@ def create_markdown_file(document_name, organized_data, topk=None):
                     if organized_data[topic][subtopic]:
                         md_file.write(f"  - [{subtopic}](#{subtopic.lower().replace(' ', '-').replace(',', '').replace('/', '-')})\n")
         md_file.write("\n---\n\n")
-        
-        # Write content for each topic and subtopic using tqdm to visualize progress
-        for topic, subtopics in tqdm(organized_data.items(), desc="Processing topics"):
+
+        # Write content for each topic and subtopic
+        for topic, subtopics in organized_data.items():
             topic_has_content = any(organized_data[topic][subtopic] for subtopic in subtopics)
-            
+
             if topic_has_content:
                 md_file.write(f"## {topic}\n\n")
-                
-                for subtopic, articles in tqdm(subtopics.items(), desc=f"Processing '{topic}' subtopics", leave=False):
+
+                for subtopic, articles in subtopics.items():
                     if not articles:
                         continue
-                        
+
                     md_file.write(f"### {subtopic}\n\n")
-                    
+
                     # Sort articles by score (highest first)
-                    sorted_articles = sorted(articles, key=lambda x: x["score"], reverse=True)
+                    score_key = 'user_query_score' if use_user_query else 'score'
+                    assert (
+                        not use_user_query
+                        or articles[0]["user_query_score"] is not None
+                    ), "Requested user_query summary but user_query_scores are not present"
+                    sorted_articles = sorted(articles, key=lambda x: x[score_key], reverse=True)
+
+                    # We allow only >threshold articles when using user query
+                    sorted_articles_filtered = sorted_articles if topk is None else sorted_articles[:topk]
+                    if use_user_query and threshold > 0:
+                        sorted_articles_filtered = [s for s in sorted_articles_filtered if s['user_query_score'] > threshold]
 
                     # Combine summaries from all articles
                     combined_text = ""
-                    for ith, article in enumerate(sorted_articles if topk is None else sorted_articles[:topk]):
-                        # combined_text += f"\n### TITLE: {article['title']}\n{article['summary']}\n"
+                    for ith, article in enumerate(sorted_articles_filtered):
                         if ith != 0 and article['summary'].strip()[0] in ['1', '-']:
-                            combined_text += f"\n#### {article['title']}\n{article['summary']}\n"  # WHICH WORKS BETTER? TODO
+                            combined_text += f"\n#### {article['title']}\n{article['summary']}\n"
                         else:
-                            combined_text += f"\n{article['summary']}\n"  # WHICH WORKS BETTER? TODO
-                    
+                            combined_text += f"\n{article['summary']}\n"
+
                     # Prepare references for all articles
                     references = []
                     for article in sorted_articles:
@@ -105,30 +112,31 @@ def create_markdown_file(document_name, organized_data, topk=None):
                             pages = f'{min(article["pages"])}'
 
                         references.append((article['id'], f"Art. {article['id']}: {article_title} (pp. {pages})"))
-                    
+
                     if combined_text:
                         # Normalize the new lines format
                         combined_text = [line.strip() for line in combined_text.split('\n')]
                         combined_text = "\n".join(combined_text)
 
                         md_file.write(f"{combined_text}\n\n")
-                        md_file.write("**Artículos relacionados:**\n\n")
-                        for _, ref in sorted(references, key=lambda x: int(x[0])):
-                            md_file.write(f"- {ref}\n")
-                        md_file.write("\n")
-    
+                    
+                    # Always write references even for empty parts
+                    md_file.write("**Artículos relacionados:**\n\n")
+                    for _, ref in sorted(references, key=lambda x: int(x[0])):
+                        md_file.write(f"- {ref}\n")
+                    md_file.write("\n")
+
     print(f"Created markdown file: {output_filename}")
     return output_filename
 
-def process_documents(json_data_path, topk=None):
+def process_documents(json_data_path, use_user_query, topk=None, threshold=0.0):
     # Load the data
     summarized_data = load_summarized_data(json_data_path)
 
     # Process each document
     for document_name, document_data in summarized_data.items():
-        print(f"Processing {document_name}...")
         organized_data = group_articles_by_topic(document_data)
-        output_md_file = create_markdown_file(document_name, organized_data, topk=topk)
+        output_md_file = create_markdown_file(document_name, organized_data, topk=topk, use_user_query=use_user_query, threshold=threshold)
         
         try:  # Save as pdf if md2pdf exists
             from md2pdf.core import md2pdf

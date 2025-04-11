@@ -38,7 +38,7 @@ class BertScorer:
         return {topic: similarity.item() for topic, similarity in zip(topics_embs.keys(), similarities)}
 
 
-def compute_bert_scores(input_file='./documents_summarized.json', output_file='./documents_summarized_with_topics.json', user_query=None):
+def compute_bert_scores(input_file='./documents_summarized.json', user_query=None):
     scorer = BertScorer(topics)
     with open(input_file, 'r', encoding='utf-8') as f:
         data = json.load(f)
@@ -51,7 +51,6 @@ def compute_bert_scores(input_file='./documents_summarized.json', output_file='.
             user_query_score = None
             if user_query is not None:
                 user_query_score = scorer.pair_score(title_trimmed, user_query).item()
-                print(title_trimmed, user_query, user_query_score)
 
             best_topic, best_score = max(topics_scores.items(), key=lambda item: item[1])
 
@@ -61,11 +60,7 @@ def compute_bert_scores(input_file='./documents_summarized.json', output_file='.
             article["topic_score"] = best_score
             article["user_query_score"] = user_query_score
 
-    # Save the updated JSON to a file
-    with open(output_file, 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=4)
-
-    print(f"Updated JSON saved to {output_file}")
+    return data
 
 
 if __name__ == '__main__':
@@ -74,4 +69,10 @@ if __name__ == '__main__':
     output_file = "./documents_summarized_with_topics.json"  # Replace with your desired output file path
     user_query = 'Me gustaría obtener los requisitos académicos para obtener una beca.'
 
-    compute_bert_scores(input_file, output_file, user_query)
+    data = compute_bert_scores(input_file, user_query)
+
+    # Save the updated JSON to a file
+    with open(output_file, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=4)
+
+    print(f"Updated JSON saved to {output_file}")
