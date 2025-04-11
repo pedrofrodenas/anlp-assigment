@@ -1,161 +1,96 @@
-# anlp-assigment
-An NLP system that extracts key information from Spanish scholarship announcements (BOE) and generates concise summaries. Combines information extraction techniques with generative language models to transform complex PDF documents into structured data and readable summaries for students and administrators.
+# Anlp-Assigment
 
---
+This project aims to extract, summarize, and organize information from Spanish legal PDFs, specifically focusing on scholarship and grant announcements. The goal is to create a structured and easily searchable resource for students and researchers.
 
+## Project Structure
 
-Document Hierarchy
-Top Level: RESOLUCIÓN (Resolution)
-This is the main document issued by the Secretary of State for Education.
-Second Level: CAPÍTULOS (Chapters)
-The document is organized into 7 chapters:
+The project is structured to handle the complexities of Spanish legal documents, which often have a hierarchical organization.  
 
-CAPÍTULO I: Objeto y ámbito de aplicación (Object and scope of application)
-CAPÍTULO II: Clases y cuantías de las becas (Types and amounts of scholarships)
-CAPÍTULO III: Requisitos de carácter general (General requirements)
-CAPÍTULO IV: Requisitos de carácter económico (Economic requirements)
-CAPÍTULO V: Requisitos de carácter académico (Academic requirements)
-CAPÍTULO VI: Verificación y control de las becas (Verification and control of scholarships)
-CAPÍTULO VII: Reglas de procedimiento (Procedural rules)
+- **Level 1: Resoluciones (Resolutions)** - These are the main documents outlining the scholarship/grant program.  
+- **Level 2: Capítulos (Chapters)** - These divide the resolution into thematic sections.  
+- **Level 3: Artículos (Articles)** - These are the individual clauses or regulations within each chapter.
 
-Third Level: ARTÍCULOS (Articles)
-Each chapter contains multiple articles (71 in total), which is the smallest level of information unit as you mentioned:
-Example structure:
+## Key Features
 
-Artículo 1: Objeto y beneficiarios
-Artículo 2: Financiación de la convocatoria
-Artículo 3: Enseñanzas comprendidas
-...continuing through...
-Artículo 71: Producción de efectos
+- **PDF Extraction:** Uses PyMuPDF to extract text from Spanish legal PDFs.  
+- **Article Parsing:** Parses individual articles and tracks their page locations within the original PDF.  
+- **Summarization:** Generates concise summaries of articles using the Mistral-Nemo-Instruct LLM.  
+- **Structured JSON Output:** Saves both raw text and summaries to a structured JSON format for easy processing and searching.  
+- **Topic Classification:** Uses BERT embeddings to classify articles into predefined topics and subtopics.  
+- **Abstract Summary Generation:** Creates a high-level abstract summary by identifying and summarizing relevant articles, with page references for non-relevant ones.
 
+## Workflow
 
---
+1.**PDF Extraction:** The script extracts text from the PDF using PyMuPDF.  
+2.**Article Parsing:** The extracted text is parsed to identify individual articles and their corresponding page numbers.  
+3.**Summarization:** Each article is summarized using the Mistral-Nemo-Instruct LLM.  
+4.**Topic Classification:** BERT embeddings are used to classify articles into predefined topics and subtopics.  
 
-## Extraction:
-Input <- pdf
-Output <- dict[dict]
-    "Capitulos" -> "Articles" -> (Text, pages)
+- Topic Text: "TOPICNAME - Brief Description"  
+- Pdf extracted Text: "CHAPTERNAME"  
+- Tokenize(T) -> (N,)  
+- Tokenize(Q) -> (M,)  
+- T\_bert: Bert(Tokenize(T)) -> (N, E)  
+- Q\_bert: Bert(Tokenize(Q)) -> (M, E)  
+- Compute mean over token dimension  
+- Mean(T\_bert) -> (1, E)  
+- Mean(Q\_bert) -> (1, E)  
 
-## Bert to topics/subtopics:
-Input <- dict[dict] from extraction
-Output <- Dictionary like below (topics -> chapters -> subtopics -> ...)
- + Dump it to json
+5.**Abstract Summary Generation:**  The script identifies and summarizes relevant articles for the abstract summary, including page references for non-relevant articles.  
+6.**JSON Output:** The extracted data, summaries, and classifications are saved to a structured JSON file.
 
-We decide like 4 main TOPICS:
-- RESOLUCION
-- REQUIREMENTS
-- ...
-For each main TOPIC we have a set of subtopics:
-- RESOLUCION
-    -SUBTOPIC1 [...]
+## File Structure
 
-Capitulos -> Decide which topic they belong to [BERT EMBEDDINGS]:
-Ex. "Objeto y ámbito de aplicación" - Brief description of the topic: "RESOLUCION: description of becas ..."
-Capitulos are separated into the different topics.
+The project is organized as follows:
 
-Then each article belonging to a certain chapter is further separated into the possible subtopics of that TOPIC using the same procedure.
+- **`README.md`**: This file, providing an overview of the project.  
+- **`main.py`**: The main script that orchestrates the PDF processing and summarization.  
+- **`documents/`**: A directory containing the PDF documents to be processed.  (Example files: `ayudas_21-22.pdf`, `ayudas_22-23.pdf`, etc.)  
+- **`text/`**: A directory where the extracted text from PDFs is stored as `.txt` files. These files are intermediate results and are automatically generated during the processing.  
+- **`documents_summarized.json`**: The output file containing the summarized articles in JSON format. This file is generated after the script has finished processing all PDF documents.  
 
----
+## Running the Code
 
-JSON:
-- TOPIC1
-    - CHAPTERS
-        - SUBTOPIC1
-            - ARTICLES
-                - Text <- Probably a summary of the article using a LLM
-                - Pages <- References to the original pages of the article
-        - SUBTOPIC2 [...]
-- TOPIC2 [...]
+To run the script, ensure you have Python 2.7 or 3.x installed along with the required libraries.  You can install the necessary packages using pip:
 
+```bash
+pip install PyPDF2 transformers torch accelerate bitsandbytes
+```
 
-From these we can create Hierarchy for an index on the abstract summary.
+After installing the dependencies, navigate to the root directory of the repository in your terminal and execute the following command:
 
---
+```bash
+python main.py
+```
 
-## Abstract Summary:
-input <- json
-output <- whatever thats pretty
+The script will process each PDF file in the documents/ directory, extract the text, parse the articles, generate summaries using the Mistral-Nemo-Instruct model, and save the results to documents_summarized.json.
 
-To create the abstract summary:
-for each article decide whether it is of general interest or a peculiar one.
-Summarize the relevant articles
-Put reference to original pages of non relevant articles.
+## Example Topics and Subtopics
 
-- NOTE: Maybe use the topK in article similarity to decide valuable articles. This can be done for each subtopic, i.e. for each subtopic only put topK articles in the final abstract summary (and put page references for the other articles)
+- Requisitos y Solicitud
+- Criterios de Selección
+- Convocatoria y Plazos
+- Matrícula y Expedientes
+- Control, Verificación y Reintegro
+- Compatibilidades e Incompatibilidades con otras ayudas
+- Situaciones Específicas
+- Recursos contra la resolución
 
+## Data Structure
 
-
-
----
-
-Divide into topics with bert:
-
-TOPICS <- We decided them and created for each a small description
-
-T: Topic Text: "TOPICNAME - Brief Description"
-Q: Pdf extracted Text: "CHAPTERNAME"
-
-Tokenize(T) -> (N,)
-Tokenize(Q) -> (M,)
-
-T_bert: Bert(Tokenize(T)) -> (N, E)
-Q_bert: Bert(Tokenize(Q)) -> (M, E)
-
-You compute mean over token dimension
-Mean(T_bert) -> (1, E)
-Mean(Q_bert) -> (1, E)
-
-(Should be normalized if they are not)
-Cosine similarity between the two -> Score.
-
-
-You do so for each possible topic keeping Q fixed.
-You get score for each topic -> argmax is topic assigment for Q
-
----
-
-## Work done
-
-`summarize_articles.py` A Python script that:
-
-* Extracts text from Spanish legal PDFs using PyMuPDF
-* Parses individual articles and tracks their page locations
-* Generates concise summaries using Mistral-Nemo-Instruct LLM
-* Processes multiple documents and organizes content
-* Saves both raw text and summaries to structured JSON
-
-
-<img src="assets/first_data_structure.png" alt="" width="250" height="500">
-
-## Topics and subtopics
-
-Información General y Tipos de Beca
-    Objeto de la Convocatoria y Financiación
-    Tipos de Cuantías
-    Beca de Matrícula
-    Beca Básica
-    Cuantías Adicionales
-
-Estudios Cubiertos por la Beca
-    Enseñanzas No Universitarias
-    Enseñanzas Universitarias
-
-Requisitos para Solicitar la Beca
-    Requisitos Generales
-    Requisitos Económicos
-    Requisitos Académicos
-
-Proceso de Solicitud y Tramitación
-    Presentación de Solicitud
-    Documentación y Autorizaciones
-    Revisión, Subsanación y Alegaciones
-    Órganos de Selección y Tramitación
-    Resolución, Notificación y Consulta de Estado
-    Pago de la Beca
-
-Obligaciones, Control y Situaciones Especiales
-    Obligaciones de los Becarios
-    Control, Verificación y Reintegro
-    Compatibilidades e Incompatibilidades con otras ayudas
-    Situaciones Específicas
-    Recursos contra la resolución
+```json
+"article_number": {
+            "title": "Artículo 1. Objeto y beneficiarios.",
+            "title-trimmed": "Objeto y beneficiarios.",
+            "content": "...",
+            "pages": [
+                2
+            ],
+            "chapter_number": "I",
+            "chapter_name": "Objeto y ámbito de aplicación",
+            "summary": "...",
+            "topic": "Obligaciones, Control y Situaciones Especiales",
+            "subtopic": "Recursos contra la resolución",
+            "topic_score": 0.6534093022346497,
+            "user_query_score": 0.6540930271148682
+}
