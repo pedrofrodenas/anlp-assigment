@@ -8,7 +8,7 @@ import torch
 from huggingface_hub import login
 
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 
 login()
 
@@ -121,7 +121,7 @@ def summarize_with_mistral(text, model, tokenizer):
 
     prompt = f"""<|im_start|>user
         Resume este artículo en formato conciso:
-        (1) Contexto general en UNA SOLA frase
+        (1) Contexto general en una frase
         (2) Máximo 4 conceptos clave (solo si son relevantes)
 
         No incluyas elaboraciones innecesarias. Sé directo y breve.
