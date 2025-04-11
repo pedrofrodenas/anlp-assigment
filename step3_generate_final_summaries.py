@@ -107,6 +107,10 @@ def create_markdown_file(document_name, organized_data, topk=None):
                         references.append((article['id'], f"Art. {article['id']}: {article_title} (pp. {pages})"))
                     
                     if combined_text:
+                        # Normalize the new lines format
+                        combined_text = [line.strip() for line in combined_text.split('\n')]
+                        combined_text = "\n".join(combined_text)
+
                         md_file.write(f"{combined_text}\n\n")
                         md_file.write("**Artículos relacionados:**\n\n")
                         for _, ref in sorted(references, key=lambda x: int(x[0])):

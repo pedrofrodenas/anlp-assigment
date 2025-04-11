@@ -5,12 +5,10 @@ import os
 import requests
 from transformers import AutoModelForCausalLM, AutoModelForSeq2SeqLM, AutoTokenizer
 import torch
-from huggingface_hub import login
 
-import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "1"
+# import os
+# os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
-login()
 
 def extract_text_from_pdf2(pdf_path):
     """Extracts text from each page of a PDF file, returning a list of pages with their numbers and text."""
@@ -45,7 +43,7 @@ def parse_articles(combined_text, page_ranges):
     """Parse articles and chapters from combined text and determine the pages each article spans."""
     # Pattern to find chapters first
     chapter_pattern = re.compile(
-        r'CAPÍTULO\s+([IVXLCDM]+)\s*\n(.*?)\s*(?=\s*(?:Artículo \d+\.|CAPÍTULO|SECCIÓN|\Z))',
+        r'CAPÍTULO\s+([IVXLCDM]+)\s*\n(.*?)\s*(?=\s*(?:Artículo \d+\.?|CAPÍTULO|SECCIÓN|\Z))',
         re.DOTALL
     )
     chapters = []
@@ -121,7 +119,7 @@ def summarize_with_mistral(text, model, tokenizer):
 
     prompt = f"""<|im_start|>user
         Resume este artículo en formato conciso:
-        (1) Contexto general en una frase
+        (1) Contexto general en UNA SOLA frase
         (2) Máximo 4 conceptos clave (solo si son relevantes)
 
         No incluyas elaboraciones innecesarias. Sé directo y breve.
@@ -156,7 +154,7 @@ def summarize_with_mistral(text, model, tokenizer):
 
 if __name__ == "__main__":
     print("Loading Mistral-Nemo-Instruct-2407 model...")
-    # model_name = "gsarti/it5-small-wiki-summarization"
+    model_name = "gsarti/it5-small-wiki-summarization"
     model_name = "mistralai/Mistral-Nemo-Instruct-2407"
 
     tokenizer = AutoTokenizer.from_pretrained(model_name)

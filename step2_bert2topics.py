@@ -48,14 +48,10 @@ def compute_bert_scores(input_file='./documents_summarized.json', output_file='.
             title_trimmed = f'{article["chapter_name"]}: {article["title-trimmed"]}'
             topics_scores = scorer.get_topics_score(title_trimmed)
 
-            print()
-            print(title_trimmed)
-            print()
-
             user_query_score = None
             if user_query is not None:
                 user_query_score = scorer.pair_score(title_trimmed, user_query).item()
-                # print(title_trimmed, user_query, user_query_score)
+                print(title_trimmed, user_query, user_query_score)
 
             best_topic, best_score = max(topics_scores.items(), key=lambda item: item[1])
 
