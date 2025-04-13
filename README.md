@@ -21,23 +21,24 @@ The project is structured to handle the complexities of Spanish legal documents,
 
 ## Workflow
 
-1.**PDF Extraction:** The script extracts text from the PDF using PyMuPDF.  
-2.**Article Parsing:** The extracted text is parsed to identify individual articles and their corresponding page numbers.  
-3.**Summarization:** Each article is summarized using the Mistral-Nemo-Instruct LLM.  
-4.**Topic Classification:** BERT embeddings are used to classify articles into predefined topics and subtopics.  
+1. **PDF Extraction:** The script extracts text from the PDF using PyMuPDF.  
+2. **Article Parsing:** The extracted text is parsed to identify individual articles and their corresponding page numbers.  
+3. **Summarization:** Each article is summarized using the Mistral-Nemo-Instruct LLM.  
+4. **Topic Classification:** BERT embeddings are used to classify articles into predefined topics and subtopics.  
 
-- Topic Text: "TOPICNAME - Brief Description"  
-- Pdf extracted Text: "CHAPTERNAME"  
+- Topic Text: "Topic: Subtopic"  
+- Pdf extracted Text: "Chpater name - Article title"  
 - Tokenize(T) -> (N,)  
 - Tokenize(Q) -> (M,)  
 - T\_bert: Bert(Tokenize(T)) -> (N, E)  
 - Q\_bert: Bert(Tokenize(Q)) -> (M, E)  
 - Compute mean over token dimension  
 - Mean(T\_bert) -> (1, E)  
-- Mean(Q\_bert) -> (1, E)  
+- Mean(Q\_bert) -> (1, E)
+- Compute cosine Similarity
 
-5.**Abstract Summary Generation:**  The script identifies and summarizes relevant articles for the abstract summary, including page references for non-relevant articles.  
-6.**JSON Output:** The extracted data, summaries, and classifications are saved to a structured JSON file.
+5. **Abstract Summary Generation:**  The script identifies and summarizes relevant articles for the abstract summary, including page references for non-relevant articles.  
+6. **JSON Output:** The extracted data, summaries, and classifications are saved to a structured JSON file.
 
 ## File Structure
 
@@ -67,14 +68,38 @@ The script will process each PDF file in the documents/ directory, extract the t
 
 ## Example Topics and Subtopics
 
-- Requisitos y Solicitud
-- Criterios de Selección
-- Convocatoria y Plazos
-- Matrícula y Expedientes
-- Control, Verificación y Reintegro
-- Compatibilidades e Incompatibilidades con otras ayudas
-- Situaciones Específicas
-- Recursos contra la resolución
+```
+Información General y Tipos de Beca:
+    Objeto de la Convocatoria y Financiación
+    Tipos de Cuantías
+    Beca de Matrícula 
+    Beca Básica
+    Cuantías Adicionales
+
+Estudios Cubiertos por la Beca:
+    Enseñanzas No Universitarias
+    Enseñanzas Universitarias
+
+Requisitos para Solicitar la Beca:
+    Requisitos Generales
+    Requisitos Económicos
+    Requisitos Académicos
+
+Proceso de Solicitud y Tramitación:
+    Presentación de Solicitud
+    Documentación y Autorizaciones
+    Revisión, Subsanación y Alegaciones
+    Órganos de Selección y Tramitación
+    Resolución, Notificación y Consulta de Estado
+    Pago de la Beca
+
+Obligaciones, Control y Situaciones Especiales:
+    Obligaciones de los Becarios
+    Control, Verificación y Reintegro
+    Compatibilidades e Incompatibilidades con otras ayudas
+    Situaciones Específicas
+    Recursos contra la resolución
+```
 
 ## Data Structure
 
