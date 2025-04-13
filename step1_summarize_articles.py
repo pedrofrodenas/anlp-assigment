@@ -111,9 +111,6 @@ def parse_articles(combined_text, page_ranges):
 
 def summarize_with_mistral(text, model, tokenizer):
     """Generate a summary using the Mistral-Nemo-Instruct model."""
-    prompt = f"<|im_start|>user\nResume el siguiente texto con tus propias palabras de forma muy breve, evitando copiar frases textuales :\n\n{text}<|im_end|>\n<|im_start|>assistant\n"
-    prompt = f"<|im_start|>user\nResume este artículo en formato: (1) Contexto general en una frase, (2) 3-5 conceptos clave sin elaboraciones innecesarias:\n\n{text}<|im_end|>\n<|im_start|>assistant\n"
-
     prompt = f"""<|im_start|>user
         Resume este artículo en formato conciso:
         (1) Contexto general en UNA SOLA frase
