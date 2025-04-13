@@ -53,9 +53,13 @@ The project is organized as follows:
 
 Regarding the provided output files contained in `resumen_por_año`:  
 The `*_summary.pdf` files were generated using
-```python main.py --topk 3```
+```bash
+python main.py --topk 3
+```
 The `*_summary_user_query.pdf` files were generated using:
-```python main.py --threshold 0.7 --user-query 'Me gustaría obtener los requisitos académicos y económicos para obtener una beca.' --topk 2```
+```bash
+python main.py --user-query 'Me gustaría obtener los requisitos académicos y económicos para obtener una beca.' --threshold 0.7 --topk 2
+```
 
 ## Running the Code
 
