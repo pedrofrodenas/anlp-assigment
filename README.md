@@ -49,6 +49,13 @@ The project is organized as follows:
 - **`documents/`**: A directory containing the PDF documents to be processed.  (Example files: `ayudas_21-22.pdf`, `ayudas_22-23.pdf`, etc.)  
 - **`text/`**: A directory where the extracted text from PDFs is stored as `.txt` files. These files are intermediate results and are automatically generated during the processing.  
 - **`documents_summarized.json`**: The output file containing the summarized articles in JSON format. This file is generated after the script has finished processing all PDF documents.  
+- **`resumen_por_año`**: Two sets of *final outputs* from our pipeline (md/pdf formats)
+
+Regarding the provided output files contained in `resumen_por_año`:  
+The `*_summary.pdf` files were generated using
+```python main.py --topk 3```
+The `*_summary_user_query.pdf` files were generated using:
+```python main.py --threshold 0.7 --user-query 'Me gustaría obtener los requisitos académicos y económicos para obtener una beca.' --topk 2```
 
 ## Running the Code
 
